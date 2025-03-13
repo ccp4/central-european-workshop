@@ -1,6 +1,6 @@
 {
   "name": "summer-school",
-  "main": "main.js",
+  "private": true,
   "scripts": {
     "dev": "vite --open",
     "build": "vite build"
