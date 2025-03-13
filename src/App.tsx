@@ -6,6 +6,8 @@ import { Home } from "./pages/Home";
 import { Programme } from "./pages/Programme";
 import { Nav } from "./components/Nav";
 
+import "./App.css";
+
 const root = document.getElementById("root")!;
 
 createRoot(root).render(
