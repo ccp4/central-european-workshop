@@ -1,15 +1,21 @@
-import { useState } from "react";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router";
 
-function App() {
-  const [count, setCount] = useState(0);
+import { Home } from "./pages/Home";
+import { Programme } from "./pages/Programme";
+import { Nav } from "./components/Nav";
 
-  return (
-    <>
-      <h1>Vite + React</h1>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount((count) => count + 1)}>Add 1</button>
-    </>
-  );
-}
+const root = document.getElementById("root")!;
 
-export default App;
+createRoot(root).render(
+  <BrowserRouter>
+    <StrictMode>
+      <Nav />
+      <Routes>
+        <Route index element={<Home />}></Route>
+        <Route path="programme" element={<Programme />}></Route>
+      </Routes>
+    </StrictMode>
+  </BrowserRouter>
+);
