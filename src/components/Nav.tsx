@@ -6,7 +6,7 @@ function Link({ to, text }: { to: string; text: string }) {
       to={to}
       className={({ isActive }) =>
         "flex-auto px-4 py-1 text-center" +
-        (isActive ? " bg-sky-300" : " bg-gray-200 hover:bg-gray-700")
+        (isActive ? " bg-sky-300" : " bg-gray-200 hover:bg-gray-300")
       }
     >
       {text}
