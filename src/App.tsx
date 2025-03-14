@@ -9,8 +9,9 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Home } from "./pages/Home";
 import { Location } from "./pages/Location";
+import { Nav } from "./components/Nav";
+import { People } from "./pages/People";
 import { Programme } from "./pages/Programme";
-import { Tutors } from "./pages/Tutors";
 
 import "./App.css";
 
@@ -19,17 +20,20 @@ const root = document.getElementById("root")!;
 createRoot(root).render(
   <BrowserRouter>
     <StrictMode>
-      <Header />
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="apply" element={<Apply />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="edi" element={<Edi />} />
-        <Route path="location" element={<Location />} />
-        <Route path="programme" element={<Programme />} />
-        <Route path="tutors" element={<Tutors />} />
-      </Routes>
-      <Footer />
+      <div className="flex flex-col gap-4 p-4 text-gray-900">
+        <Header />
+        <Nav />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="apply" element={<Apply />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="edi" element={<Edi />} />
+          <Route path="location" element={<Location />} />
+          <Route path="people" element={<People />} />
+          <Route path="programme" element={<Programme />} />
+        </Routes>
+        <Footer />
+      </div>
     </StrictMode>
   </BrowserRouter>,
 );
