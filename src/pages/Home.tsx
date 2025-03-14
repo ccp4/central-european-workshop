@@ -1,10 +1,4 @@
-function Link({ href, text }: { href: string; text: string }) {
-  return (
-    <a href={href} className="text-sky-600 hover:text-sky-800">
-      {text}
-    </a>
-  );
-}
+import { Link, List } from "../components/Elements";
 
 export function Home() {
   return (
@@ -46,9 +40,9 @@ export function Home() {
         to time constraints. All aspects of crystallographic structure solution
         will be covered during the workshop, from data collection through to
         phasing, refinement, validation and deposition. Please see the{" "}
-        <Link href="programme" text="programme" /> for more details.
+        <Link to="/programme" text="programme" /> for more details.
       </p>
-      <ul className="list-outside list-disc pl-6">
+      <List>
         <li>
           Lectures and tutorials will be delivered by experts in the field,
           sometimes even software authors themselves!
@@ -61,13 +55,13 @@ export function Home() {
           You will be able to work alongside world-leading scientists and
           methods developers on your own projects.
         </li>
-      </ul>
+      </List>
       <p>
         The school will be based at Tthe University of York's Campus West, with
         lectures and workshops in the main Biology building, and accommodation
         in nearby James College.
       </p>
-      <Link href="location" text="More details and directions" />
+      <Link to="/location" text="More details and directions" />
       <p>
         Spaces are limited. The applicant will have to demonstrate the need for
         this sort of specialist training, and be prepared to submit the e-mail
