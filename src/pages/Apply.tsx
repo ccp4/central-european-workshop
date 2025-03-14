@@ -1,3 +1,3 @@
 export function Apply() {
-  return <h2>Apply</h2>;
+  return <p className="my-5 text-center">Application process coming soon...</p>;
 }
