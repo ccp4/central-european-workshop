@@ -6,7 +6,7 @@ export function Heading({ text }: { text: string }) {
 
 export function Link({ href, text }: { href: string; text: string }) {
   return (
-    <a href={href} className="text-sky-600 hover:text-sky-800">
+    <a href={href} className="text-sky-600 underline hover:text-sky-800">
       {text}
     </a>
   );
