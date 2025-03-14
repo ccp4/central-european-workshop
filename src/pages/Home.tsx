@@ -40,7 +40,7 @@ export function Home() {
         to time constraints. All aspects of crystallographic structure solution
         will be covered during the workshop, from data collection through to
         phasing, refinement, validation and deposition. Please see the{" "}
-        <Link to="/programme" text="programme" /> for more details.
+        <Link href="/programme" text="programme" /> for more details.
       </p>
       <List>
         <li>
@@ -61,7 +61,7 @@ export function Home() {
         lectures and workshops in the main Biology building, and accommodation
         in nearby James College.
       </p>
-      <Link to="/location" text="More details and directions" />
+      <Link href="/location" text="More details and directions" />
       <p>
         Spaces are limited. The applicant will have to demonstrate the need for
         this sort of specialist training, and be prepared to submit the e-mail

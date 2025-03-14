@@ -1,13 +1,9 @@
-import { Link, List } from "../components/Elements";
-
-function Header({ text }: { text: string }) {
-  return <h2 className="mb-1 text-2xl font-bold">{text}</h2>;
-}
+import { Heading, Link, List } from "../components/Elements";
 
 export function Edi() {
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
-      <Header text="Statement on equity and inclusion" />
+      <Heading text="Statement on equity and inclusion" />
       <p>
         The organisers are committed to making the school productive and
         enjoyable for everyone, regardless of sex, gender identity, sexual
@@ -30,7 +26,7 @@ export function Edi() {
         As part of the registration process, attendees will be required to agree
         to adhere to the CCP4 Code of Conduct (see below).
       </p>
-      <Header text="The CCP4 Code of Conduct" />
+      <Heading text="The CCP4 Code of Conduct" />
       <p>Behave professionally.</p>
       <p>
         Harassment and sexist, racist, or exclusionary comments or jokes are not
@@ -52,7 +48,7 @@ export function Edi() {
         Delegates are reminded that the organisers reserve the right to remove
         any person who does not adhere to the code of conduct.
       </p>
-      <Header text="Incident reporting and resolution" />
+      <Heading text="Incident reporting and resolution" />
       <p>
         If you observe someone making you or anyone else feel unsafe or
         unwelcome, please tell them so, and remind them of the Code of Conduct.
@@ -62,7 +58,7 @@ export function Edi() {
         abilities.
       </p>
       <p>
-        Please use the <Link to="/contact" text="Contact" /> section here, and
+        Please use the <Link href="/contact" text="Contact" /> section here, and
         explain what happened and who was involved so that we can investigate.
       </p>
       <p>
@@ -70,7 +66,7 @@ export function Edi() {
         to keep our conference welcoming, respectful, and friendly for all
         participants!
       </p>
-      <Header text="Sanctions" />
+      <Heading text="Sanctions" />
       <p>
         When someone is asked to stop any behaviour that makes others
         uncomfortable, they are expected to comply immediately.

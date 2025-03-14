@@ -1,11 +1,14 @@
 import { ReactNode } from "react";
-import { NavLink } from "react-router";
 
-export function Link({ to, text }: { to: string; text: string }) {
+export function Heading({ text }: { text: string }) {
+  return <h2 className="mb-1 text-2xl font-bold">{text}</h2>;
+}
+
+export function Link({ href, text }: { href: string; text: string }) {
   return (
-    <NavLink to={to} className="text-sky-600 hover:text-sky-800">
+    <a href={href} className="text-sky-600 hover:text-sky-800">
       {text}
-    </NavLink>
+    </a>
   );
 }
 
