@@ -14,6 +14,7 @@ import { People } from "./pages/People";
 import { Programme } from "./pages/Programme";
 
 import "./App.css";
+import "material-symbols/outlined.css";
 
 const root = document.getElementById("root")!;
 
