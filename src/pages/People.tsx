@@ -63,13 +63,17 @@ export function People() {
       <div className="flex flex-wrap justify-center gap-4 p-2">
         {filteredPeople.map((person) => {
           return (
-            <div key={person.name} className="flex flex-col items-center">
+            <a
+              key={person.name}
+              href={person.homepage}
+              className="flex flex-col items-center"
+            >
               <img
                 src={`/people/${person.photo || "default.png"}`}
                 className="mb-1 h-30 w-30 rounded-full object-cover"
               />
               <p>{person.name}</p>
-            </div>
+            </a>
           );
         })}
       </div>
