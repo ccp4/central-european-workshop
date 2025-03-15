@@ -70,7 +70,7 @@ export function People() {
             >
               <img
                 src={`/people/${person.photo || "default.png"}`}
-                className="mb-1 h-30 w-30 rounded-full object-cover"
+                className="mb-1 h-36 w-36 rounded-full object-cover"
               />
               <p>{person.name}</p>
             </a>
