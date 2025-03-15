@@ -1,4 +1,4 @@
-import { ccp4, Sponsor, york } from "../models/sponsors";
+import { ccp4, Sponsor, york } from "../code/sponsors";
 
 function Logo({ sponsor }: { sponsor: Sponsor }) {
   return (

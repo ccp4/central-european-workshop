@@ -1,5 +1,5 @@
 import { Link } from "../components/Elements";
-import { people } from "../models/people";
+import { people } from "../code/people";
 
 export function Contact() {
   return (
@@ -23,7 +23,7 @@ export function Contact() {
               <div key={person.name} className="flex flex-col items-center">
                 <img
                   src={`/people/${person.photo}`}
-                  className="mb-1 h-50 w-50 object-cover"
+                  className="mb-1 h-50 w-50 rounded-full object-cover"
                 />
                 <p>{person.name}</p>
                 <Link href={`mailto:${person.email}`} text={person.email!} />
