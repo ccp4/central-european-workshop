@@ -35,13 +35,7 @@ export function Programme() {
                       </td>
                       <td className="px-2 py-1">
                         <p className="font-bold">{session.title}</p>
-                        <p>
-                          {session.speaker
-                            ? session.speaker.name
-                            : ["Lecture", "Practical"].includes(session.type)
-                              ? "Speaker to be confirmed"
-                              : ""}
-                        </p>
+                        <p>{session.speaker?.name}</p>
                         <p className="text-sm italic">
                           {session.location?.name}
                         </p>
