@@ -12,7 +12,7 @@ export function Home() {
         </p>
       </div>
       <img
-        src="/panorama.jpg"
+        src="panorama.jpg"
         alt=""
         className="min-h-40 max-w-full object-cover"
       />
