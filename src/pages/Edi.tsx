@@ -58,7 +58,7 @@ export function Edi() {
         abilities.
       </p>
       <p>
-        Please use the <InternalLink to="contact" text="Contact" /> section
+        Please use the <InternalLink to="/contact" text="Contact" /> section
         here, and explain what happened and who was involved so that we can
         investigate.
       </p>
