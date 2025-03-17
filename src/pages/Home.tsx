@@ -57,7 +57,7 @@ export function Home() {
         </li>
       </List>
       <p>
-        The school will be based at Tthe University of York's Campus West, with
+        The school will be based at the University of York's Campus West, with
         lectures and workshops in the main Biology building, and accommodation
         in nearby James College.
       </p>
