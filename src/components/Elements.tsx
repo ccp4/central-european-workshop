@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { NavLink } from "react-router";
 
 export function Heading({ text }: { text: string }) {
   return <h2 className="mb-1 text-2xl font-bold">{text}</h2>;
@@ -9,6 +10,14 @@ export function Link({ href, text }: { href: string; text: string }) {
     <a href={href} className="text-sky-600 underline hover:text-sky-800">
       {text}
     </a>
+  );
+}
+
+export function InternalLink({ to, text }: { to: string; text: string }) {
+  return (
+    <NavLink to={to} className="text-sky-600 underline hover:text-sky-800">
+      {text}
+    </NavLink>
   );
 }
 

@@ -19,7 +19,7 @@ import "material-symbols/outlined.css";
 const root = document.getElementById("root")!;
 
 createRoot(root).render(
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
     <StrictMode>
       <div className="flex flex-col gap-4 p-4 text-gray-900">
         <Header />

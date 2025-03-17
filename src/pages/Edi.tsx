@@ -1,4 +1,4 @@
-import { Heading, Link, List } from "../components/Elements";
+import { Heading, InternalLink, List } from "../components/Elements";
 
 export function Edi() {
   return (
@@ -58,8 +58,9 @@ export function Edi() {
         abilities.
       </p>
       <p>
-        Please use the <Link href="/contact" text="Contact" /> section here, and
-        explain what happened and who was involved so that we can investigate.
+        Please use the <InternalLink to="contact" text="Contact" /> section
+        here, and explain what happened and who was involved so that we can
+        investigate.
       </p>
       <p>
         Thank you for your participation in the CCP4 community, and your efforts
