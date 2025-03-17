@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 
 import { Apply } from "./pages/Apply";
 import { Contact } from "./pages/Contact";
@@ -19,7 +19,7 @@ import "material-symbols/outlined.css";
 const root = document.getElementById("root")!;
 
 createRoot(root).render(
-  <BrowserRouter basename={import.meta.env.BASE_URL}>
+  <HashRouter basename={import.meta.env.BASE_URL}>
     <StrictMode>
       <div className="flex flex-col gap-4 p-4 text-gray-900">
         <Header />
@@ -36,5 +36,5 @@ createRoot(root).render(
         <Footer />
       </div>
     </StrictMode>
-  </BrowserRouter>,
+  </HashRouter>,
 );
