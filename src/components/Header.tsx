@@ -3,7 +3,11 @@ import { ccp4, Sponsor, york } from "../code/sponsors";
 function Logo({ sponsor }: { sponsor: Sponsor }) {
   return (
     <a href={sponsor.url}>
-      <img src={`/logos/${sponsor.logo}`} alt={sponsor.name} className="h-15" />
+      <img
+        src={`${import.meta.env.BASE_URL}logos/${sponsor.logo}`}
+        alt={sponsor.name}
+        className="h-15"
+      />
     </a>
   );
 }

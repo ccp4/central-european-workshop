@@ -69,7 +69,7 @@ export function People() {
               className="flex flex-col items-center"
             >
               <img
-                src={`/people/${person.photo || "default.png"}`}
+                src={`${import.meta.env.BASE_URL}people/${person.photo || "default.png"}`}
                 className="mb-1 h-36 w-36 rounded-full object-cover"
               />
               <p>{person.name}</p>

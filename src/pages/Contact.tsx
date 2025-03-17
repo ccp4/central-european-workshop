@@ -22,7 +22,7 @@ export function Contact() {
             return (
               <div key={person.name} className="flex flex-col items-center">
                 <img
-                  src={`/people/${person.photo}`}
+                  src={`${import.meta.env.BASE_URL}people/${person.photo}`}
                   className="mb-1 h-50 w-50 rounded-full object-cover"
                 />
                 <p>{person.name}</p>
