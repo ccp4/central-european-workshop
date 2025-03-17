@@ -31,10 +31,7 @@ export function Location() {
       <Heading text="Accommodation" />
       <p>
         Accommodation for both students and speakers has been arranged on campus
-        in James College. If you are arrive at the weekend, please check in at
-        Vanbrugh College reception in the Information Centre. If you arrive
-        during the week, please check in at James College reception in the Roger
-        Kirk Centre. Towels and bedding are provided.
+        in James College. Towels and bedding are provided.
       </p>
       <p>
         There is a separate registration fee that does not include accommodation
