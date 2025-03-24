@@ -112,6 +112,7 @@ const day2: Day = {
       location: lecture_theatre,
     },
     { title: "Dinner", type: "Break", time: "18:00", location: cafeteria },
+    { title: "Ceilidh", type: "Other", time: "19:30", location: cafeteria },
   ],
 };
 
@@ -169,7 +170,6 @@ const day3: Day = {
       location: computer_room,
     },
     { title: "Dinner", type: "Break", time: "18:00", location: cafeteria },
-    { title: "Ceilidh", type: "Other", time: "19:30", location: cafeteria },
   ],
 };
 
