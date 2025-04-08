@@ -53,7 +53,12 @@ const day1: Day = {
       time: "15:30",
       location: lecture_theatre,
     },
-    { title: "Dinner", type: "Break", time: "18:00", location: cafeteria },
+    {
+      title: "Dinner (cafeteria)",
+      type: "Break",
+      time: "18:00",
+      location: cafeteria,
+    },
     { title: "City tour", type: "Other", time: "19:30" },
   ],
 };
@@ -111,7 +116,12 @@ const day2: Day = {
       speaker: chris_hill,
       location: lecture_theatre,
     },
-    { title: "Dinner", type: "Break", time: "18:00", location: cafeteria },
+    {
+      title: "Dinner (street food)",
+      type: "Break",
+      time: "18:00",
+      location: cafeteria,
+    },
     { title: "Ceilidh", type: "Other", time: "19:30", location: cafeteria },
   ],
 };
@@ -169,7 +179,12 @@ const day3: Day = {
       speaker: amy_thompson,
       location: computer_room,
     },
-    { title: "Dinner", type: "Break", time: "18:00", location: cafeteria },
+    {
+      title: "Dinner (cafeteria)",
+      type: "Break",
+      time: "18:00",
+      location: cafeteria,
+    },
   ],
 };
 
@@ -217,7 +232,12 @@ const day4: Day = {
       time: "16:00",
       location: computer_room,
     },
-    { title: "Dinner", type: "Break", time: "18:00", location: cafeteria },
+    {
+      title: "Dinner (cafeteria)",
+      type: "Break",
+      time: "18:00",
+      location: cafeteria,
+    },
   ],
 };
 
@@ -288,7 +308,12 @@ const day6: Day = {
       speaker: paul_bond,
       location: computer_room,
     },
-    { title: "Dinner", type: "Break", time: "18:00", location: cafeteria },
+    {
+      title: "Dinner (pizza)",
+      type: "Break",
+      time: "18:00",
+      location: cafeteria,
+    },
     { title: "Quiz", type: "Other", time: "19:30" },
   ],
 };
@@ -329,7 +354,12 @@ const day7: Day = {
       type: "Practical",
       time: "16:00",
     },
-    { title: "Dinner", type: "Break", time: "18:00", location: cafeteria },
+    {
+      title: "Dinner (platters)",
+      type: "Break",
+      time: "18:00",
+      location: cafeteria,
+    },
     {
       title: "Structural biology in industry",
       type: "Lecture",
