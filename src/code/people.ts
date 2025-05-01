@@ -55,12 +55,24 @@ export const jamie_blaza: Person = {
   email: "https://www.york.ac.uk/chemistry/people/jblaza/",
 };
 
+export const joel_greer: Person = {
+  name: "Joel Greer",
+  tags: ["CCP-EM", "Cryo-EM"],
+  homepage: "https://www.ccpem.ac.uk/people/joel-greer/",
+};
+
 export const johan_turkenburg: Person = {
   name: "Johan Turkenburg",
   email: "johan.turkenburg@york.ac.uk",
   photo: "johan_turkenburg.jpg",
   tags: ["Cryo-EM", "Crystallography", "Organiser"],
   homepage: "https://www.york.ac.uk/chemistry/people/jturkenburg/",
+};
+
+export const jola_mirecka: Person = {
+  name: "Jola Mirecka",
+  tags: ["CCP-EM", "Cryo-EM"],
+  homepage: "https://www.ccpem.ac.uk/people/jola-mirecka/",
 };
 
 export const jon_agirre: Person = {
@@ -105,6 +117,20 @@ export const paul_bond: Person = {
   homepage: "https://paulsbond.co.uk",
 };
 
+export const rob_nicholls: Person = {
+  name: "Rob Nicholls",
+  tags: [
+    "CCP-EM",
+    "CCP4",
+    "Cryo-EM",
+    "Crystallography",
+    "Interfaces",
+    "Model Building",
+    "Refinement",
+  ],
+  homepage: "https://www.ccpem.ac.uk/people/rob-nicholls/",
+};
+
 export const ronan_keegan: Person = {
   name: "Ronan Keegan",
   tags: ["CCP4", "Crystallography", "Molecular Replacement"],
@@ -129,13 +155,16 @@ export const people: Person[] = [
   chris_hill,
   david_waterman,
   jamie_blaza,
+  joel_greer,
   johan_turkenburg,
+  jola_mirecka,
   jon_agirre,
   jordan_dialpuri,
   kathryn_cowtan,
   lucy_schofield,
   maria_fando,
   paul_bond,
+  rob_nicholls,
   ronan_keegan,
   sam_horrell,
   tom_davies,
