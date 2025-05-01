@@ -143,6 +143,12 @@ export const sam_horrell: Person = {
   homepage: "https://www.imperial.ac.uk/x-ray-crystallography/",
 };
 
+export const sudakshina_ganguly: Person = {
+  name: "Sudakshina Ganguly",
+  tags: ["Deposition", "PDB"],
+  homepage: "https://www.ebi.ac.uk/people/person/sudakshina-ganguly/",
+};
+
 export const tom_davies: Person = {
   name: "Tom Davies",
   tags: ["Drug Discovery"],
@@ -167,5 +173,6 @@ export const people: Person[] = [
   rob_nicholls,
   ronan_keegan,
   sam_horrell,
+  sudakshina_ganguly,
   tom_davies,
 ];

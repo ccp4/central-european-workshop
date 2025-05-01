@@ -24,6 +24,7 @@ import {
   rob_nicholls,
   ronan_keegan,
   sam_horrell,
+  sudakshina_ganguly,
   tom_davies,
 } from "./people";
 
@@ -202,7 +203,7 @@ const day4: Day = {
       title: "EM map manipulation, post-processing, sharpening",
       type: "Lecture",
       time: "09:00",
-      speakers: undefined,
+      speakers: [joel_greer, jola_mirecka],
       location: lecture_theatre,
     },
     {
@@ -394,7 +395,13 @@ const day7: Day = {
 const day8: Day = {
   title: "Day 8 - Thu 7th Aug",
   sessions: [
-    { title: "NMR", type: "Lecture", time: "09:00", location: lecture_theatre },
+    {
+      title: "NMR",
+      type: "Lecture",
+      time: "09:00",
+      speakers: undefined,
+      location: lecture_theatre,
+    },
     {
       title: "Spectroscopy techniques (MST, ITC, DSF)",
       type: "Lecture",
@@ -467,7 +474,7 @@ const day9: Day = {
       title: "Deposition",
       type: "Lecture",
       time: "13:00",
-      speakers: undefined,
+      speakers: [sudakshina_ganguly],
       location: lecture_theatre,
     },
     {
