@@ -10,10 +10,22 @@ export const bbsrc: Sponsor = {
   logo: "bbsrc.png",
 };
 
+export const bca: Sponsor = {
+  name: "BCA",
+  url: "https://www.crystallography.org.uk/",
+  logo: "bca.gif",
+};
+
 export const ccp4: Sponsor = {
   name: "CCP4",
   url: "https://www.ccp4.ac.uk",
   logo: "ccp4.png",
+};
+
+export const hampton: Sponsor = {
+  name: "Hampton Research",
+  url: "https://hamptonresearch.com/",
+  logo: "hampton.png",
 };
 
 export const rigaku: Sponsor = {
