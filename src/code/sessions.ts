@@ -6,6 +6,7 @@ import {
   Location,
 } from "./locations";
 import {
+  airlie_mccoy,
   amy_thompson,
   andrey_lebedev,
   anna_warren,
@@ -305,7 +306,7 @@ const day6: Day = {
       title: "MR for EM / EMplacement",
       type: "Lecture",
       time: "11:15",
-      speakers: undefined,
+      speakers: [airlie_mccoy],
       location: lecture_theatre,
     },
     { title: "Lunch", type: "Break", time: "12:00", location: atrium },

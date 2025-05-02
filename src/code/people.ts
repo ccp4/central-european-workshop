@@ -6,6 +6,12 @@ export interface Person {
   homepage?: string;
 }
 
+export const airlie_mccoy: Person = {
+  name: "Airlie McCoy",
+  tags: ["CCP4", "Molecular Replacement"],
+  homepage: "https://www.cimr.cam.ac.uk/staff/dr-airlie-mccoy",
+};
+
 export const amy_thompson: Person = {
   name: "Amy Thompson",
   tags: ["Crystallography", "Data Processing", "Synchrotrons"],
@@ -155,6 +161,7 @@ export const tom_davies: Person = {
 };
 
 export const people: Person[] = [
+  airlie_mccoy,
   amy_thompson,
   andrey_lebedev,
   anna_warren,
