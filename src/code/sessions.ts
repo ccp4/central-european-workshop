@@ -27,6 +27,7 @@ import {
   sam_horrell,
   sudakshina_ganguly,
   tom_davies,
+  tracey_gloster,
 } from "./people";
 
 interface Session {
@@ -90,7 +91,7 @@ const day2: Day = {
       title: "Constructs / expression / purification",
       type: "Lecture",
       time: "11:15",
-      speakers: undefined,
+      speakers: [tracey_gloster],
       location: lecture_theatre,
     },
     { title: "Lunch", type: "Break", time: "12:00", location: atrium },
@@ -98,7 +99,7 @@ const day2: Day = {
       title: "Crystallisation / harvesting",
       type: "Lecture",
       time: "13:00",
-      speakers: undefined,
+      speakers: [tracey_gloster],
       location: lecture_theatre,
     },
     {

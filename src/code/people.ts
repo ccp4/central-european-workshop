@@ -160,6 +160,12 @@ export const tom_davies: Person = {
   tags: ["Drug Discovery"],
 };
 
+export const tracey_gloster: Person = {
+  name: "Tracey Gloster",
+  tags: ["Crystallography", "Sugars"],
+  homepage: "https://www.st-andrews.ac.uk/biology/people/tmg",
+};
+
 export const people: Person[] = [
   airlie_mccoy,
   amy_thompson,
@@ -182,4 +188,5 @@ export const people: Person[] = [
   sam_horrell,
   sudakshina_ganguly,
   tom_davies,
+  tracey_gloster,
 ];
