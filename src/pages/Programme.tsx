@@ -1,13 +1,17 @@
 import { days } from "../code/sessions";
 
-function colourForType(type: "Lecture" | "Practical" | "Break" | "Other") {
+function colourForType(
+  type: "Lecture" | "Practical" | "Meal" | "Break" | "Other",
+) {
   switch (type) {
     case "Lecture":
       return "bg-emerald-100";
     case "Practical":
       return "bg-pink-100";
-    case "Break":
+    case "Meal":
       return "bg-yellow-100";
+    case "Break":
+      return "bg-white";
     case "Other":
       return "bg-sky-100";
   }

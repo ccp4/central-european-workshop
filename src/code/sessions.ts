@@ -32,7 +32,7 @@ import {
 
 interface Session {
   title: string;
-  type: "Lecture" | "Practical" | "Break" | "Other";
+  type: "Lecture" | "Practical" | "Meal" | "Break" | "Other";
   time: string;
   speakers?: Person[];
   location?: Location;
@@ -52,7 +52,7 @@ const day1: Day = {
       time: "14:30",
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Break", time: "15:00", location: atrium },
+    { title: "Coffee", type: "Meal", time: "15:00", location: atrium },
     {
       title: "Student talks",
       type: "Lecture",
@@ -61,7 +61,7 @@ const day1: Day = {
     },
     {
       title: "Dinner (cafeteria)",
-      type: "Break",
+      type: "Meal",
       time: "18:00",
       location: cafeteria,
     },
@@ -79,6 +79,7 @@ const day2: Day = {
       speakers: [chris_hill],
       location: lecture_theatre,
     },
+    { title: "Break", time: "09:45", type: "Break" },
     {
       title: "Cryo-EM roadmap",
       type: "Lecture",
@@ -86,7 +87,7 @@ const day2: Day = {
       speakers: [jamie_blaza],
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Break", time: "10:45", location: atrium },
+    { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
     {
       title: "Constructs / expression / purification",
       type: "Lecture",
@@ -94,7 +95,7 @@ const day2: Day = {
       speakers: [tracey_gloster],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Break", time: "12:00", location: atrium },
+    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
     {
       title: "Crystallisation / harvesting",
       type: "Lecture",
@@ -102,6 +103,7 @@ const day2: Day = {
       speakers: [tracey_gloster],
       location: lecture_theatre,
     },
+    { title: "Break", time: "13:45", type: "Break" },
     {
       title: "CCP4 Cloud workshop",
       type: "Practical",
@@ -109,24 +111,25 @@ const day2: Day = {
       speakers: [maria_fando],
       location: computer_room,
     },
-    { title: "Coffee", type: "Break", time: "15:30", location: atrium },
-    {
-      title: "AlphaFold",
-      type: "Lecture",
-      time: "16:00",
-      speakers: [jon_agirre],
-      location: lecture_theatre,
-    },
+    { title: "Coffee", type: "Meal", time: "15:30", location: atrium },
     {
       title: "Symmetry",
       type: "Lecture",
-      time: "17:15",
+      time: "16:00",
       speakers: [chris_hill],
+      location: lecture_theatre,
+    },
+    { title: "Break", time: "16:45", type: "Break" },
+    {
+      title: "Serial crystallography",
+      type: "Lecture",
+      time: "17:15",
+      speakers: undefined,
       location: lecture_theatre,
     },
     {
       title: "Dinner (street food)",
-      type: "Break",
+      type: "Meal",
       time: "18:00",
       location: cafeteria,
     },
@@ -144,6 +147,7 @@ const day3: Day = {
       speakers: [kathryn_cowtan],
       location: lecture_theatre,
     },
+    { title: "Break", time: "09:45", type: "Break" },
     {
       title: "Data collection - experimental strategies",
       type: "Lecture",
@@ -151,7 +155,7 @@ const day3: Day = {
       speakers: undefined,
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Break", time: "10:45", location: atrium },
+    { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
     {
       title: "Scaling, merging, resolution limit",
       type: "Lecture",
@@ -159,7 +163,7 @@ const day3: Day = {
       speakers: [amy_thompson],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Break", time: "12:00", location: atrium },
+    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
     {
       title: "DIALS",
       type: "Lecture",
@@ -167,6 +171,7 @@ const day3: Day = {
       speakers: [david_waterman],
       location: lecture_theatre,
     },
+    { title: "Break", time: "13:45", type: "Break" },
     {
       title: "DIALS / DUI workshop",
       type: "Practical",
@@ -174,24 +179,25 @@ const day3: Day = {
       speakers: [david_waterman],
       location: computer_room,
     },
-    { title: "Coffee", type: "Break", time: "15:30", location: atrium },
-    {
-      title: "Serial crystallography",
-      type: "Lecture",
-      time: "16:00",
-      speakers: undefined,
-      location: lecture_theatre,
-    },
+    { title: "Coffee", type: "Meal", time: "15:30", location: atrium },
     {
       title: "Multi-dataset DIALS / xia2.multiplex",
       type: "Practical",
-      time: "17:00",
+      time: "16:00",
       speakers: [amy_thompson],
       location: computer_room,
     },
+    { title: "Break", time: "17:00", type: "Break" },
+    {
+      title: "AlphaFold",
+      type: "Lecture",
+      time: "17:15",
+      speakers: [jon_agirre],
+      location: lecture_theatre,
+    },
     {
       title: "Dinner (cafeteria)",
-      type: "Break",
+      type: "Meal",
       time: "18:00",
       location: cafeteria,
     },
@@ -208,6 +214,7 @@ const day4: Day = {
       speakers: [joel_greer, jola_mirecka],
       location: lecture_theatre,
     },
+    { title: "Break", time: "09:45", type: "Break" },
     {
       title: "EM map pathologies",
       type: "Lecture",
@@ -215,7 +222,7 @@ const day4: Day = {
       speakers: [jamie_blaza],
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Break", time: "10:45", location: atrium },
+    { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
     {
       title: "CCP-EM tools",
       type: "Lecture",
@@ -223,7 +230,7 @@ const day4: Day = {
       speakers: [joel_greer, jola_mirecka],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Break", time: "12:00", location: atrium },
+    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
     {
       title: "Data pathologies",
       type: "Lecture",
@@ -231,6 +238,7 @@ const day4: Day = {
       speakers: [andrey_lebedev],
       location: lecture_theatre,
     },
+    { title: "Break", time: "13:45", type: "Break" },
     {
       title: "Scaling / merging workshop",
       type: "Practical",
@@ -238,7 +246,7 @@ const day4: Day = {
       speakers: undefined,
       location: computer_room,
     },
-    { title: "Coffee", type: "Break", time: "15:30", location: atrium },
+    { title: "Coffee", type: "Meal", time: "15:30", location: atrium },
     {
       title: "CCP-EM Doppio workshop",
       type: "Practical",
@@ -248,7 +256,7 @@ const day4: Day = {
     },
     {
       title: "Dinner (cafeteria)",
-      type: "Break",
+      type: "Meal",
       time: "18:00",
       location: cafeteria,
     },
@@ -265,6 +273,7 @@ const day5: Day = {
       speakers: undefined,
       location: lecture_theatre,
     },
+    { title: "Break", time: "09:45", type: "Break" },
     {
       title: "I23 - SAD / experimental phasing",
       type: "Lecture",
@@ -272,7 +281,7 @@ const day5: Day = {
       speakers: [sam_horrell],
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Break", time: "10:45", location: atrium },
+    { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
     {
       title: "Nanofocus / microfocus / VMXm",
       type: "Lecture",
@@ -280,7 +289,7 @@ const day5: Day = {
       speakers: [anna_warren],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Break", time: "12:00", location: atrium },
+    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
     { title: "Free time", type: "Other", time: "13:00" },
   ],
 };
@@ -295,6 +304,7 @@ const day6: Day = {
       speakers: undefined,
       location: lecture_theatre,
     },
+    { title: "Break", time: "09:45", type: "Break" },
     {
       title: "MR for EM / EMplacement",
       type: "Lecture",
@@ -302,7 +312,7 @@ const day6: Day = {
       speakers: [airlie_mccoy],
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Break", time: "10:45", location: atrium },
+    { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
     {
       title: "Practical molecular replacement",
       type: "Lecture",
@@ -310,7 +320,7 @@ const day6: Day = {
       speakers: undefined,
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Break", time: "12:00", location: atrium },
+    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
     {
       title: "Molecular replacement workshop",
       type: "Practical",
@@ -318,7 +328,7 @@ const day6: Day = {
       speakers: [ronan_keegan],
       location: computer_room,
     },
-    { title: "Coffee", type: "Break", time: "15:30", location: atrium },
+    { title: "Coffee", type: "Meal", time: "15:30", location: atrium },
     {
       title: "Introduction to Coot (high resolution) workshop",
       type: "Practical",
@@ -328,7 +338,7 @@ const day6: Day = {
     },
     {
       title: "Dinner (pizza)",
-      type: "Break",
+      type: "Meal",
       time: "18:00",
       location: cafeteria,
     },
@@ -346,6 +356,7 @@ const day7: Day = {
       speakers: [paul_bond],
       location: lecture_theatre,
     },
+    { title: "Break", time: "09:45", type: "Break" },
     {
       title: "Refinement in X-ray and EM",
       type: "Lecture",
@@ -353,7 +364,7 @@ const day7: Day = {
       speakers: [rob_nicholls],
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Break", time: "10:45", location: atrium },
+    { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
     {
       title: "Ligand modelling, restraints",
       type: "Lecture",
@@ -361,7 +372,7 @@ const day7: Day = {
       speakers: undefined,
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Break", time: "12:00", location: atrium },
+    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
     {
       title: "Refinement workshop",
       type: "Practical",
@@ -369,7 +380,7 @@ const day7: Day = {
       speakers: [rob_nicholls],
       location: computer_room,
     },
-    { title: "Coffee", type: "Break", time: "15:30", location: atrium },
+    { title: "Coffee", type: "Meal", time: "15:30", location: atrium },
     {
       title: "Python for structural analysis workshop",
       type: "Practical",
@@ -379,7 +390,7 @@ const day7: Day = {
     },
     {
       title: "Dinner (platters)",
-      type: "Break",
+      type: "Meal",
       time: "18:00",
       location: cafeteria,
     },
@@ -404,6 +415,7 @@ const day8: Day = {
       speakers: undefined,
       location: lecture_theatre,
     },
+    { title: "Break", time: "09:45", type: "Break" },
     {
       title: "Spectroscopy techniques (MST, ITC, DSF)",
       type: "Lecture",
@@ -411,7 +423,7 @@ const day8: Day = {
       speakers: undefined,
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Break", time: "10:45", location: atrium },
+    { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
     {
       title: "Electron tomography",
       type: "Lecture",
@@ -419,7 +431,7 @@ const day8: Day = {
       speakers: undefined,
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Break", time: "12:00", location: atrium },
+    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
     {
       title: "Coot at low resolution workshop",
       type: "Practical",
@@ -427,7 +439,7 @@ const day8: Day = {
       speakers: undefined,
       location: computer_room,
     },
-    { title: "Coffee", type: "Break", time: "15:30", location: atrium },
+    { title: "Coffee", type: "Meal", time: "15:30", location: atrium },
     {
       title: "Moorhen workshop",
       type: "Practical",
@@ -435,6 +447,7 @@ const day8: Day = {
       speakers: undefined,
       location: computer_room,
     },
+    { title: "Break", time: "17:00", type: "Break" },
     {
       title: "Isolde",
       type: "Lecture",
@@ -456,6 +469,7 @@ const day9: Day = {
       speakers: [lucy_schofield],
       location: lecture_theatre,
     },
+    { title: "Break", time: "09:45", type: "Break" },
     {
       title: "Nucleic acids",
       type: "Lecture",
@@ -463,7 +477,7 @@ const day9: Day = {
       speakers: [jordan_dialpuri],
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Break", time: "10:45", location: atrium },
+    { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
     {
       title: "Validation",
       type: "Lecture",
@@ -471,7 +485,7 @@ const day9: Day = {
       speakers: undefined,
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Break", time: "12:00", location: atrium },
+    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
     {
       title: "Deposition",
       type: "Lecture",
@@ -479,6 +493,7 @@ const day9: Day = {
       speakers: [sudakshina_ganguly],
       location: lecture_theatre,
     },
+    { title: "Break", time: "13:45", type: "Break" },
     {
       title: "Careers talk",
       type: "Lecture",
