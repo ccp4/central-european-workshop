@@ -27,7 +27,7 @@ export function Programme() {
         {days.map((day) => {
           return (
             <div className="flex max-w-xs flex-auto flex-col items-stretch">
-              <h2 className="bg-gray-100 p-2 text-center text-lg font-bold">
+              <h2 className="bg-sky-800 p-2 text-center text-lg font-bold text-white">
                 {day.title}
               </h2>
               <table className="w-full">
