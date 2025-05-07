@@ -55,6 +55,13 @@ export const david_waterman: Person = {
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-waterman",
 };
 
+export const huw_jenkins: Person = {
+  name: "Huw Jenkins",
+  tags: ["Crystallography", "Cryo-EM", "Molecular Replacement"],
+  homepage:
+    "https://www.york.ac.uk/biology/itsupport/cfm/post_doc/profile_ysbl.cfm?ID=823",
+};
+
 export const jamie_blaza: Person = {
   name: "Jamie Blaza",
   tags: ["Cryo-EM"],
@@ -173,6 +180,7 @@ export const people: Person[] = [
   anna_warren,
   chris_hill,
   david_waterman,
+  huw_jenkins,
   jamie_blaza,
   joel_greer,
   johan_turkenburg,
