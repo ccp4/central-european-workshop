@@ -9,7 +9,7 @@ function colourForType(
     case "Practical":
       return "bg-pink-100";
     case "Meal":
-      return "bg-yellow-100";
+      return "bg-yellow-50";
     case "Break":
       return "bg-white";
     case "Other":
