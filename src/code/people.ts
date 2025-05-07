@@ -130,6 +130,13 @@ export const paul_bond: Person = {
   homepage: "https://paulsbond.co.uk",
 };
 
+export const pavol_bardy: Person = {
+  name: "Pavol Bardy",
+  tags: ["Electron Tomography"],
+  homepage:
+    "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/pavol-bardy/",
+};
+
 export const rob_nicholls: Person = {
   name: "Rob Nicholls",
   tags: [
@@ -191,6 +198,7 @@ export const people: Person[] = [
   lucy_schofield,
   maria_fando,
   paul_bond,
+  pavol_bardy,
   rob_nicholls,
   ronan_keegan,
   sam_horrell,
