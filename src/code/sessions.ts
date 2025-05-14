@@ -245,7 +245,7 @@ const day4: Day = {
       title: "Scaling / merging workshop",
       type: "Practical",
       time: "14:00",
-      speakers: undefined,
+      speakers: [david_waterman, andrey_lebedev],
       location: computer_room,
     },
     { title: "Coffee", type: "Meal", time: "15:30", location: atrium },
