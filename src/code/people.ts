@@ -48,6 +48,17 @@ export const chris_hill: Person = {
   homepage: "https://www.york.ac.uk/biology/people/chris-hill/",
 };
 
+export const clement_degut: Person = {
+  name: "Clément Dégut",
+  tags: ["Cryo-EM", "Crystallography", "NMR"],
+};
+
+export const david_aragao: Person = {
+  name: "David Aragão",
+  tags: ["Crystallography", "Synchrotrons"],
+  homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-aragao",
+};
+
 export const david_waterman: Person = {
   name: "David Waterman",
   tags: ["CCP4", "Crystallography", "Data Processing"],
@@ -186,6 +197,8 @@ export const people: Person[] = [
   andrey_lebedev,
   anna_warren,
   chris_hill,
+  clement_degut,
+  david_aragao,
   david_waterman,
   huw_jenkins,
   jamie_blaza,
