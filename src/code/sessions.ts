@@ -34,6 +34,7 @@ import {
   sudakshina_ganguly,
   tom_davies,
   tracey_gloster,
+  tristan_croll,
 } from "./people";
 
 interface Session {
@@ -458,7 +459,7 @@ const day8: Day = {
       title: "Isolde",
       type: "Lecture",
       time: "17:15",
-      speakers: undefined,
+      speakers: [tristan_croll],
       location: lecture_theatre,
     },
     { title: "Conference dinner", type: "Other", time: "18:00" },

@@ -206,6 +206,12 @@ export const tracey_gloster: Person = {
   homepage: "https://www.st-andrews.ac.uk/biology/people/tmg",
 };
 
+export const tristan_croll: Person = {
+  name: "Tristan Croll",
+  tags: ["Cryo-EM", "Model Building"],
+  homepage: "https://tristanic.github.io/isolde/about/index.html",
+};
+
 export const people: Person[] = [
   airlie_mccoy,
   amy_thompson,
@@ -235,4 +241,5 @@ export const people: Person[] = [
   sudakshina_ganguly,
   tom_davies,
   tracey_gloster,
+  tristan_croll,
 ];
