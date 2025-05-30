@@ -398,7 +398,7 @@ const day7: Day = {
       title: "Dinner (platters)",
       type: "Meal",
       time: "18:00",
-      location: cafeteria,
+      location: atrium,
     },
     {
       title: "Structural biology in industry",
