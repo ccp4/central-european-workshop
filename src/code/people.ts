@@ -40,17 +40,24 @@ export const anna_warren: Person = {
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXm/Staff/Warren.html",
 };
 
+export const briony_yorke: Person = {
+  name: "Briony Yorke",
+  tags: ["Crystallography", "Data Processing", "Synchrotrons"],
+  homepage: "https://eps.leeds.ac.uk/chemistry/staff/13839/dr-briony-yorke",
+};
+
 export const chris_hill: Person = {
   name: "Chris Hill",
   email: "chris.hill@york.ac.uk",
   photo: "chris_hill.jpg",
   tags: ["Cryo-EM", "Crystallography", "Organiser"],
-  homepage: "https://www.york.ac.uk/biology/people/chris-hill/",
+  homepage: "https://www.hill-lab.co.uk/",
 };
 
 export const clement_degut: Person = {
   name: "Clément Dégut",
   tags: ["Cryo-EM", "Crystallography", "NMR"],
+  homepage: undefined,
 };
 
 export const david_aragao: Person = {
@@ -77,6 +84,7 @@ export const jamie_blaza: Person = {
   name: "Jamie Blaza",
   tags: ["Cryo-EM"],
   email: "https://www.york.ac.uk/chemistry/people/jblaza/",
+  homepage: undefined,
 };
 
 export const joel_greer: Person = {
@@ -125,6 +133,7 @@ export const lucy_schofield: Person = {
   email: "lcs551@york.ac.uk",
   photo: "lucy_schofield.jpg",
   tags: ["CCP4", "EDI", "Organiser", "Sugars"],
+  homepage: undefined,
 };
 
 export const maria_fando: Person = {
@@ -139,6 +148,12 @@ export const paul_bond: Person = {
   photo: "paul_bond.jpg",
   tags: ["CCP4", "Interfaces", "Model Building", "Organiser"],
   homepage: "https://paulsbond.co.uk",
+};
+
+export const paul_emsley: Person = {
+  name: "Paul Emsley",
+  tags: ["CCP4", "Model Building", "Validation"],
+  homepage: "https://en.wikipedia.org/wiki/Paul_Emsley_(crystallographer)",
 };
 
 export const pavol_bardy: Person = {
@@ -196,6 +211,7 @@ export const people: Person[] = [
   amy_thompson,
   andrey_lebedev,
   anna_warren,
+  briony_yorke,
   chris_hill,
   clement_degut,
   david_aragao,
@@ -211,6 +227,7 @@ export const people: Person[] = [
   lucy_schofield,
   maria_fando,
   paul_bond,
+  paul_emsley,
   pavol_bardy,
   rob_nicholls,
   ronan_keegan,
