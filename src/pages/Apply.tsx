@@ -27,7 +27,8 @@ export function Apply() {
         are onboard with the application.
       </p>
       <p>
-        Applications must be received by <b>Friday 30th May 2025</b>.
+        The application deadline has been extended to
+        <b>Wednesday 11th June 2025</b>.
       </p>
       <Heading text="Cost" />
       <p>The cost for registration is as follows:</p>
