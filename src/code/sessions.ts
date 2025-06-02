@@ -392,7 +392,7 @@ const day7: Day = {
       title: "Python for structural analysis workshop",
       type: "Practical",
       time: "16:00",
-      speakers: [jon_agirre],
+      speakers: [jordan_dialpuri],
       location: computer_room,
     },
     {
@@ -493,7 +493,7 @@ const day9: Day = {
       title: "Validation",
       type: "Lecture",
       time: "11:15",
-      speakers: undefined,
+      speakers: [sudakshina_ganguly],
       location: lecture_theatre,
     },
     { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
