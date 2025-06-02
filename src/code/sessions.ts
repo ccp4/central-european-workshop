@@ -462,7 +462,11 @@ const day8: Day = {
       speakers: [tristan_croll],
       location: lecture_theatre,
     },
-    { title: "Conference dinner", type: "Other", time: "18:00" },
+    {
+      title: "Conference dinner with City Cruises York",
+      type: "Other",
+      time: "18:00",
+    },
   ],
 };
 
