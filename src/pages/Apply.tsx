@@ -30,6 +30,11 @@ export function Apply() {
         The application deadline has been extended. Applications must now be
         received by <b>Wednesday 11th June 2025</b>.
       </p>
+      <p>
+        Applicants will hear back from the organising committee by Monday 16th
+        June 2025. Successful applicants will be sent more information about the
+        next steps for registration.
+      </p>
       <Heading text="Cost" />
       <p>The cost for registration is as follows:</p>
       <List>
