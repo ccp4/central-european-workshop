@@ -27,9 +27,8 @@ export function Apply() {
         are onboard with the application.
       </p>
       <p>
-        The application deadline has been extended as there are still a few
-        places available. Applications must now be received by{" "}
-        <b>Wednesday 11th June 2025</b>.
+        The application deadline has been extended. Applications must now be
+        received by <b>Wednesday 11th June 2025</b>.
       </p>
       <Heading text="Cost" />
       <p>The cost for registration is as follows:</p>
