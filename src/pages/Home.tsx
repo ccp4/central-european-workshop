@@ -39,9 +39,8 @@ export function Home() {
         classification and 3D reconstruction) will not be covered in detail due
         to time constraints. All aspects of crystallographic structure solution
         will be covered during the workshop, from data collection through to
-        phasing, refinement, validation and deposition. Please see the
-        preliminary <InternalLink to="programme" text="programme" /> for more
-        details.
+        phasing, refinement, validation and deposition. Please see the{" "}
+        <InternalLink to="programme" text="programme" /> for more details.
       </p>
       <List>
         <li>

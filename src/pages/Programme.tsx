@@ -20,9 +20,6 @@ function colourForType(
 export function Programme() {
   return (
     <main className="flex w-full flex-col">
-      <p className="text-center">
-        The programme is still being finalised and is subject to change.
-      </p>
       <div className="flex flex-wrap justify-center gap-4 p-4">
         {days.map((day) => {
           return (

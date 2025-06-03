@@ -18,6 +18,12 @@ export const amy_thompson: Person = {
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXi/Staff/Thompson.html",
 };
 
+export const andrew_leech: Person = {
+  name: "Andrew Leech",
+  tags: ["Molecular Interactions"],
+  homepage: "https://www.york.ac.uk/biology/people/andrew-leech/",
+};
+
 export const andrey_lebedev: Person = {
   name: "Andrey Lebedev",
   tags: [
@@ -156,6 +162,13 @@ export const paul_emsley: Person = {
   homepage: "https://en.wikipedia.org/wiki/Paul_Emsley_(crystallographer)",
 };
 
+export const paula_salgado: Person = {
+  name: "Paula Salgado",
+  tags: ["Crystallography", "Molecular Replacement"],
+  homepage:
+    "https://www.ncl.ac.uk/medical-sciences/people/profile/paulasalgado.html",
+};
+
 export const pavol_bardy: Person = {
   name: "Pavol Bardy",
   tags: ["Electron Tomography"],
@@ -215,6 +228,7 @@ export const tristan_croll: Person = {
 export const people: Person[] = [
   airlie_mccoy,
   amy_thompson,
+  andrew_leech,
   andrey_lebedev,
   anna_warren,
   briony_yorke,
@@ -234,6 +248,7 @@ export const people: Person[] = [
   maria_fando,
   paul_bond,
   paul_emsley,
+  paula_salgado,
   pavol_bardy,
   rob_nicholls,
   ronan_keegan,
