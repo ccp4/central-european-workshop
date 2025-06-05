@@ -249,18 +249,18 @@ const day4: Day = {
     },
     { title: "Break", time: "13:45", type: "Break" },
     {
-      title: "Scaling / merging workshop",
-      type: "Practical",
-      time: "14:00",
-      speakers: [david_waterman, andrey_lebedev],
-      location: computer_room,
-    },
-    { title: "Coffee", type: "Meal", time: "15:30", location: atrium },
-    {
       title: "CCP-EM Doppio workshop",
       type: "Practical",
-      time: "16:00",
+      time: "14:00",
       speakers: [joel_greer, jola_mirecka],
+      location: computer_room,
+    },
+    { title: "Coffee", type: "Meal", time: "16:00", location: atrium },
+    {
+      title: "Scaling / merging workshop",
+      type: "Practical",
+      time: "16:30",
+      speakers: [david_waterman, andrey_lebedev],
       location: computer_room,
     },
     {
