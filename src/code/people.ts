@@ -14,12 +14,14 @@ export const airlie_mccoy: Person = {
 
 export const amy_thompson: Person = {
   name: "Amy Thompson",
+  photo: "amy_thompson.jpg",
   tags: ["Crystallography", "Data Processing", "Synchrotrons"],
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXi/Staff/Thompson.html",
 };
 
 export const andrew_leech: Person = {
   name: "Andrew Leech",
+  photo: "andrew_leech.jpg",
   tags: ["Molecular Interactions"],
   homepage: "https://www.york.ac.uk/biology/people/andrew-leech/",
 };
@@ -74,7 +76,8 @@ export const david_aragao: Person = {
 
 export const david_waterman: Person = {
   name: "David Waterman",
-  tags: ["CCP4", "Crystallography", "Data Processing"],
+  photo: "david_waterman.jpg",
+  tags: ["CCP4", "Data Processing"],
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-waterman",
 };
@@ -109,6 +112,7 @@ export const johan_turkenburg: Person = {
 
 export const jola_mirecka: Person = {
   name: "Jola Mirecka",
+  photo: "jola_mirecka.jpg",
   tags: ["CCP-EM", "Cryo-EM"],
   homepage: "https://www.ccpem.ac.uk/people/jola-mirecka/",
 };
@@ -144,7 +148,8 @@ export const lucy_schofield: Person = {
 
 export const maria_fando: Person = {
   name: "Maria Fando",
-  tags: ["CCP4", "Crystallography", "Interfaces"],
+  photo: "maria_fando.jpg",
+  tags: ["CCP4", "Crystallography", "Interfaces", "Molecular Replacement"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
 
@@ -164,14 +169,15 @@ export const paul_emsley: Person = {
 
 export const paula_salgado: Person = {
   name: "Paula Salgado",
+  photo: "paula_salgado.jpg",
   tags: ["Crystallography", "Molecular Replacement"],
-  homepage:
-    "https://www.ncl.ac.uk/medical-sciences/people/profile/paulasalgado.html",
+  homepage: "https://salgadolab.org/",
 };
 
 export const pavol_bardy: Person = {
   name: "Pavol Bardy",
-  tags: ["Electron Tomography"],
+  photo: "pavol_bardy.jpg",
+  tags: ["Cryo-EM", "Electron Tomography", "Virology"],
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/pavol-bardy/",
 };
@@ -204,13 +210,15 @@ export const sam_horrell: Person = {
 
 export const sudakshina_ganguly: Person = {
   name: "Sudakshina Ganguly",
-  tags: ["Deposition", "PDB"],
+  photo: "sudakshina_ganguly.jpg",
+  tags: ["Deposition", "PDB", "Validation"],
   homepage: "https://www.ebi.ac.uk/people/person/sudakshina-ganguly/",
 };
 
 export const tom_davies: Person = {
   name: "Tom Davies",
-  tags: ["Drug Discovery"],
+  photo: "tom_davies.jpg",
+  tags: ["Crystallography", "Drug Discovery"],
 };
 
 export const tracey_gloster: Person = {
@@ -221,6 +229,7 @@ export const tracey_gloster: Person = {
 
 export const tristan_croll: Person = {
   name: "Tristan Croll",
+  photo: "tristan_croll.jpg",
   tags: ["Cryo-EM", "Model Building"],
   homepage: "https://tristanic.github.io/isolde/about/index.html",
 };
