@@ -14,7 +14,7 @@ export function Apply() {
       </p>
       <List>
         <li>
-          A motivation letter (PDF format). A one-pager really. Please tell us
+          A motivation letter (PDF format), maximum of one page. Please tell us
           why you think attending will be important for your future.
         </li>
         <li>
