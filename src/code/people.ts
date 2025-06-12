@@ -28,12 +28,14 @@ export const andrew_leech: Person = {
 
 export const andrey_lebedev: Person = {
   name: "Andrey Lebedev",
+  photo: "andrey_lebedev.jpg",
   tags: [
     "CCP4",
     "Crystallography",
-    "Data Processing",
     "Data Pathologies",
-    "Interfaces",
+    "Data Processing",
+    "Deposition",
+    "Model Building",
     "Molecular Replacement",
     "Refinement",
     "Symmetry",
@@ -44,6 +46,7 @@ export const andrey_lebedev: Person = {
 
 export const anna_warren: Person = {
   name: "Anna Warren",
+  photo: "anna_warren.jpg",
   tags: ["Crystallography", "Data Collection", "Synchrotrons"],
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXm/Staff/Warren.html",
 };
@@ -98,6 +101,7 @@ export const jamie_blaza: Person = {
 
 export const joel_greer: Person = {
   name: "Joel Greer",
+  photo: "joel_greer.jpg",
   tags: ["CCP-EM", "Cryo-EM"],
   homepage: "https://www.ccpem.ac.uk/people/joel-greer/",
 };
