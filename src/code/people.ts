@@ -148,7 +148,7 @@ export const lucy_schofield: Person = {
 
 export const maria_fando: Person = {
   name: "Maria Fando",
-  photo: "maria_fando.jpg",
+  photo: "maria_fando.png",
   tags: ["CCP4", "Crystallography", "Interfaces", "Molecular Replacement"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
