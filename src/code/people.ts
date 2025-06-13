@@ -61,7 +61,14 @@ export const chris_hill: Person = {
   name: "Chris Hill",
   email: "chris.hill@york.ac.uk",
   photo: "chris_hill.jpg",
-  tags: ["Cryo-EM", "Crystallography", "Organiser"],
+  tags: [
+    "Cryo-EM",
+    "Crystallography",
+    "Molecular Interactions",
+    "Nucleic Acids",
+    "Organiser",
+    "Virology",
+  ],
   homepage: "https://www.hill-lab.co.uk/",
 };
 
@@ -125,20 +132,29 @@ export const jon_agirre: Person = {
   name: "Jon Agirre",
   email: "jon.agirre@york.ac.uk",
   photo: "jon_agirre.jpg",
-  tags: ["CCP4", "Crystallography", "EDI", "Organiser", "Sugars", "Validation"],
+  tags: [
+    "CCP4",
+    "Crystallography",
+    "EDI",
+    "Organiser",
+    "Python",
+    "Sugars",
+    "Validation",
+  ],
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/jagirre/",
 };
 
 export const jordan_dialpuri: Person = {
   name: "Jordan Dialpuri",
-  tags: ["Model Building", "Nucleic Acids", "Sugars"],
+  photo: "jordan_dialpuri.jpg",
+  tags: ["Model Building", "Nucleic Acids", "Python", "Sugars"],
   homepage: "https://jordandialpuri.co.uk/",
 };
 
 export const kathryn_cowtan: Person = {
   name: "Kathryn Cowtan",
-  tags: ["CCP4", "Crystallography", "Model Building"],
+  tags: ["CCP4", "Crystallography", "Model Building", "Python"],
   homepage: "https://www.york.ac.uk/chemistry/people/kcowtan/",
 };
 
@@ -161,13 +177,13 @@ export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
   photo: "paul_bond.jpg",
-  tags: ["CCP4", "Interfaces", "Model Building", "Organiser"],
+  tags: ["CCP4", "Interfaces", "Model Building", "Organiser", "Python"],
   homepage: "https://paulsbond.co.uk",
 };
 
 export const paul_emsley: Person = {
   name: "Paul Emsley",
-  tags: ["CCP4", "Model Building", "Validation"],
+  tags: ["CCP4", "Model Building", "Python", "Validation"],
   homepage: "https://en.wikipedia.org/wiki/Paul_Emsley_(crystallographer)",
 };
 
@@ -195,6 +211,7 @@ export const rob_nicholls: Person = {
     "Crystallography",
     "Interfaces",
     "Model Building",
+    "Python",
     "Refinement",
   ],
   homepage: "https://www.ccpem.ac.uk/people/rob-nicholls/",
