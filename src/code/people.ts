@@ -53,7 +53,14 @@ export const anna_warren: Person = {
 
 export const briony_yorke: Person = {
   name: "Briony Yorke",
-  tags: ["Crystallography", "Data Processing", "Synchrotrons"],
+  photo: "briony_yorke.jpg",
+  tags: [
+    "Complimentary Methods",
+    "Data Processing",
+    "Serial Crystallography",
+    "Synchrotrons",
+    "Time-resolved Crystallography",
+  ],
   homepage: "https://eps.leeds.ac.uk/chemistry/staff/13839/dr-briony-yorke",
 };
 
@@ -94,14 +101,14 @@ export const david_waterman: Person = {
 
 export const huw_jenkins: Person = {
   name: "Huw Jenkins",
+  photo: "huw_jenkins.jpg",
   tags: ["Crystallography", "Cryo-EM", "Molecular Replacement"],
-  homepage:
-    "https://www.york.ac.uk/biology/itsupport/cfm/post_doc/profile_ysbl.cfm?ID=823",
 };
 
 export const jamie_blaza: Person = {
   name: "Jamie Blaza",
-  tags: ["Cryo-EM"],
+  photo: "jamie_blaza.jpg",
+  tags: ["Cryo-EM", "Cryo-ET", "Python", "Symmetry"],
   email: "https://www.york.ac.uk/chemistry/people/jblaza/",
   homepage: undefined,
 };
@@ -136,6 +143,7 @@ export const jon_agirre: Person = {
     "CCP4",
     "Crystallography",
     "EDI",
+    "Model Building",
     "Organiser",
     "Python",
     "Sugars",
@@ -154,7 +162,8 @@ export const jordan_dialpuri: Person = {
 
 export const kathryn_cowtan: Person = {
   name: "Kathryn Cowtan",
-  tags: ["CCP4", "Crystallography", "Model Building", "Python"],
+  photo: "kathryn_cowtan.jpg",
+  tags: ["CCP4", "EDI", "Model Building", "Python"],
   homepage: "https://www.york.ac.uk/chemistry/people/kcowtan/",
 };
 
@@ -197,7 +206,7 @@ export const paula_salgado: Person = {
 export const pavol_bardy: Person = {
   name: "Pavol Bardy",
   photo: "pavol_bardy.jpg",
-  tags: ["Cryo-EM", "Electron Tomography", "Virology"],
+  tags: ["Cryo-EM", "Cryo-ET", "Virology"],
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/pavol-bardy/",
 };
@@ -225,7 +234,13 @@ export const ronan_keegan: Person = {
 
 export const sam_horrell: Person = {
   name: "Sam Horrell",
-  tags: ["Crystallography", "Data Collection", "Synchrotrons"],
+  photo: "sam_horrell.jpg",
+  tags: [
+    "Anomalous phasing",
+    "Crystallisation",
+    "Data Collection",
+    "Serial Crystallography",
+  ],
   homepage: "https://www.imperial.ac.uk/x-ray-crystallography/",
 };
 
@@ -244,7 +259,7 @@ export const tom_davies: Person = {
 
 export const tracey_gloster: Person = {
   name: "Tracey Gloster",
-  tags: ["Crystallography", "Sugars"],
+  tags: ["Crystallisation", "Crystallography", "Sugars"],
   homepage: "https://www.st-andrews.ac.uk/biology/people/tmg",
 };
 
