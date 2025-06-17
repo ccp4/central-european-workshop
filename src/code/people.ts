@@ -207,7 +207,13 @@ export const pavol_bardy: Person = {
 
 export const randy_read: Person = {
   name: "Randy Read",
-  tags: ["Molecular Replacement"],
+  photo: "randy_read.jpg",
+  tags: [
+    "Anomalous phasing",
+    "Data Pathologies",
+    "EM Docking",
+    "Molecular Replacement",
+  ],
   homepage: "https://www.cimr.cam.ac.uk/staff/professor-randy-j-read-frs",
 };
 
