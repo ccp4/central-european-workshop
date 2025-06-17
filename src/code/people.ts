@@ -6,12 +6,6 @@ export interface Person {
   homepage?: string;
 }
 
-export const airlie_mccoy: Person = {
-  name: "Airlie McCoy",
-  tags: ["CCP4", "Molecular Replacement"],
-  homepage: "https://www.cimr.cam.ac.uk/staff/dr-airlie-mccoy",
-};
-
 export const amy_thompson: Person = {
   name: "Amy Thompson",
   photo: "amy_thompson.jpg",
@@ -211,6 +205,12 @@ export const pavol_bardy: Person = {
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/pavol-bardy/",
 };
 
+export const randy_read: Person = {
+  name: "Randy Read",
+  tags: ["Molecular Replacement"],
+  homepage: "https://www.cimr.cam.ac.uk/staff/professor-randy-j-read-frs",
+};
+
 export const rob_nicholls: Person = {
   name: "Rob Nicholls",
   tags: [
@@ -271,7 +271,6 @@ export const tristan_croll: Person = {
 };
 
 export const people: Person[] = [
-  airlie_mccoy,
   amy_thompson,
   andrew_leech,
   andrey_lebedev,
@@ -295,6 +294,7 @@ export const people: Person[] = [
   paul_emsley,
   paula_salgado,
   pavol_bardy,
+  randy_read,
   rob_nicholls,
   ronan_keegan,
   sam_horrell,

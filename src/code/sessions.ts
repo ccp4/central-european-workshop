@@ -6,7 +6,6 @@ import {
   Location,
 } from "./locations";
 import {
-  airlie_mccoy,
   amy_thompson,
   andrew_leech,
   andrey_lebedev,
@@ -30,6 +29,7 @@ import {
   paula_salgado,
   pavol_bardy,
   Person,
+  randy_read,
   rob_nicholls,
   ronan_keegan,
   sam_horrell,
@@ -318,7 +318,7 @@ const day6: Day = {
       title: "EMplacement",
       type: "Lecture",
       time: "10:00",
-      speakers: [airlie_mccoy],
+      speakers: [randy_read],
       location: lecture_theatre,
     },
     { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
