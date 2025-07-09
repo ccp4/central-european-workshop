@@ -31,7 +31,9 @@ export function Location() {
       <Heading text="Accommodation" />
       <p>
         Accommodation for both students and speakers has been arranged on campus
-        in James College. Towels and bedding are provided.
+        in James College. Towels and bedding are provided. Check in is from 4pm
+        on the day of arrival. We suggest that students bring their luggage to
+        the first session and check in after the student talks.
       </p>
       <p>
         There is a separate registration fee that does not include accommodation
