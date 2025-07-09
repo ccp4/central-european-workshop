@@ -60,6 +60,9 @@ export function Programme() {
           );
         })}
       </div>
+      <p className="text-center font-bold">
+        Students are expected to attend all sessions.
+      </p>
     </main>
   );
 }
