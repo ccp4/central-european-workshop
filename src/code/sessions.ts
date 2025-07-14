@@ -482,13 +482,19 @@ const day9: Day = {
       speakers: [lucy_schofield],
       location: lecture_theatre,
     },
-    { title: "Break", time: "09:45", type: "Break" },
     {
       title: "Nucleic acids",
       type: "Lecture",
-      time: "10:00",
+      time: "09:30",
       speakers: [jordan_dialpuri],
       location: lecture_theatre,
+    },
+    {
+      title: "Carbohydrate Workshop",
+      type: "Practical",
+      time: "10:00",
+      speakers: [jordan_dialpuri, lucy_schofield],
+      location: computer_room,
     },
     { title: "Coffee", type: "Meal", time: "10:45", location: atrium },
     {
