@@ -129,7 +129,12 @@ const day2: Day = {
       speakers: [tracey_gloster],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
+    {
+      title: "Lunch (sandwiches)",
+      type: "Meal",
+      time: "12:00",
+      location: atrium,
+    },
     {
       title: "Crystallisation / harvesting",
       type: "Lecture",
@@ -203,7 +208,7 @@ const day3: Day = {
       speakers: [amy_thompson],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
+    { title: "Lunch (buffet)", type: "Meal", time: "12:00", location: atrium },
     {
       title: "DIALS",
       type: "Lecture",
@@ -276,7 +281,12 @@ const day4: Day = {
       speakers: [joel_greer, jola_mirecka],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
+    {
+      title: "Lunch (sandwiches)",
+      type: "Meal",
+      time: "12:00",
+      location: atrium,
+    },
     {
       title: "Data pathologies",
       type: "Lecture",
@@ -341,7 +351,7 @@ const day5: Day = {
       speakers: [anna_warren],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
+    { title: "Lunch (buffet)", type: "Meal", time: "12:00", location: atrium },
     { title: "Free time", type: "Other", time: "13:00" },
   ],
 };
@@ -378,7 +388,12 @@ const day6: Day = {
       speakers: [randy_read],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
+    {
+      title: "Lunch (sandwiches)",
+      type: "Meal",
+      time: "12:00",
+      location: atrium,
+    },
     {
       title: "Molecular replacement workshop",
       type: "Practical",
@@ -436,7 +451,7 @@ const day7: Day = {
       speakers: [rob_nicholls],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
+    { title: "Lunch (buffet)", type: "Meal", time: "12:00", location: atrium },
     {
       title: "Refinement workshop",
       type: "Practical",
@@ -501,7 +516,12 @@ const day8: Day = {
       speakers: [pavol_bardy],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
+    {
+      title: "Lunch (sandwiches)",
+      type: "Meal",
+      time: "12:00",
+      location: atrium,
+    },
     {
       title: "Coot at low resolution workshop",
       type: "Practical",
@@ -577,7 +597,7 @@ const day9: Day = {
       speakers: [sudakshina_ganguly],
       location: lecture_theatre,
     },
-    { title: "Lunch", type: "Meal", time: "12:00", location: atrium },
+    { title: "Lunch (buffet)", type: "Meal", time: "12:00", location: atrium },
     {
       title: "Deposition",
       type: "Lecture",
