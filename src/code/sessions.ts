@@ -2,6 +2,7 @@ import {
   atrium,
   cafeteria,
   computer_room,
+  information_centre,
   lecture_theatre,
   Location,
 } from "./locations";
@@ -56,17 +57,35 @@ const day1: Day = {
   title: "Day 1 - Thu 31st Jul",
   sessions: [
     {
+      title: "Registration",
+      type: "Other",
+      time: "14:00",
+      location: atrium,
+    },
+    {
       title: "Introduction",
       type: "Lecture",
       time: "14:30",
       location: lecture_theatre,
     },
-    { title: "Coffee", type: "Meal", time: "15:00", location: atrium },
     {
       title: "Student talks",
       type: "Lecture",
-      time: "15:30",
+      time: "14:45",
       location: lecture_theatre,
+    },
+    { title: "Coffee", type: "Meal", time: "15:30", location: atrium },
+    {
+      title: "Student talks",
+      type: "Lecture",
+      time: "16:00",
+      location: lecture_theatre,
+    },
+    {
+      title: "Accommodation check-in",
+      type: "Other",
+      time: "17:30",
+      location: information_centre,
     },
     {
       title: "Dinner (cafeteria)",
@@ -81,6 +100,12 @@ const day1: Day = {
 const day2: Day = {
   title: "Day 2 - Fri 1st Aug",
   sessions: [
+    {
+      title: "Breakfast",
+      type: "Meal",
+      time: "07:30",
+      location: cafeteria,
+    },
     {
       title: "Crystallography roadmap",
       type: "Lecture",
@@ -150,6 +175,12 @@ const day3: Day = {
   title: "Day 3 - Sat 2nd Aug",
   sessions: [
     {
+      title: "Breakfast",
+      type: "Meal",
+      time: "07:30",
+      location: cafeteria,
+    },
+    {
       title: "Diffraction theory",
       type: "Lecture",
       time: "09:00",
@@ -217,6 +248,12 @@ const day4: Day = {
   title: "Day 4 - Sun 3rd Aug",
   sessions: [
     {
+      title: "Breakfast",
+      type: "Meal",
+      time: "07:30",
+      location: cafeteria,
+    },
+    {
       title: "EM map manipulation, post-processing, sharpening",
       type: "Lecture",
       time: "09:00",
@@ -276,6 +313,12 @@ const day5: Day = {
   title: "Day 5 - Mon 4th Aug",
   sessions: [
     {
+      title: "Breakfast",
+      type: "Meal",
+      time: "07:30",
+      location: cafeteria,
+    },
+    {
       title: "Synchrotrons",
       type: "Lecture",
       time: "09:00",
@@ -306,6 +349,12 @@ const day5: Day = {
 const day6: Day = {
   title: "Day 6 - Tue 5th Aug",
   sessions: [
+    {
+      title: "Breakfast",
+      type: "Meal",
+      time: "07:30",
+      location: cafeteria,
+    },
     {
       title: "Molecular replacement theory",
       type: "Lecture",
@@ -358,6 +407,12 @@ const day6: Day = {
 const day7: Day = {
   title: "Day 7 - Wed 6th Aug",
   sessions: [
+    {
+      title: "Breakfast",
+      type: "Meal",
+      time: "07:30",
+      location: cafeteria,
+    },
     {
       title: "Automated model building",
       type: "Lecture",
@@ -418,6 +473,12 @@ const day8: Day = {
   title: "Day 8 - Thu 7th Aug",
   sessions: [
     {
+      title: "Breakfast",
+      type: "Meal",
+      time: "07:30",
+      location: cafeteria,
+    },
+    {
       title: "NMR",
       type: "Lecture",
       time: "09:00",
@@ -475,6 +536,18 @@ const day8: Day = {
 const day9: Day = {
   title: "Day 9 - Fri 8th Aug",
   sessions: [
+    {
+      title: "Breakfast",
+      type: "Meal",
+      time: "07:30",
+      location: cafeteria,
+    },
+    {
+      title: "Accommodation check-out",
+      type: "Other",
+      time: "08:45",
+      location: information_centre,
+    },
     {
       title: "Protein modifications",
       type: "Lecture",

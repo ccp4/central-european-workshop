@@ -31,9 +31,19 @@ export function Location() {
       <Heading text="Accommodation" />
       <p>
         Accommodation for both students and speakers has been arranged on campus
-        in James College. Towels and bedding are provided. Check in is from 4pm
-        on the day of arrival. We suggest that students bring their luggage to
-        the first session and check in after the student talks.
+        in James College{" "}
+        <Link href="https://maps.app.goo.gl/ctGGmiNkq9P6cGi88" text="Block E" />{" "}
+        and{" "}
+        <Link href="https://maps.app.goo.gl/hG75A4R15adWfj2dA" text="Block G" />
+        . Towels and bedding are provided. Check-in is from 4 pm on the day of
+        arrival. We suggest that students bring their luggage to the first
+        session and check in after the student talks. Check-out is by 9:30 am,
+        so this should be done before the first lecture of the day.
+      </p>
+      <p>
+        For students and tutors staying in the accommodation, breakfast will be
+        provided in the Galleria Restaraunt in the Roger Kirk Centre from 7:30
+        am to 8:45 am.
       </p>
       <p>
         There is a separate registration fee that does not include accommodation
