@@ -75,14 +75,31 @@ export const chris_hill: Person = {
 
 export const clement_degut: Person = {
   name: "Clément Dégut",
-  tags: ["Cryo-EM", "Crystallography", "NMR"],
+  photo: "clement_degut.jpg",
+  tags: [
+    "Cryo-EM",
+    "Crystallisation",
+    "Crystallography",
+    "Molecular interactions",
+    "NMR",
+  ],
   homepage: undefined,
 };
 
 export const david_aragao: Person = {
   name: "David Aragão",
-  tags: ["Crystallography", "Synchrotrons"],
-  homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-aragao",
+  photo: "david_aragao.png",
+  tags: [
+    "Crystallography",
+    "Data Collection",
+    "Data Processing",
+    "Metalloproteins",
+    "Micro-beams",
+    "Membrane Proteins",
+    "Python",
+    "Synchrotrons",
+  ],
+  homepage: "https://www.diamond.ac.uk/Instruments/Mx/I04/Staff/Aragao.html",
 };
 
 export const david_waterman: Person = {
@@ -118,7 +135,15 @@ export const johan_turkenburg: Person = {
   name: "Johan Turkenburg",
   email: "johan.turkenburg@york.ac.uk",
   photo: "johan_turkenburg.jpg",
-  tags: ["Cryo-EM", "Crystallography", "Organiser"],
+  tags: [
+    "Cryo-EM",
+    "Crystallography",
+    "Data Collection",
+    "Data Processing",
+    "Facility Management",
+    "Organiser",
+    "Synchrotrons",
+  ],
   homepage: "https://www.york.ac.uk/chemistry/people/jturkenburg/",
 };
 
@@ -219,6 +244,7 @@ export const randy_read: Person = {
 
 export const rob_nicholls: Person = {
   name: "Rob Nicholls",
+  photo: undefined, // https://www.ccpem.ac.uk/wp-content/uploads/2025/04/rob_photo.png
   tags: [
     "CCP-EM",
     "CCP4",
@@ -265,7 +291,8 @@ export const tom_davies: Person = {
 
 export const tracey_gloster: Person = {
   name: "Tracey Gloster",
-  tags: ["Crystallisation", "Crystallography", "Sugars"],
+  photo: "tracey_gloster.jpg",
+  tags: ["Crystallisation", "Crystallography", "EDI", "Sugars"],
   homepage: "https://www.st-andrews.ac.uk/biology/people/tmg",
 };
 
