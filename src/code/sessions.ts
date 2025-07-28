@@ -57,6 +57,12 @@ const day1: Day = {
   title: "Day 1 - Thu 31st Jul",
   sessions: [
     {
+      title: "Accommodation check-in",
+      type: "Other",
+      time: "13:00",
+      location: information_centre,
+    },
+    {
       title: "Registration",
       type: "Other",
       time: "14:00",
@@ -80,12 +86,6 @@ const day1: Day = {
       type: "Lecture",
       time: "16:00",
       location: lecture_theatre,
-    },
-    {
-      title: "Accommodation check-in",
-      type: "Other",
-      time: "17:30",
-      location: information_centre,
     },
     {
       title: "Dinner (cafeteria)",
