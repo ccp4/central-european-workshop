@@ -1,4 +1,5 @@
-import { Heading, Link } from "../components/Elements";
+import { information_centre, james_e, james_g } from "../code/locations";
+import { Heading, InternalLink, Link } from "../components/Elements";
 
 export function Location() {
   const video =
@@ -28,23 +29,26 @@ export function Location() {
         page for more details on how to get here.
       </p>
       <Link href="https://www.york.ac.uk/map/" text="Interactive campus map" />
+      <div className="flex max-w-full flex-wrap items-center justify-center gap-2">
+        <img src="kblock.png" className="w-full max-w-xl flex-auto" />
+        <img src="accommodation.png" className="w-full max-w-xl flex-auto" />
+      </div>
+      <p>
+        Each session in the <InternalLink to="programme" text="Programme" />{" "}
+        page contains a link to the location of the session in Google Maps.
+      </p>
       <Heading text="Accommodation" />
       <p>
         Accommodation for both students and speakers has been arranged on campus
-        in James College{" "}
-        <Link href="https://maps.app.goo.gl/ctGGmiNkq9P6cGi88" text="Block E" />{" "}
-        and{" "}
-        <Link href="https://maps.app.goo.gl/hG75A4R15adWfj2dA" text="Block G" />
-        . Towels and bedding are provided. Check-in is from 1 pm on the 31st
-        July. If you do not have time to check-in before the introductory
-        lecture then we suggest you bring your luggage to the first session and
-        check in after the student talks before dinner. Check-out is by 9:30 am,
-        so this should be done before the first lecture of the day.
-      </p>
-      <p>
-        Breakfast is provided for all registered students (whether you are
-        staying in the campus accommodation or not) in the Galleria Restaurant
-        in the Roger Kirk Centre from 7:30 am to 8:45 am.
+        in <Link href={james_e.link} text={james_e.name} /> and{" "}
+        <Link href={james_g.link} text={james_g.name} />. Towels and bedding are
+        provided. Check-in is from 1 pm on Thursday 31st July in the{" "}
+        <Link href={information_centre.link} text="Information Centre" />. If
+        you do not have time to check-in before the introductory lecture then we
+        suggest you bring your luggage to the first session and check in after
+        the student talks before dinner. Check-out is by 9:30 am, so this should
+        be done before the first lecture of the day. We have a room available to
+        store luggage during the sessions on Friday 8th August.
       </p>
       <p>
         There is a separate registration fee that does not include accommodation
