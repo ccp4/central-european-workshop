@@ -1,4 +1,4 @@
-import { Link } from "../components/Elements";
+import { Heading, Link } from "../components/Elements";
 import { people } from "../code/people";
 
 export function Contact() {
@@ -31,6 +31,43 @@ export function Contact() {
             );
           })}
       </div>
+      <Heading text="Phone Numbers" />
+      <p className="max-w-4xl">
+        In the case of a medical emergency please dial{" "}
+        <Link href="tel:999" text="999" /> followed by campus Security on{" "}
+        <Link href="tel:+441904323333" text="+44&nbsp;1904&nbsp;32&nbsp;3333" />
+        , who will direct the emergency vehicle to campus location.
+      </p>
+      <div className="flex flex-col gap-4">
+        <p>
+          Emergency: <Link href="tel:999" text="999" />
+        </p>
+        <p>
+          Campus Safety (emergency):{" "}
+          <Link
+            href="tel:+441904323333"
+            text="+44&nbsp;1904&nbsp;32&nbsp;3333"
+          />
+        </p>
+        <p>
+          Campus Safety (non-emergency):{" "}
+          <Link
+            href="tel:+441904324444"
+            text="+44&nbsp;1904&nbsp;32&nbsp;4444"
+          />
+        </p>
+        <p>
+          Information Centre Reception:{" "}
+          <Link
+            href="tel:+441904323200"
+            text="+44&nbsp;1904&nbsp;32&nbsp;3200"
+          />
+        </p>
+      </div>
+      <p>
+        If you are using one of the internal phones on campus, you can just dial
+        the last 4-digit extension number.
+      </p>
     </main>
   );
 }
