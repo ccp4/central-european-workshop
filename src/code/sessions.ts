@@ -569,17 +569,17 @@ const day9: Day = {
       location: information_centre,
     },
     {
-      title: "Protein modifications",
+      title: "Nucleic acids",
       type: "Lecture",
       time: "09:00",
-      speakers: [lucy_schofield],
+      speakers: [jordan_dialpuri],
       location: lecture_theatre,
     },
     {
-      title: "Nucleic acids",
+      title: "Protein modifications",
       type: "Lecture",
       time: "09:30",
-      speakers: [jordan_dialpuri],
+      speakers: [lucy_schofield],
       location: lecture_theatre,
     },
     {
