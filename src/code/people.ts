@@ -194,6 +194,11 @@ export const lucy_schofield: Person = {
   homepage: undefined,
 };
 
+export const lyndsay_muschamp: Person = {
+  name: "Lyndsay Muschamp",
+  photo: "lyndsay_muschamp.jpg",
+};
+
 export const maria_fando: Person = {
   name: "Maria Fando",
   photo: "maria_fando.png",
@@ -323,6 +328,7 @@ export const people: Person[] = [
   jordan_dialpuri,
   kathryn_cowtan,
   lucy_schofield,
+  lyndsay_muschamp,
   maria_fando,
   paul_bond,
   paul_emsley,
