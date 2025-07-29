@@ -30,13 +30,54 @@ export function Location() {
       </p>
       <Link href="https://www.york.ac.uk/map/" text="Interactive campus map" />
       <div className="flex max-w-full flex-wrap items-center justify-center gap-2">
-        <img src="kblock.png" className="w-full max-w-xl flex-auto" />
-        <img src="accommodation.png" className="w-full max-w-xl flex-auto" />
+        <img src="kblock.png" className="w-full max-w-xl" />
+        <img src="accommodation.png" className="w-full max-w-xl" />
       </div>
       <p>
         Each session in the <InternalLink to="programme" text="Programme" />{" "}
         page contains a link to the location of the session in Google Maps.
       </p>
+      <div className="flex max-w-full flex-wrap items-center justify-center gap-2">
+        <div className="flex flex-col items-center">
+          <img src="atrium.jpg" className="h-72 object-cover" />
+          <p>Biology Atrium</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <img src="lecture.jpg" className="h-72 object-cover" />
+          <p>Diana Bowles Lecture Theatre (B/K/018)</p>
+        </div>
+      </div>
+      <Heading text="Cars and Parking" />
+      <p>
+        The University is easily accessible from major road links such as the
+        A64.{" "}
+        <Link
+          text="Car parking on campus"
+          href="https://www.york.ac.uk/about/transport-maps-parking/parking/pay-and-display/"
+        />{" "}
+        is pay and display and is often limited. You can use PayByPhone in any
+        of the pay and display car parks, please visit the{" "}
+        <Link text="PayByPhone website" href="https://paybyphone.co.uk/" /> to
+        find out how to register.
+      </p>
+      <p>
+        Pre-paid parking permits can be arranged on request for tutors and for
+        students with accessibility requirements.
+      </p>
+      <Heading text="Bus, Rail and Taxi" />
+      <p>
+        The University is a{" "}
+        <Link
+          text="short bus (U1 or U2) or taxi ride"
+          href="https://www.york.ac.uk/about/transport-maps-parking/bus-rail-taxi/"
+        />{" "}
+        direct from the railway station. There is a bus stop and taxi rank just
+        outside the main station entrance. A taxi from the railway station will
+        take approximately 15 minutes while a bus will take around 22 minutes.
+        Get off at Wentworth Way stop for Biology or the University Library stop
+        to check-in at the Information Centre.
+      </p>
+      <img src="bus.png" className="w-full max-w-4xl self-center" />
       <Heading text="Accommodation" />
       <p>
         Accommodation for both students and speakers has been arranged on campus
