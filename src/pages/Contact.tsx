@@ -4,6 +4,7 @@ import { people } from "../code/people";
 export function Contact() {
   return (
     <main className="flex flex-col items-center gap-4">
+      <Heading text="Email" />
       <p className="max-w-4xl">
         Please contact the organisers at{" "}
         <Link
@@ -31,26 +32,36 @@ export function Contact() {
             );
           })}
       </div>
-      <Heading text="Phone Numbers" />
+      <Heading text="Phone" />
       <p className="max-w-4xl">
         In the case of a medical emergency please dial{" "}
         <Link href="tel:999" text="999" /> followed by campus Security on{" "}
         <Link href="tel:+441904323333" text="+44&nbsp;1904&nbsp;32&nbsp;3333" />
-        , who will direct the emergency vehicle to campus location.
+        , who will direct the emergency vehicle to campus location. The{" "}
+        <Link
+          text="Campus Safety"
+          href="https://www.york.ac.uk/about/campus/campus-safety/"
+        />{" "}
+        team and{" "}
+        <Link
+          text="Reception Services"
+          href="https://www.york.ac.uk/about/departments/support-and-admin/estates-and-campus-services/receptionservices/"
+        />{" "}
+        are available 24/7.
       </p>
       <div className="flex flex-col gap-4">
         <p>
           Emergency: <Link href="tel:999" text="999" />
         </p>
         <p>
-          Campus Safety (emergency):{" "}
+          Campus Safety (urgent):{" "}
           <Link
             href="tel:+441904323333"
             text="+44&nbsp;1904&nbsp;32&nbsp;3333"
           />
         </p>
         <p>
-          Campus Safety (non-emergency):{" "}
+          Campus Safety (non-urgent):{" "}
           <Link
             href="tel:+441904324444"
             text="+44&nbsp;1904&nbsp;32&nbsp;4444"
@@ -67,6 +78,13 @@ export function Contact() {
       <p>
         If you are using one of the internal phones on campus, you can just dial
         the last 4-digit extension number.
+      </p>
+      <Heading text="Discord" />
+      <p className="max-w-4xl">
+        We will be using a{" "}
+        <Link text="Discord" href="https://discord.com/"></Link> server for the
+        duration of the school. You should receive an invite link for this via
+        email. Please contact one of the organisers if you cannot access it.
       </p>
     </main>
   );
