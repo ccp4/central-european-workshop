@@ -1,4 +1,4 @@
-import { Heading, InternalLink, List } from "../components/Elements";
+import { Heading, InternalLink, Link, List } from "../components/Elements";
 
 export function Edi() {
   return (
@@ -61,6 +61,11 @@ export function Edi() {
         Please use the <InternalLink to="/contact" text="Contact" /> section
         here, and explain what happened and who was involved so that we can
         investigate.
+      </p>
+      <p>
+        If you would like to give any feedback to the CCP4 Equity, Diversity and
+        Inclusion team please fill out the following{" "}
+        <Link text="Google Form" href="https://forms.gle/jPgFzQe3yEYv2WVq6" />.
       </p>
       <p>
         Thank you for your participation in the CCP4 community, and your efforts
