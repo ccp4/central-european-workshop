@@ -211,7 +211,8 @@ export const paul_bond: Person = {
 
 export const paul_emsley: Person = {
   name: "Paul Emsley",
-  tags: ["CCP4", "Model Building", "Python", "Validation"],
+  photo: "paul_emsley.jpg",
+  tags: ["Model Building", "Refinement"],
   homepage: "https://en.wikipedia.org/wiki/Paul_Emsley_(crystallographer)",
 };
 
@@ -244,7 +245,7 @@ export const randy_read: Person = {
 
 export const rob_nicholls: Person = {
   name: "Rob Nicholls",
-  photo: undefined, // https://www.ccpem.ac.uk/wp-content/uploads/2025/04/rob_photo.png
+  photo: "rob_nicholls.png",
   tags: [
     "CCP-EM",
     "CCP4",
