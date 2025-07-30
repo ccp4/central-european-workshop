@@ -6,6 +6,13 @@ export interface Person {
   homepage?: string;
 }
 
+export const adam_crawshaw: Person = {
+  name: "Adam Crawshaw",
+  photo: "adam_crawshaw.jpg",
+  tags: ["Crystallography", "Data Collection", "Synchrotrons"],
+  homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXm/Staff/Crawshaw.html",
+};
+
 export const amy_thompson: Person = {
   name: "Amy Thompson",
   photo: "amy_thompson.jpg",
@@ -36,13 +43,6 @@ export const andrey_lebedev: Person = {
   ],
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/andrey-lebedev",
-};
-
-export const anna_warren: Person = {
-  name: "Anna Warren",
-  photo: "anna_warren.jpg",
-  tags: ["Crystallography", "Data Collection", "Synchrotrons"],
-  homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXm/Staff/Warren.html",
 };
 
 export const briony_yorke: Person = {
@@ -310,10 +310,10 @@ export const tristan_croll: Person = {
 };
 
 export const people: Person[] = [
+  adam_crawshaw,
   amy_thompson,
   andrew_leech,
   andrey_lebedev,
-  anna_warren,
   briony_yorke,
   chris_hill,
   clement_degut,

@@ -7,10 +7,10 @@ import {
   Location,
 } from "./locations";
 import {
+  adam_crawshaw,
   amy_thompson,
   andrew_leech,
   andrey_lebedev,
-  anna_warren,
   briony_yorke,
   chris_hill,
   clement_degut,
@@ -348,7 +348,7 @@ const day5: Day = {
       title: "Nanofocus / microfocus / VMXm",
       type: "Lecture",
       time: "11:15",
-      speakers: [anna_warren],
+      speakers: [adam_crawshaw],
       location: lecture_theatre,
     },
     { title: "Lunch (buffet)", type: "Meal", time: "12:00", location: atrium },
