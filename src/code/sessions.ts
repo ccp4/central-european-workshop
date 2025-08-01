@@ -162,7 +162,7 @@ const day2: Day = {
     {
       title: "Serial crystallography",
       type: "Lecture",
-      time: "17:15",
+      time: "17:00",
       speakers: [briony_yorke],
       location: lecture_theatre,
     },
