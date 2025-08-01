@@ -172,7 +172,7 @@ const day2: Day = {
       time: "18:00",
       location: cafeteria,
     },
-    { title: "Ceilidh", type: "Other", time: "19:30", location: cafeteria },
+    { title: "Ceilidh", type: "Other", time: "20:00", location: cafeteria },
   ],
 };
 
