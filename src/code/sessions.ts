@@ -269,7 +269,7 @@ const day4: Day = {
     {
       title: "EM map pathologies",
       type: "Lecture",
-      time: "10:00",
+      time: "09:45",
       speakers: [jamie_blaza],
       location: lecture_theatre,
     },
