@@ -549,7 +549,6 @@ const day8: Day = {
       title: "Coach pick-up",
       type: "Other",
       time: "18:00",
-      location: atrium,
     },
     {
       title: "Conference dinner with City Cruises York",
@@ -579,14 +578,14 @@ const day9: Day = {
       type: "Lecture",
       time: "09:00",
       speakers: [jordan_dialpuri],
-      location: lecture_theatre,
+      location: computer_room,
     },
     {
       title: "Protein modifications",
       type: "Lecture",
       time: "09:30",
       speakers: [lucy_schofield],
-      location: lecture_theatre,
+      location: computer_room,
     },
     {
       title: "Carbohydrate Workshop",
