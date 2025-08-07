@@ -546,9 +546,15 @@ const day8: Day = {
       location: lecture_theatre,
     },
     {
-      title: "Conference dinner with City Cruises York",
+      title: "Coach pick-up",
       type: "Other",
       time: "18:00",
+      location: atrium,
+    },
+    {
+      title: "Conference dinner with City Cruises York",
+      type: "Other",
+      time: "18:45",
     },
   ],
 };
