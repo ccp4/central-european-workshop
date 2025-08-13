@@ -1,1 +1,1 @@
-# summer-school
+# central-european-workshop
