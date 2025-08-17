@@ -8,6 +8,7 @@ export interface Person {
 
 export const martin_maly: Person = {
   name: "Martin Malý",
+  email: "martin.maly@mrc-lmb.cam.ac.uk",
   photo: "martin_maly.jpg",
   tags: ["CCP4", "Organiser", "Python", "Crystallography", "Interfaces", "Refinement"],
 };
@@ -28,12 +29,6 @@ export const garib_murshudov: Person = {
   name: "Garib Murshudov",
   photo: "garib_murshudov.jpg",
   tags: ["CCP4", "Organiser", "Refinement"],
-};
-
-export const jarmila_duskova: Person = {
-  name: "Jarmila Dušková",
-  photo: "jarmila_duskova.jpg",
-  tags: ["Organiser", "Crystallography"],
 };
 
 export const andrey_lebedev: Person = {
@@ -73,7 +68,7 @@ export const lucy_schofield: Person = {
   name: "Lucy Schofield",
   email: "lcs551@york.ac.uk",
   photo: "lucy_schofield.jpg",
-  tags: ["CCP4", "EDI", "Organiser", "Sugars"],
+  tags: ["CCP4", "EDI", "Sugars"],
   homepage: undefined,
 };
 
@@ -88,7 +83,7 @@ export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
   photo: "paul_bond.jpg",
-  tags: ["CCP4", "Interfaces", "Model Building", "Organiser", "Python"],
+  tags: ["CCP4", "Interfaces", "Model Building", "Python"],
   homepage: "https://paulsbond.co.uk",
 };
 
@@ -105,6 +100,24 @@ export const ronan_keegan: Person = {
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/ronan-keegan",
 };
 
+export const jarmila_duskova: Person = {
+  name: "Jarmila Dušková",
+  photo: "jarmila_duskova.jpg",
+  tags: ["Organiser", "Crystallography"],
+};
+
+export const radomir_kuzel: Person = {
+  name: "Radomír Kužel",
+  photo: "radomir_kuzel.jpg",
+  tags: ["CSCA", "Organiser", "Crystallography"],
+};
+
+export const jindrich_hasek: Person = {
+  name: "Jindřich Hašek",
+  photo: "jindrich_hasek.jpg",
+  tags: ["CSCA", "Organiser", "Crystallography"],
+};
+
 export const people: Person[] = [
   martin_maly,
   lucrezia_catapano,
@@ -118,4 +131,7 @@ export const people: Person[] = [
   paul_bond,
   paul_emsley,
   ronan_keegan,
+  jarmila_duskova,
+  radomir_kuzel,
+  jindrich_hasek,
 ];
