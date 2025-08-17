@@ -19,18 +19,6 @@ export const lucrezia_catapano: Person = {
   tags: ["CCP4", "Organiser", "Model Building", "Python", "Refinement"],
 };
 
-export const agnel_joseph: Person = {
-  name: "Agnel Joseph",
-  photo: "agnel_joseph.jpg",
-  tags: ["CCP-EM", "Organiser", "Cryo-EM", "Validation", "Python"],
-};
-
-export const garib_murshudov: Person = {
-  name: "Garib Murshudov",
-  photo: "garib_murshudov.jpg",
-  tags: ["CCP4", "Organiser", "Refinement"],
-};
-
 export const andrey_lebedev: Person = {
   name: "Andrey Lebedev",
   photo: "andrey_lebedev.jpg",
@@ -77,6 +65,18 @@ export const maria_fando: Person = {
   photo: "maria_fando.png",
   tags: ["CCP4", "Organiser", "Crystallography", "Interfaces", "Molecular Replacement"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
+};
+
+export const agnel_joseph: Person = {
+  name: "Agnel Joseph",
+  photo: "agnel_joseph.jpg",
+  tags: ["CCP-EM", "Organiser", "Cryo-EM", "Validation", "Python"],
+};
+
+export const garib_murshudov: Person = {
+  name: "Garib Murshudov",
+  photo: "garib_murshudov.jpg",
+  tags: ["CCP4", "Organiser", "Refinement"],
 };
 
 export const paul_bond: Person = {
