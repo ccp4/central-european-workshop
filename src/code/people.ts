@@ -121,8 +121,6 @@ export const jindrich_hasek: Person = {
 export const people: Person[] = [
   martin_maly,
   lucrezia_catapano,
-  agnel_joseph,
-  garib_murshudov,
   andrey_lebedev,
   david_waterman,
   jola_mirecka,
@@ -131,6 +129,8 @@ export const people: Person[] = [
   paul_bond,
   paul_emsley,
   ronan_keegan,
+  agnel_joseph,
+  garib_murshudov,
   jarmila_duskova,
   radomir_kuzel,
   jindrich_hasek,
