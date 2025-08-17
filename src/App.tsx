@@ -30,7 +30,6 @@ createRoot(root).render(
           <Route path="contact" element={<Contact />} />
           <Route path="edi" element={<Edi />} />
           <Route path="location" element={<Location />} />
-          <Route path="people" element={<People />} />
           <Route path="programme" element={<Programme />} />
         </Routes>
         <Footer />
