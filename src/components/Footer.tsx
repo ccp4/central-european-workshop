@@ -1,4 +1,4 @@
-import { bbsrc, bca, hampton } from "../code/sponsors";
+import { ccp4, csas, ccpem, cssb, dectris } from "../code/sponsors";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -6,9 +6,11 @@ export function Footer() {
     <footer className="my-4 flex flex-col items-center gap-2">
       <p className="text-gray-500">Additional support kindly received from:</p>
       <div className="flex flex-wrap justify-center gap-4">
-        <Logo sponsor={bbsrc} />
-        <Logo sponsor={bca} />
-        <Logo sponsor={hampton} />
+        <Logo sponsor={ccp4} />
+        <Logo sponsor={csas} />
+        <Logo sponsor={ccpem} />
+        <Logo sponsor={cssb} />
+        <Logo sponsor={dectris} />
       </div>
     </footer>
   );

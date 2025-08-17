@@ -4,50 +4,32 @@ export interface Sponsor {
   logo: string;
 }
 
-export const bbsrc: Sponsor = {
-  name: "BBSRC",
-  url: "https://www.ukri.org/councils/bbsrc",
-  logo: "bbsrc.png",
-};
-
-export const bca: Sponsor = {
-  name: "BCA",
-  url: "https://www.crystallography.org.uk/",
-  logo: "bca.gif",
-};
-
 export const ccp4: Sponsor = {
   name: "CCP4",
   url: "https://www.ccp4.ac.uk",
   logo: "ccp4.png",
 };
 
-export const hampton: Sponsor = {
-  name: "Hampton Research",
-  url: "https://hamptonresearch.com/",
-  logo: "hampton.png",
+export const ccpem: Sponsor = {
+  name: "CCP-EM",
+  url: "https://www.ccpem.ac.uk",
+  logo: "ccpem.png",
 };
 
-export const rigaku: Sponsor = {
-  name: "Rigaku",
-  url: "https://rigaku.com",
-  logo: "rigaku.png",
+export const csas: Sponsor = {
+  name: "CSAS",
+  url: "https://www.xray.cz",
+  logo: "csas.png",
 };
 
-export const sptlabtech: Sponsor = {
-  name: "SPT Labtech",
-  url: "https://sptlabtech.com",
-  logo: "sptlabtech.svg",
+export const dectris: Sponsor = {
+  name: "Dectris",
+  url: "https://www.dectris.com",
+  logo: "dectris.png",
 };
 
-export const thermofisher: Sponsor = {
-  name: "Thermo Fisher Scientific",
-  url: "https://thermofisher.com",
-  logo: "thermofisher.svg",
-};
-
-export const york: Sponsor = {
-  name: "University of York",
-  url: "https://york.ac.uk",
-  logo: "uoy.svg",
+export const cssb: Sponsor = {
+  name: "CSSB",
+  url: "https://www.cssb.ac.uk",
+  logo: "cssb.png",
 };
