@@ -15,6 +15,8 @@ export function Home() {
         src="https://konferencnizamek.cz/wp-content/uploads/photo-gallery/imported_from_media_libray/z%C3%A1mek.jpg?bwg=1549014679"
         alt="Nové Hrady venue"
         className="min-h-40 max-w-full object-cover"
+        width="50%"
+        height="50%"
       />
       <p>
         It is a great pleasure to announce the CCP4 Central European
@@ -38,8 +40,8 @@ export function Home() {
       </p>
       <p>
         The workshop will be based at the <a href="https://konferencnizamek.cz/en/">
-        Nové Hrady Castle</a> in Czechia.
-      <InternalLink to="location" text="More details and directions" />
+        Nové Hrady Castle</a> in Czechia. 
+        <InternalLink to="location" text="More details and directions" />
       </p>
       <p>
         Spaces are limited. The applicant will have to demonstrate the need for
