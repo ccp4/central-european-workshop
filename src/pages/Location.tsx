@@ -7,93 +7,16 @@ export function Location() {
 
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
-      <video
-        src={`${video}/campus-hero.mp4`}
-        poster={`${video}/campus-hero-still.jpg`}
-        autoPlay
-        loop
-        muted
-      ></video>
-      <Heading text="The University of York - Campus West" />
+      <img
+        src="https://konferencnizamek.cz/wp-content/uploads/photo-gallery/imported_from_media_libray/z%C3%A1mek.jpg?bwg=1549014679"
+        alt="Nové Hrady venue"
+        className="min-h-40 max-w-full object-cover text-center"
+        width="50%"
+        height="50%"
+      />
       <p>
-        The school will be held at the University of York, York, YO10 5DD.
-        Lectures and practical workshops will both be held in the Department of
-        Biology, and accommodation and meals in nearby James College. The
-        university is well-connected with excellent rail links, direct access to
-        major road networks, and quick connections to international airports.
-        Please see the university's{" "}
-        <Link
-          href="https://www.york.ac.uk/about/transport-maps-parking/"
-          text="Transport, maps and parking"
-        />{" "}
-        page for more details on how to get here.
-      </p>
-      <Link href="https://www.york.ac.uk/map/" text="Interactive campus map" />
-      <div className="flex max-w-full flex-wrap items-center justify-center gap-2">
-        <img src="kblock.png" className="w-full max-w-xl" />
-        <img src="accommodation.png" className="w-full max-w-xl" />
-      </div>
-      <p>
-        Each session in the <InternalLink to="programme" text="Programme" />{" "}
-        page contains a link to the location of the session in Google Maps.
-      </p>
-      <div className="flex max-w-full flex-wrap items-center justify-center gap-2">
-        <div className="flex flex-col items-center">
-          <img src="atrium.jpg" className="h-72 object-cover" />
-          <p>Biology Atrium</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <img src="lecture.jpg" className="h-72 object-cover" />
-          <p>Diana Bowles Lecture Theatre (B/K/018)</p>
-        </div>
-      </div>
-      <Heading text="Cars and Parking" />
-      <p>
-        The University is easily accessible from major road links such as the
-        A64.{" "}
-        <Link
-          text="Car parking on campus"
-          href="https://www.york.ac.uk/about/transport-maps-parking/parking/pay-and-display/"
-        />{" "}
-        is pay and display and is often limited. You can use PayByPhone in any
-        of the pay and display car parks, please visit the{" "}
-        <Link text="PayByPhone website" href="https://paybyphone.co.uk/" /> to
-        find out how to register.
-      </p>
-      <p>
-        Pre-paid parking permits can be arranged on request for tutors and for
-        students with accessibility requirements.
-      </p>
-      <Heading text="Bus, Rail and Taxi" />
-      <p>
-        The University is a{" "}
-        <Link
-          text="short bus (U1 or U2) or taxi ride"
-          href="https://www.york.ac.uk/about/transport-maps-parking/bus-rail-taxi/"
-        />{" "}
-        direct from the railway station. There is a bus stop and taxi rank just
-        outside the main station entrance. A taxi from the railway station will
-        take approximately 15 minutes while a bus will take around 22 minutes.
-        Get off at Wentworth Way stop for Biology or the University Library stop
-        to check-in at the Information Centre.
-      </p>
-      <img src="bus.png" className="w-full max-w-4xl self-center" />
-      <Heading text="Accommodation" />
-      <p>
-        Accommodation for both students and speakers has been arranged on campus
-        in <Link href={james_e.link} text={james_e.name} /> and{" "}
-        <Link href={james_g.link} text={james_g.name} />. Towels and bedding are
-        provided. Check-in is from 1 pm on Thursday 31st July in the{" "}
-        <Link href={information_centre.link} text="Information Centre" />. If
-        you do not have time to check-in before the introductory lecture then we
-        suggest you bring your luggage to the first session and check in after
-        the student talks before dinner. Check-out is by 9:30 am, so this should
-        be done before the first lecture of the day. We have a room available to
-        store luggage during the sessions on Friday 8th August.
-      </p>
-      <p>
-        There is a separate registration fee that does not include accommodation
-        for students who already live in York.
+        The workshop will be held at the <a href="https://konferencnizamek.cz/en/">
+        Nové Hrady Castle</a> in Czechia. 
       </p>
     </main>
   );
