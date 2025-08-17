@@ -16,10 +16,10 @@ export const ccpem: Sponsor = {
   logo: "ccpem.png",
 };
 
-export const csas: Sponsor = {
-  name: "CSAS",
+export const csca: Sponsor = {
+  name: "CSCA",
   url: "https://www.xray.cz",
-  logo: "csas.png",
+  logo: "csca.png",
 };
 
 export const dectris: Sponsor = {
