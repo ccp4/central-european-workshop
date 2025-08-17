@@ -22,7 +22,14 @@ function colourForType(
 export function Programme() {
   return (
     <main className="flex w-full flex-col gap-4">
-      <div className="flex flex-wrap justify-center gap-4 p-4">
+      <div>
+        The programme will cover the practical use of software tools for
+        the methods of structural
+        biology, macromolecular crystallography and electron
+        cryo-microscopy (cryo-EM), as well as on bioinformatics.
+        More details will be available here during autumn 2025.
+      </div>
+      <!--<div className="flex flex-wrap justify-center gap-4 p-4">
         {days.map((day) => {
           return (
             <div className="flex max-w-xs flex-auto flex-col items-stretch">
@@ -96,7 +103,7 @@ export function Programme() {
           meals provided, you will be given a personalised meal with your name
           on it. Please ask if you are unsure.
         </p>
-      </div>
+      </div>-->
     </main>
   );
 }
