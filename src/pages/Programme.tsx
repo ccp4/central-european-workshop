@@ -21,7 +21,7 @@ function colourForType(
 
 export function Programme() {
   return (
-    <main className="flex w-full flex-col gap-4">
+    <main className="flex max-w-7xl flex-col gap-4">
       <p>
         The programme will cover the practical use of software tools for
         the methods of structural
