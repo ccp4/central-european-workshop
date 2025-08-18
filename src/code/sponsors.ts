@@ -33,3 +33,15 @@ export const cssb: Sponsor = {
   url: "https://www.cssb.ac.uk",
   logo: "cssb.png",
 };
+
+export const iucr: Sponsor = {
+  name: "IUCr",
+  url: "https://www.iucr.org",
+  logo: "iucr.png",
+};
+
+export const eca: Sponsor = {
+  name: "ECA",
+  url: "https://ecanews.org",
+  logo: "eca.png",
+};
