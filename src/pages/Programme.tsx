@@ -29,6 +29,13 @@ export function Programme() {
         cryo-microscopy (cryo-EM), as well as on bioinformatics. 
         More details will be available here during autumn 2025.
       </div>
+      <Heading text="Tentative programme" />
+      <strong>26/04/2026 Sunday</strong>
+      <div>
+        17:00–18:00 Welcome – Organisation announcements, acknowledgement of sponsors and co-organisers<br />
+        18:00–19:00 Motivational Lecture – Using MX and cryoEM to understand a biological problem/system<br />
+        19:00–21:00 <i>Welcome reception – posters & refreshment</i>
+      </div>
     </main>
   );
 }
