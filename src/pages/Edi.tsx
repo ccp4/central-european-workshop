@@ -11,16 +11,16 @@ export function Edi() {
         nationality or religion/belief.
       </p>
       <p>
-        We will not tolerate harassment of participants, students or tutors, in
-        any form.
-      </p>
-      <p>
         We are committed to achieving a balanced and diverse panel of speakers
         at all our events by inviting speakers of all races, ethnicities,
         genders, ages, abilities, religions, and sexual orientation without
         compromising the quality, and remaining within the topic, of the
         programme. All speakers will have agreed to the Code of Conduct prior to
         agreeing to speak at the event.
+      </p>
+      <p>
+        We will not tolerate harassment of participants, students or tutors, in
+        any form.
       </p>
       <p>
         As part of the registration process, attendees will be required to agree
@@ -46,7 +46,7 @@ export function Edi() {
       <p>Be kind to others. Do not insult or put down other attendees.</p>
       <p>
         Delegates are reminded that the organisers reserve the right to remove
-        any person who does not adhere to the code of conduct.
+        any person who does not adhere to the Code of Conduct.
       </p>
       <Heading text="Incident reporting and resolution" />
       <p>
@@ -55,10 +55,7 @@ export function Edi() {
         If you are hesitant about addressing the person yourself, report it as
         soon as possible to a member of the Organising Committee. The Committee
         is committed to addressing and resolving the matter to the best of their
-        abilities.
-      </p>
-      <p>
-        Please use the <InternalLink to="/contact" text="Contact" /> section
+        abilities. Please use the <InternalLink to="/contact" text="Contact" /> section
         here, and explain what happened and who was involved so that we can
         investigate.
       </p>
@@ -68,55 +65,19 @@ export function Edi() {
         <Link text="Google Form" href="https://forms.gle/jPgFzQe3yEYv2WVq6" />.
       </p>
       <p>
-        Thank you for your participation in the CCP4 community, and your efforts
-        to keep our conference welcoming, respectful, and friendly for all
-        participants!
-      </p>
-      <Heading text="Sanctions" />
-      <p>
         When someone is asked to stop any behaviour that makes others
         uncomfortable, they are expected to comply immediately.
       </p>
       <p>
-        In response to inappropriate behaviour (e.g. sexual content, rudeness,
-        unprofessional) organisers may take any action they deem appropriate,
+        In response to inappropriate behaviour organisers may take any action they deem appropriate,
         including warning the person in question, asking them to leave the
-        event, or removing them from a mailing list.
+        event, or contacting relevant authorities.
       </p>
-      <p>Specific actions may include but are not limited to:</p>
-      <List>
-        <li>
-          asking the person to cease the inappropriate behaviour, and warning
-          them that any further reports will result in other sanctions
-        </li>
-        <li>
-          requiring that the person avoid any interaction with, and physical
-          proximity to, another person for the remainder of the event
-        </li>
-        <li>early termination of a talk that violates the policy</li>
-        <li>
-          not publishing the video or slides of a talk that violates the policy
-        </li>
-        <li>
-          not allowing a speaker who violated the policy to give (further) talks
-          at the event
-        </li>
-        <li>
-          immediately ending any event responsibilities or privileges held
-        </li>
-        <li>
-          requiring that the person immediately leave the event and not return
-        </li>
-        <li>
-          blocking the person on social media platforms (for a defined time
-          period)
-        </li>
-        <li>
-          banning the person from future events (for a defined time period)
-        </li>
-        <li>publishing an anonymous account of the harassment</li>
-        <li>reporting the incident to the person's employer</li>
-      </List>
+      <p>
+        Thank you for your participation in the CCP4 community, and your efforts
+        to keep our conference welcoming, respectful, and friendly for all
+        participants!
+      </p>
     </main>
   );
 }
