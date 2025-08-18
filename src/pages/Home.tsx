@@ -11,13 +11,15 @@ export function Home() {
           Nové Hrady, Czechia &ndash; 26th April to 2nd May
         </p>
       </div>
-      <img
-        src="https://konferencnizamek.cz/wp-content/uploads/photo-gallery/imported_from_media_libray/z%C3%A1mek.jpg?bwg=1549014679"
-        alt="Nové Hrady venue"
-        className="min-h-40 max-w-full object-cover justify-center"
-        width="50%"
-        height="50%"
-      />
+      <div className="justify-center gap-4">
+        <img
+          src="https://konferencnizamek.cz/wp-content/uploads/photo-gallery/imported_from_media_libray/z%C3%A1mek.jpg?bwg=1549014679"
+          alt="Nové Hrady venue"
+          className="min-h-40 max-w-full object-cover justify-center"
+          width="50%"
+          height="50%"
+        />
+      </div>
       <p>
         It is a great pleasure to announce the CCP4 Central European
         Workshop on computational structure biology. The workshop will focus
