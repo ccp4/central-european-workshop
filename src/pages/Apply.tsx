@@ -3,6 +3,17 @@ import { Heading, Link, List } from "../components/Elements";
 export function Apply() {
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
+      <div>
+      <p>
+        The application process for the 2025 Structural Biology Summer School will
+        open during autumn 2025.
+      </p>
+      </div>
+    </main>
+  );
+}
+
+{/*
       <Heading text="Application process" />
       <p>
         Please send your application to{" "}
@@ -71,6 +82,5 @@ export function Apply() {
         Please state on your application if you are funded by the BBSRC or are
         only able to attend the school with the help of a bursary.
       </p>
-    </main>
-  );
-}
+  
+  */}
