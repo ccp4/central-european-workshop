@@ -3,7 +3,7 @@ import { Heading, InternalLink, Link, List } from "../components/Elements";
 export function Edi() {
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
-      <Heading text="Statement on equity and inclusion" />
+      <Heading text="Statement on equity, diversity and inclusion" />
       <p>
         The organisers are committed to making the school productive and
         enjoyable for everyone, regardless of sex, gender identity, sexual
