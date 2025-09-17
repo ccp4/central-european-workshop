@@ -102,7 +102,7 @@ export const ronan_keegan: Person = {
 
 export const jarmila_duskova: Person = {
   name: "Jarmila Dušková",
-  photo: "jarmila_duskova.jpg",
+  photo: "jarmila_duskova.png",
   tags: ["Organiser", "Crystallography"],
 };
 
