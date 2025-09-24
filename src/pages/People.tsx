@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Heading } from "../components/Elements";
 import { people } from "../code/people";
 
 export function People() {
@@ -32,6 +33,7 @@ export function People() {
 
   return (
     <main className="flex flex-col items-center gap-2">
+      <Heading text="Confirmed speakers" />
       <div className="flex max-w-7xl flex-wrap justify-center gap-2 p-2">
         {Object.keys(tagCount)
           .sort()
