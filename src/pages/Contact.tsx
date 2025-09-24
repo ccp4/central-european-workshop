@@ -6,16 +6,16 @@ export function Contact() {
     <main className="flex flex-col items-center gap-4">
       <Heading text="Email" />
       <p className="max-w-4xl">
-        Please contact the main organiser at{" "}
+        Feel free to contact the main organiser at{" "}
         <Link
           href="mailto:martin.maly@mrc-lmb.cam.ac.uk"
           text="martin.maly@mrc-lmb.cam.ac.uk"
         />{" "}
-        if you have any queries related to the school, including the programme,
-        registration, or accommodation. If you prefer to contact an individual
-        organiser, for example with conduct or safeguarding concerns, please use
-        the e-mail addresses below.
+        should you have any queries related to the workshop, including the registration,
+        programme, or accommodation. If you prefer to contact an individual
+        organiser, please use the e-mail addresses below.
       </p>
+      <Heading text="Organisers" />
       <div className="flex flex-wrap justify-center gap-4 p-4">
         {people
           .filter((p) => p.tags?.includes("Organiser"))

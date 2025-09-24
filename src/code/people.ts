@@ -69,19 +69,20 @@ export const agnel_joseph: Person = {
 export const garib_murshudov: Person = {
   name: "Garib Murshudov",
   photo: "garib_murshudov.jpg",
-  tags: ["CCP4", "Organiser", "Refinement"],
+  tags: ["CCP4", "Organiser", "Refinement", "Hide"],
 };
 
 export const jarmila_duskova: Person = {
   name: "Jarmila Dušková",
+  email: "duskovaj@ibt.cas.cz",
   photo: "jarmila_duskova.png",
-  tags: ["Organiser", "Crystallography"],
+  tags: ["Organiser", "Crystallography", "Hide"],
 };
 
 export const radomir_kuzel: Person = {
   name: "Radomír Kužel",
   photo: "radomir_kuzel.jpg",
-  tags: ["CSCA", "Organiser", "Crystallography"],
+  tags: ["CSCA", "Organiser", "Crystallography", "Hide"],
 };
 
 export const jindrich_hasek: Person = {
