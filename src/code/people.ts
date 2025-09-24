@@ -6,6 +6,40 @@ export interface Person {
   homepage?: string;
 }
 
+export const isabel_uson: Person = {
+  name: "Isabel Usón",
+  email: "iufcri@ibmb.csic.es",
+  photo: "isabel_uson.jpg",
+  homepage:
+    "https://www.icrea.cat/community/icreas/17430/isabel-uson-finkenzeller/",
+  tags: ["Model Building", "Refinement", "Validation"],
+};
+
+export const keitaro_yamashita: Person = {
+  name: "Keitaro Yamashita",
+  email: "keitaro-yamashita@g.ecc.u-tokyo.ac.jp",
+  photo: "keitaro_yamashita.jpg",
+  homepage:
+    "https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-yamashita_keitaro.html",
+  tags: ["Model Building", "Refinement", "Validation", "Python"],
+};
+
+export const kay_diederichs: Person = {
+  name: "Kay Diederichs",
+  email: "kay.diederichs@uni-konstanz.de",
+  photo: "kay_diederichs.png",
+  homepage: "https://www.biologie.uni-konstanz.de/diederichs/",
+  tags: ["Data Collection", "Data Processing"],
+};
+
+export const paul_bond: Person = {
+  name: "Paul Bond",
+  email: "paul.bond@york.ac.uk",
+  photo: "paul_bond.jpg",
+  tags: ["CCP4", "Interfaces", "Model Building", "Python"],
+  homepage: "https://paulsbond.co.uk",
+};
+
 export const martin_maly: Person = {
   name: "Martin Malý",
   email: "martin.maly@mrc-lmb.cam.ac.uk",
@@ -19,6 +53,44 @@ export const lucrezia_catapano: Person = {
   tags: ["CCP4", "Organiser", "Model Building", "Python", "Refinement"],
 };
 
+export const maria_fando: Person = {
+  name: "Maria Fando",
+  photo: "maria_fando.png",
+  tags: ["CCP4", "Organiser", "Crystallography", "Interfaces", "Molecular Replacement"],
+  homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
+};
+
+export const agnel_joseph: Person = {
+  name: "Agnel Joseph",
+  photo: "agnel_joseph.jpg",
+  tags: ["CCP-EM", "Organiser", "Cryo-EM", "Validation", "Python"],
+};
+
+export const garib_murshudov: Person = {
+  name: "Garib Murshudov",
+  photo: "garib_murshudov.jpg",
+  tags: ["CCP4", "Organiser", "Refinement"],
+};
+
+export const jarmila_duskova: Person = {
+  name: "Jarmila Dušková",
+  photo: "jarmila_duskova.png",
+  tags: ["Organiser", "Crystallography"],
+};
+
+export const radomir_kuzel: Person = {
+  name: "Radomír Kužel",
+  photo: "radomir_kuzel.jpg",
+  tags: ["CSCA", "Organiser", "Crystallography"],
+};
+
+export const jindrich_hasek: Person = {
+  name: "Jindřich Hašek",
+  photo: "jindrich_hasek.jpg",
+  tags: ["CSCA", "Organiser", "Crystallography"],
+};
+
+{/*
 export const andrey_lebedev: Person = {
   name: "Andrey Lebedev",
   photo: "andrey_lebedev.jpg",
@@ -60,33 +132,6 @@ export const lucy_schofield: Person = {
   homepage: undefined,
 };
 
-export const maria_fando: Person = {
-  name: "Maria Fando",
-  photo: "maria_fando.png",
-  tags: ["CCP4", "Organiser", "Crystallography", "Interfaces", "Molecular Replacement"],
-  homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
-};
-
-export const agnel_joseph: Person = {
-  name: "Agnel Joseph",
-  photo: "agnel_joseph.jpg",
-  tags: ["CCP-EM", "Organiser", "Cryo-EM", "Validation", "Python"],
-};
-
-export const garib_murshudov: Person = {
-  name: "Garib Murshudov",
-  photo: "garib_murshudov.jpg",
-  tags: ["CCP4", "Organiser", "Refinement"],
-};
-
-export const paul_bond: Person = {
-  name: "Paul Bond",
-  email: "paul.bond@york.ac.uk",
-  photo: "paul_bond.jpg",
-  tags: ["CCP4", "Interfaces", "Model Building", "Python"],
-  homepage: "https://paulsbond.co.uk",
-};
-
 export const paul_emsley: Person = {
   name: "Paul Emsley",
   photo: "paul_emsley.jpg",
@@ -99,36 +144,16 @@ export const ronan_keegan: Person = {
   tags: ["CCP4", "Crystallography", "Molecular Replacement"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/ronan-keegan",
 };
-
-export const jarmila_duskova: Person = {
-  name: "Jarmila Dušková",
-  photo: "jarmila_duskova.png",
-  tags: ["Organiser", "Crystallography"],
-};
-
-export const radomir_kuzel: Person = {
-  name: "Radomír Kužel",
-  photo: "radomir_kuzel.jpg",
-  tags: ["CSCA", "Organiser", "Crystallography"],
-};
-
-export const jindrich_hasek: Person = {
-  name: "Jindřich Hašek",
-  photo: "jindrich_hasek.jpg",
-  tags: ["CSCA", "Organiser", "Crystallography"],
-};
+*/}
 
 export const people: Person[] = [
+  isabel_uson,
+  keitaro_yamashita,
+  kay_diederichs,
   martin_maly,
   lucrezia_catapano,
-  andrey_lebedev,
-  david_waterman,
-  jola_mirecka,
-  lucy_schofield,
   maria_fando,
   paul_bond,
-  paul_emsley,
-  ronan_keegan,
   agnel_joseph,
   garib_murshudov,
   jarmila_duskova,

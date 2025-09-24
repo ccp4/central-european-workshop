@@ -27,6 +27,7 @@ createRoot(root).render(
         <Routes>
           <Route index element={<Home />} />
           <Route path="apply" element={<Apply />} />
+          <Route path="people" element={<People />} />
           <Route path="contact" element={<Contact />} />
           <Route path="edi" element={<Edi />} />
           <Route path="location" element={<Location />} />
