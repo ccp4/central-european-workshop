@@ -10,6 +10,7 @@ export function People() {
       selectedTags.length === 0 ||
       selectedTags.every((tag) => person.tags?.includes(tag))
     ) {
+      if (person.tags?.includes("Hide")) continue;
       filteredPeople.push(person);
     }
   }

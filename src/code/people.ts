@@ -87,7 +87,7 @@ export const radomir_kuzel: Person = {
 export const jindrich_hasek: Person = {
   name: "Jindřich Hašek",
   photo: "jindrich_hasek.jpg",
-  tags: ["CSCA", "Organiser", "Crystallography"],
+  tags: ["CSCA", "Organiser", "Crystallography", "Hide"],
 };
 
 {/*
