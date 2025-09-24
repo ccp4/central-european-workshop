@@ -12,7 +12,7 @@ export const isabel_uson: Person = {
   photo: "isabel_uson.jpg",
   homepage:
     "https://www.icrea.cat/community/icreas/17430/isabel-uson-finkenzeller/",
-  tags: ["Model Building", "Refinement", "Validation"],
+  tags: ["Molecular Replacement", "Model Building", "Refinement", "Validation"],
 };
 
 export const keitaro_yamashita: Person = {
@@ -29,7 +29,7 @@ export const kay_diederichs: Person = {
   email: "kay.diederichs@uni-konstanz.de",
   photo: "kay_diederichs.png",
   homepage: "https://www.biologie.uni-konstanz.de/diederichs/",
-  tags: ["Data Collection", "Data Processing"],
+  tags: ["Data Processing", "Refinement"],
 };
 
 export const paul_bond: Person = {
@@ -44,7 +44,7 @@ export const martin_maly: Person = {
   name: "Martin Malý",
   email: "martin.maly@mrc-lmb.cam.ac.uk",
   photo: "martin_maly.jpg",
-  tags: ["CCP4", "Organiser", "Python", "Crystallography", "Interfaces", "Refinement"],
+  tags: ["CCP4", "Organiser", "Python", "Interfaces", "Refinement"],
 };
 
 export const lucrezia_catapano: Person = {
@@ -56,14 +56,14 @@ export const lucrezia_catapano: Person = {
 export const maria_fando: Person = {
   name: "Maria Fando",
   photo: "maria_fando.png",
-  tags: ["CCP4", "Organiser", "Crystallography", "Interfaces", "Molecular Replacement"],
+  tags: ["CCP4", "Organiser", "Interfaces", "Molecular Replacement"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
 
 export const agnel_joseph: Person = {
   name: "Agnel Joseph",
   photo: "agnel_joseph.jpg",
-  tags: ["CCP-EM", "Organiser", "Cryo-EM", "Validation", "Python"],
+  tags: ["CCP-EM", "Organiser", "Validation", "Python"],
 };
 
 export const garib_murshudov: Person = {
@@ -76,19 +76,19 @@ export const jarmila_duskova: Person = {
   name: "Jarmila Dušková",
   email: "duskovaj@ibt.cas.cz",
   photo: "jarmila_duskova.png",
-  tags: ["Organiser", "Crystallography", "Hide"],
+  tags: ["Organiser", "Hide"],
 };
 
 export const radomir_kuzel: Person = {
   name: "Radomír Kužel",
   photo: "radomir_kuzel.jpg",
-  tags: ["CSCA", "Organiser", "Crystallography", "Hide"],
+  tags: ["CSCA", "Organiser", "Hide"],
 };
 
 export const jindrich_hasek: Person = {
   name: "Jindřich Hašek",
   photo: "jindrich_hasek.jpg",
-  tags: ["CSCA", "Organiser", "Crystallography", "Hide"],
+  tags: ["CSCA", "Organiser", "Hide"],
 };
 
 {/*
@@ -121,7 +121,7 @@ export const david_waterman: Person = {
 export const jola_mirecka: Person = {
   name: "Jola Mirecka",
   photo: "jola_mirecka.jpg",
-  tags: ["CCP-EM", "Cryo-EM"],
+  tags: ["CCP-EM"],
   homepage: "https://www.ccpem.ac.uk/people/jola-mirecka/",
 };
 
