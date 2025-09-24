@@ -1,4 +1,4 @@
-import { InternalLink, List } from "../components/Elements";
+import { Link, InternalLink, List } from "../components/Elements";
 
 export function Home() {
   return (
@@ -8,7 +8,7 @@ export function Home() {
           CCP4 Central European Workshop 2026
         </h1>
         <p className="text-center text-lg">
-          Nové Hrady, Czechia &ndash; 26th April to 2nd May
+          Nové Hrady, South Bohemia, Czechia &ndash; 26th April to 2nd May
         </p>
       </div>
       <div className="justify-center gap-4">
@@ -41,8 +41,8 @@ export function Home() {
         methods developers on your own projects.
       </p>
       <p>
-        The workshop will be based at the <a href="https://konferencnizamek.cz/en/">
-        Nové Hrady Castle</a> in Czechia.&nbsp;
+        The workshop will be based at the <Link href="https://konferencnizamek.cz/en/"
+        text="Nové Hrady Castle" /> in South Bohemia in Czechia.&nbsp;
         <InternalLink to="location" text="More details and directions" />
       </p>
       <p>

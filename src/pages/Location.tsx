@@ -1,5 +1,5 @@
 import { information_centre, james_e, james_g } from "../code/locations";
-import { Heading, InternalLink, Link } from "../components/Elements";
+import { Link } from "../components/Elements";
 
 export function Location() {
   const video =
@@ -17,8 +17,8 @@ export function Location() {
        />
       </div>
       <p>
-        The workshop will be held at the <a href="https://konferencnizamek.cz/en/">
-        Nové Hrady Castle</a> in Czechia. 
+        The workshop will be held at the <Link href="https://konferencnizamek.cz/en/"
+        text="Nové Hrady Castle" /> in South Bohemia in Czechia.
       </p>
     </main>
   );
