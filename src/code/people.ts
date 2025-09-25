@@ -40,6 +40,12 @@ export const paul_bond: Person = {
   homepage: "https://paulsbond.co.uk",
 };
 
+export const jiri_cerny: Person = {
+  name: "Jiří Černý",
+  photo: "jiri_cerny.jpg",
+  tags: ["Bioinformatics", "Nucleic acids", "Python"],
+};
+
 export const martin_maly: Person = {
   name: "Martin Malý",
   email: "martin.maly@mrc-lmb.cam.ac.uk",
@@ -151,10 +157,11 @@ export const people: Person[] = [
   isabel_uson,
   keitaro_yamashita,
   kay_diederichs,
+  paul_bond,
+  jiri_cerny,
   martin_maly,
   lucrezia_catapano,
   maria_fando,
-  paul_bond,
   agnel_joseph,
   garib_murshudov,
   jarmila_duskova,
