@@ -55,6 +55,7 @@ export const martin_maly: Person = {
 
 export const lucrezia_catapano: Person = {
   name: "Lucrezia Catapano",
+  email: "lucrezia@mrc-lmb.cam.ac.uk",
   photo: "lucrezia_catapano.jpg",
   tags: ["CCP4", "Organiser", "Model Building", "Python", "Refinement"],
 };
