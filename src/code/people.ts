@@ -46,6 +46,18 @@ export const jiri_cerny: Person = {
   tags: ["Bioinformatics", "Nucleic acids", "Python"],
 };
 
+export const jan_dohnalek: Person = {
+  name: "Jan Dohnálek",
+  photo: "jan_dohnalek.jpg",
+  tags: ["Data Processing", "Refinement", "Validation"],
+};
+
+export const petr_kolenko: Person = {
+  name: "Petr Kolenko",
+  photo: "petr_kolenko.png",
+  tags: ["Data Processing", "Refinement", "Validation"],
+};
+
 export const martin_maly: Person = {
   name: "Martin Malý",
   email: "martin.maly@mrc-lmb.cam.ac.uk",
@@ -160,6 +172,8 @@ export const people: Person[] = [
   kay_diederichs,
   paul_bond,
   jiri_cerny,
+  jan_dohnalek,
+  petr_kolenko,
   martin_maly,
   lucrezia_catapano,
   maria_fando,
