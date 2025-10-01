@@ -19,7 +19,7 @@ export function Nav() {
     <nav className="flex flex-wrap justify-center gap-1">
       <Link to="" text="Home" />
       <Link to="programme" text="Programme" />
-      <Link to="people" text="People" />
+      <Link to="people" text="Tutors" />
       <Link to="location" text="Location" />
       <Link to="edi" text="EDI" />
       <Link to="contact" text="Organisers and Contact" />
