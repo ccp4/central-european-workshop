@@ -74,6 +74,7 @@ export const lucrezia_catapano: Person = {
 
 export const maria_fando: Person = {
   name: "Maria Fando",
+  email: "maria.fando@stfc.ac.uk",
   photo: "maria_fando.png",
   tags: ["CCP4", "Organiser", "Interfaces", "Molecular Replacement"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
