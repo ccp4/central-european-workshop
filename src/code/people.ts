@@ -181,6 +181,7 @@ export const people: Person[] = [
   jiri_cerny,
   jan_dohnalek,
   petr_kolenko,
+  terezia_kovalova,
   martin_maly,
   lucrezia_catapano,
   maria_fando,
