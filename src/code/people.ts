@@ -40,6 +40,14 @@ export const paul_bond: Person = {
   homepage: "https://paulsbond.co.uk",
 };
 
+export const david_waterman: Person = {
+  name: "David Waterman",
+  photo: "david_waterman.jpg",
+  tags: ["CCP4", "Data Processing"],
+  homepage:
+    "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-waterman",
+};
+
 export const jiri_cerny: Person = {
   name: "Jiří Černý",
   photo: "jiri_cerny.jpg",
@@ -134,14 +142,6 @@ export const andrey_lebedev: Person = {
   ],
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/andrey-lebedev",
-};
-
-export const david_waterman: Person = {
-  name: "David Waterman",
-  photo: "david_waterman.jpg",
-  tags: ["CCP4", "Data Processing"],
-  homepage:
-    "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-waterman",
 };
 
 export const jola_mirecka: Person = {
