@@ -58,6 +58,12 @@ export const petr_kolenko: Person = {
   tags: ["Data Processing", "Refinement", "Validation"],
 };
 
+export const terezia_kovalova: Person = {
+  name: "Terézia Kovaľová",
+  photo: "terezia_kovalova.jpg",
+  tags: ["Model Building", "Refinement"],
+};
+
 export const martin_maly: Person = {
   name: "Martin Malý",
   email: "martin.maly@mrc-lmb.cam.ac.uk",
