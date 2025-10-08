@@ -32,6 +32,12 @@ export const kay_diederichs: Person = {
   tags: ["Data Processing", "Refinement"],
 };
 
+export const terezia_kovalova: Person = {
+  name: "Terézia Kovaľová",
+  photo: "terezia_kovalova.jpg",
+  tags: ["Model Building", "Refinement"],
+};
+
 export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
@@ -46,6 +52,14 @@ export const david_waterman: Person = {
   tags: ["CCP4", "Data Processing"],
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-waterman",
+};
+
+export const lucy_schofield: Person = {
+  name: "Lucy Schofield",
+  email: "lcs551@york.ac.uk",
+  photo: "lucy_schofield.jpg",
+  tags: ["CCP4", "EDI", "Glycans", "Bioinformatics", "Python"],
+  homepage: undefined,
 };
 
 export const jiri_cerny: Person = {
@@ -64,12 +78,6 @@ export const petr_kolenko: Person = {
   name: "Petr Kolenko",
   photo: "petr_kolenko.png",
   tags: ["Data Processing", "Refinement", "Validation"],
-};
-
-export const terezia_kovalova: Person = {
-  name: "Terézia Kovaľová",
-  photo: "terezia_kovalova.jpg",
-  tags: ["Model Building", "Refinement"],
 };
 
 export const martin_maly: Person = {
@@ -151,14 +159,6 @@ export const jola_mirecka: Person = {
   homepage: "https://www.ccpem.ac.uk/people/jola-mirecka/",
 };
 
-export const lucy_schofield: Person = {
-  name: "Lucy Schofield",
-  email: "lcs551@york.ac.uk",
-  photo: "lucy_schofield.jpg",
-  tags: ["CCP4", "EDI", "Sugars"],
-  homepage: undefined,
-};
-
 export const paul_emsley: Person = {
   name: "Paul Emsley",
   photo: "paul_emsley.jpg",
@@ -180,6 +180,7 @@ export const people: Person[] = [
   terezia_kovalova,
   paul_bond,
   david_waterman,
+  lucy_schofield,
   jiri_cerny,
   jan_dohnalek,
   petr_kolenko,
