@@ -38,6 +38,12 @@ export const terezia_kovalova: Person = {
   tags: ["Model Building", "Refinement"],
 };
 
+export const matt_iadanza: Person = {
+  name: "Matt Iadanza",
+  photo: "matt_iadanza.png",
+  tags: ["CCP-EM"],
+};
+
 export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
@@ -179,6 +185,7 @@ export const people: Person[] = [
   kay_diederichs,
   terezia_kovalova,
   paul_bond,
+  matt_iadanza,
   david_waterman,
   lucy_schofield,
   jiri_cerny,
