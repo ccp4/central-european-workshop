@@ -44,6 +44,22 @@ export const matt_iadanza: Person = {
   tags: ["CCP-EM"],
 };
 
+export const robbie_joosten: Person = {
+  name: "Robbie Joosten",
+  email: "r.joosten@nki.nl",
+  homepage:
+    "https://www.nki.nl/research/find-a-researcher/researchers/robbie-p-joosten/",
+  tags: [
+    "Model Building",
+    "Refinement",
+    "Validation",
+    "Metals",
+    "Ligands",
+    "COOT",
+  ],
+  photo: "robbie_joosten.jpg",
+};
+
 export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
@@ -184,6 +200,7 @@ export const people: Person[] = [
   keitaro_yamashita,
   kay_diederichs,
   terezia_kovalova,
+  robbie_joosten,
   paul_bond,
   matt_iadanza,
   david_waterman,
