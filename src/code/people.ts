@@ -53,9 +53,6 @@ export const robbie_joosten: Person = {
     "Model Building",
     "Refinement",
     "Validation",
-    "Metals",
-    "Ligands",
-    "COOT",
   ],
   photo: "robbie_joosten.jpg",
 };
