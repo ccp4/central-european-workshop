@@ -5,8 +5,8 @@ export function Apply() {
     <main className="m-auto flex max-w-7xl flex-col gap-4">
       <div>
       <p>
-        The application process for the 2025 Structural Biology Summer School will
-        open during autumn 2025.
+        The application process for the CCP4 Central European Workshop 2026 will
+        open during January 2026.
       </p>
       </div>
     </main>
