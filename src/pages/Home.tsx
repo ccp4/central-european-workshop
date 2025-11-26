@@ -11,15 +11,6 @@ export function Home() {
           Nové Hrady, South Bohemia, Czechia &ndash; 26th April to 2nd May
         </p>
       </div>
-      <div className="justify-center gap-4">
-        <img
-          src="https://konferencnizamek.cz/wp-content/uploads/photo-gallery/imported_from_media_libray/z%C3%A1mek.jpg?bwg=1549014679"
-          alt="Nové Hrady venue"
-          className="min-h-40 max-w-full object-cover mx-auto"
-          width="50%"
-          height="50%"
-        />
-      </div>
       <p>
         It is a great pleasure to announce the CCP4 Central European
         Workshop on computational structure biology. The workshop will focus
@@ -45,6 +36,15 @@ export function Home() {
         text="Nové Hrady Castle" /> in South Bohemia in Czechia.&nbsp;
         <InternalLink to="location" text="More details and directions" />
       </p>
+      <div className="justify-center gap-4">
+        <img
+          src="https://konferencnizamek.cz/wp-content/uploads/photo-gallery/imported_from_media_libray/z%C3%A1mek.jpg?bwg=1549014679"
+          alt="Nové Hrady venue"
+          className="min-h-40 max-w-full object-cover mx-auto"
+          width="40%"
+          height="40%"
+        />
+      </div>
       <p>
         Spaces are limited. The applicant will have to demonstrate the need for
         this sort of specialist training, and be prepared to submit the e-mail
