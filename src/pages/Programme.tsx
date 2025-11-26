@@ -27,14 +27,14 @@ export function Programme() {
         the methods of structural
         biology, macromolecular crystallography and electron
         cryo-microscopy (cryo-EM), as well as on bioinformatics. 
-        More details will be available here during autumn 2025.
+        More details will be available here during January 2026.
       </p>
       <Heading text="Tentative programme" />
       <strong>26/04/2026 Sunday</strong>
       <div>
         17:00–18:00 Welcome – Organisation announcements, acknowledgement of sponsors and co-organisers<br />
-        18:00–19:00 Motivational Lecture – Using MX and cryoEM to understand a biological problem/system<br />
-        19:00–21:00 <i>Welcome reception – posters & refreshment</i>
+        18:00–19:00 Lecture – Using MX and cryoEM to understand a biological problem/system<br />
+        19:00–21:00 <i>Welcome reception</i>
       </div>
 
       <strong>27/04/2026 Monday - Crystallography</strong>
@@ -43,11 +43,11 @@ export function Programme() {
         09:45–10:30 Talk – Principles of crystallography – diffraction<br />
         10:30–11:00 <i>Break</i><br />
         11:00–11:30 Talk – Diffraction data processing<br />
-        11:30–12:30 Tutorial – Diffraction data processing<br />
+        11:30–12:30 Tutorial – Diffraction data processing I<br />
         12:30–14:00 <i>Lunch</i><br />
-        14:00–14:45 Talk – Indicators of diffraction data quality<br />
+        14:00–14:45 Tutorial – Diffraction data processing II<br />
         14:45–15:00 <i>Break</i><br />
-        15:00–15:45 Tutorial – Diffraction data quality – AUSPEX<br />
+        15:00–15:45 Talk – Indicators of diffraction data quality<br />
         15:45–16:00 <i>Break</i><br />
         16:00–16:45 Talk – Pathologies in crystallographic data<br />
         16:45–17:00 <i>Break</i><br />
@@ -80,9 +80,7 @@ export function Programme() {
         12:30–13:30 <i>Lunch</i><br />
         13:30–14:15 Talk – Structure solution with ARCIMBOLDO<br />
         14:15–15:00 Tutorial – Automated model building in crystallography<br />
-        15:00–15:45 <i>Break</i><br />
-        15:45–16:30 Tutorial – Identification of secondary structure and RNA/DNA in cryoEM reconstruction maps with HARUSPEX<br />
-        16:30–19:00 Social event – Walk to Tereza's Valley or Červené blato wetland or trip to Třeboň<br />
+        15:00–19:00 Social event<br />
         19:00–20:00 <i>Dinner</i>
       </div>
 
@@ -130,7 +128,7 @@ export function Programme() {
         10:00–10:30 Talk – Running bioinformatic analyses using a PDB mirror<br />
         10:30–11:00 <i>Break</i><br />
         11:00–11:45 Talk/Tutorial – Molecular graphics<br />
-        11:45–12:30 Talk – “Context is important” - Emerging techniques to study structure dynamics and cells: Serial Crystallography, Cryo-electron tomography, etc.<br />
+        11:45–12:30 Talk – “Context is important” - Emerging techniques to study structure dynamics and cells: serial crystallography, electron cryo-tomography, etc.<br />
         12:30–14:00 <i>Lunch</i><br />
         Departure
       </div>
