@@ -205,6 +205,8 @@ export const people: Person[] = [
   kay_diederichs,
   terezia_kovalova,
   robbie_joosten,
+  eugene_krissinel,
+  andrey_lebedev,
   paul_bond,
   matt_iadanza,
   david_waterman,
