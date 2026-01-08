@@ -57,6 +57,31 @@ export const robbie_joosten: Person = {
   photo: "robbie_joosten.jpg",
 };
 
+export const andrey_lebedev: Person = {
+  name: "Andrey Lebedev",
+  photo: "andrey_lebedev.jpg",
+  tags: [
+    "CCP4",
+    "Data Pathologies",
+    "Data Processing",
+    "Deposition",
+    "Model Building",
+    "Molecular Replacement",
+    "Refinement",
+  ],
+  homepage:
+    "https://www.rc-harwell.ac.uk/who-we-are/researchers/andrey-lebedev",
+};
+
+export const eugene_krissinel: Person = {
+  name: "Eugene Krissinel",
+  email: "eugene.krissinel@stfc.ac.uk",
+  photo: "eugene_krissinel.jpg",
+  homepage:
+    "https://www.rc-harwell.ac.uk/who-we-are/group-leaders/eugene-krissinel",
+  tags: ["CCP4", "Cloud"],
+};
+
 export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
@@ -153,24 +178,6 @@ export const jindrich_hasek: Person = {
 };
 
 {/*
-export const andrey_lebedev: Person = {
-  name: "Andrey Lebedev",
-  photo: "andrey_lebedev.jpg",
-  tags: [
-    "CCP4",
-    "Crystallography",
-    "Data Pathologies",
-    "Data Processing",
-    "Deposition",
-    "Model Building",
-    "Molecular Replacement",
-    "Refinement",
-    "Symmetry",
-  ],
-  homepage:
-    "https://www.rc-harwell.ac.uk/who-we-are/researchers/andrey-lebedev",
-};
-
 export const jola_mirecka: Person = {
   name: "Jola Mirecka",
   photo: "jola_mirecka.jpg",
