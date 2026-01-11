@@ -47,6 +47,8 @@ export function Location() {
         You can buy tickets for the local bus at the driver.
       </p>
       <div className="justify-center gap-4 mx-auto">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1562.9559259115324!2d14.782767698513844!3d48.79014613208886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47733ce8fca60af1%3A0x7c30d8622fc04183!2zWsOhbWVrIHYgTm92w71jaCBIcmFkZWNoIGppxb5uw60gxIxlY2h5!5e0!3m2!1sen!2suk!4v1768144139498!5m2!1sen!2suk" width="600" height="450" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+    <Heading text="Getting there" />
         <img
           src={`${import.meta.env.BASE_URL}/travel_idos.png`}
           className="min-h-40 max-w-full object-cover mx-auto"
