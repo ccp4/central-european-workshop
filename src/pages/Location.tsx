@@ -21,9 +21,14 @@ export function Location() {
         The workshop will be held at the <Link href="https://konferencnizamek.cz/en/"
         text="Nové Hrady Castle" /> in South Bohemia in Czechia.
       </p>
-    <Header text="Getting there" />
+    <Heading text="Getting there" />
       <p>
         The nearest airport is in Prague (PRG).
+      </p>
+      <p>
+        Please make sure that you are travelling to the correct Nové Hrady (South Bohemia, district České Budějovice) as there are multiple places with this name in Czechia.
+      </p>
+      <p>
         These are the recommended services of public transport on how to get to the venue from Prague:
         You can go by train from the Prague main train station (Praha hl.n.) to České Budějovice.
         Here, you can change to a local train (direction České Velenice) and go to the Nové Hrady train station (Nové Hrady, žel.st.).
@@ -39,9 +44,9 @@ export function Location() {
         />
       </div>
       <p>
-        In case you chose and alternative services, 
+        In case you chose alternative services, 
         please note that the transfer between the train and bus stations in České Budějovice 
-        takes some time as the buses depart from the roof of the Mercury shopping centre.
+        takes some time as the buses depart from the roof of the Mercury shopping centre located close to the train station.
       </p>
       <p>Another option could be to use the Vienna airport, however, the travel from there to the venue is a bit longer.</p>
       <p>
@@ -50,29 +55,29 @@ export function Location() {
       </p>
       <p> 
       </p>
-    <Header text="General notes about travelling in Czechia" />
+    <Heading text="General notes about travelling in Czechia" />
       <p>
         Public transport in Czechia is quite reliable and reasonably priced.
-        For timetables (and also some bookings) of public transport in Czechia, you can use the IDOS website and application:&nbsp;
-    <Link href="https://idos.cz/en/vlakyautobusymhdvse/spojeni/" text="IDOS website" />&nbsp;
-    <Link href="https://play.google.com/store/apps/details?id=cz.mafra.jizdnirady&hl=en_GB" text="Google Play Store" />&nbsp;
+        For timetables (and also some bookings) of public transport in Czechia, you can use the IDOS website and application:<br />;
+    <Link href="https://idos.cz/en/vlakyautobusymhdvse/spojeni/" text="IDOS website" /><br />;
+    <Link href="https://play.google.com/store/apps/details?id=cz.mafra.jizdnirady&hl=en_GB" text="Google Play Store" /><br />;
     <Link href="https://apps.apple.com/us/app/j%C3%ADzdn%C3%AD-%C5%99%C3%A1dy-idos/id473503749" text="Apple App Store" />
       </p>
       <p>
-        For booking train tickets in Czechia, you can use the Czech Railways website or their application "Můj vlak":&nbsp;
-    <Link href="https://www.cd.cz/en/" text="Czech Railways website" />&nbsp;
-    <Link href="https://play.google.com/store/apps/details?id=cz.cd.mujvlak.an&hl=en_GB" text="Google Play Store" />&nbsp;
+        For booking train tickets in Czechia, you can use the Czech Railways website or their application "Můj vlak":<br />;
+    <Link href="https://www.cd.cz/en/" text="Czech Railways website" /><br />;
+    <Link href="https://play.google.com/store/apps/details?id=cz.cd.mujvlak.an&hl=en_GB" text="Google Play Store" /><br />;
     <Link href="https://apps.apple.com/us/app/m%C5%AFj-vlak/id1082233301" text="Apple App Store" />
       </p>
       <p>
         For booking of public transport tickets in Prague (buses, trams, metro), you can use the PID Lítačka application.
-        Do not forget to activate a ticket at least 1 minute before your travel. &nbsp;
-        <Link href="https://app.pidlitacka.cz/" text="PID Lítačka application" />&nbsp;
+        Do not forget to activate a ticket at least 1 minute before your travel.<br />;
+        <Link href="https://app.pidlitacka.cz/" text="PID Lítačka application" />
       </p>
       <p>
-        It can be useful to have the Mapy.com application for navigation and maps in Czechia:&nbsp;
-        <Link href="https://mapy.com" text="Mapy.com website" />&nbsp;
-        <Link href="" text="Google Play Store" />&nbsp;
+        It can be useful to have the Mapy.com application for navigation and maps in Czechia:<br />;
+        <Link href="https://mapy.com" text="Mapy.com website" /><br />;
+        <Link href="" text="Google Play Store" /><br />;
         <Link href="https://apps.apple.com/us/app/mapy-com/id369494785" text="Apple App Store" />
       </p>
     </main>
