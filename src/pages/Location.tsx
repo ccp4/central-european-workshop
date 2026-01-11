@@ -16,10 +16,10 @@ export function Location() {
       <p>
         The workshop will be held at the <Link href="https://konferencnizamek.cz/en/"
         text="Nové Hrady Castle" /> in South Bohemia in Czechia. Address:<br />
-        Zámek 1<br />
-        Nové Hrady (District České Budějovice, South Bohemia Region)<br />
-        378 33<br />
-        Czechia
+        &nbsp;&nbsp;&nbsp;Zámek 136<br />
+        &nbsp;&nbsp;&nbsp;Nové Hrady (District České Budějovice, South Bohemia Region)<br />
+        &nbsp;&nbsp;&nbsp;373 33<br />
+        &nbsp;&nbsp;&nbsp;Czechia
       </p>
       <div className="justify-center gap-4 mx-auto">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1562.9559259115324!2d14.782767698513844!3d48.79014613208886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47733ce8fca60af1%3A0x7c30d8622fc04183!2zWsOhbWVrIHYgTm92w71jaCBIcmFkZWNoIGppxb5uw60gxIxlY2h5!5e0!3m2!1sen!2suk!4v1768144139498!5m2!1sen!2suk" width="600" height="450" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
