@@ -1,10 +1,6 @@
-import { information_centre, james_e, james_g } from "../code/locations";
-import { Link } from "../components/Elements";
-import { Header } from "../components/Header";
+import { Link, Heading } from "../components/Elements";
 
 export function Location() {
-  const video =
-    "https://www.york.ac.uk/media/abouttheuniversity/campus/herovideo";
 
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
@@ -58,26 +54,26 @@ export function Location() {
     <Heading text="General notes about travelling in Czechia" />
       <p>
         Public transport in Czechia is quite reliable and reasonably priced.
-        For timetables (and also some bookings) of public transport in Czechia, you can use the IDOS website and application:<br />;
-    <Link href="https://idos.cz/en/vlakyautobusymhdvse/spojeni/" text="IDOS website" /><br />;
-    <Link href="https://play.google.com/store/apps/details?id=cz.mafra.jizdnirady&hl=en_GB" text="Google Play Store" /><br />;
+        For timetables (and also some bookings) of public transport in Czechia, you can use the IDOS website and application:<br />
+    <Link href="https://idos.cz/en/vlakyautobusymhdvse/spojeni/" text="IDOS website" /><br />
+    <Link href="https://play.google.com/store/apps/details?id=cz.mafra.jizdnirady&hl=en_GB" text="Google Play Store" /><br />
     <Link href="https://apps.apple.com/us/app/j%C3%ADzdn%C3%AD-%C5%99%C3%A1dy-idos/id473503749" text="Apple App Store" />
       </p>
       <p>
-        For booking train tickets in Czechia, you can use the Czech Railways website or their application "Můj vlak":<br />;
-    <Link href="https://www.cd.cz/en/" text="Czech Railways website" /><br />;
-    <Link href="https://play.google.com/store/apps/details?id=cz.cd.mujvlak.an&hl=en_GB" text="Google Play Store" /><br />;
+        For booking train tickets in Czechia, you can use the Czech Railways website or their application "Můj vlak":<br />
+    <Link href="https://www.cd.cz/en/" text="Czech Railways website" /><br />
+    <Link href="https://play.google.com/store/apps/details?id=cz.cd.mujvlak.an&hl=en_GB" text="Google Play Store" /><br />
     <Link href="https://apps.apple.com/us/app/m%C5%AFj-vlak/id1082233301" text="Apple App Store" />
       </p>
       <p>
         For booking of public transport tickets in Prague (buses, trams, metro), you can use the PID Lítačka application.
-        Do not forget to activate a ticket at least 1 minute before your travel.<br />;
+        Do not forget to activate a ticket at least 1 minute before your travel.<br />
         <Link href="https://app.pidlitacka.cz/" text="PID Lítačka application" />
       </p>
       <p>
-        It can be useful to have the Mapy.com application for navigation and maps in Czechia:<br />;
-        <Link href="https://mapy.com" text="Mapy.com website" /><br />;
-        <Link href="" text="Google Play Store" /><br />;
+        It can be useful to have the Mapy.com application for navigation and maps in Czechia:<br />
+        <Link href="https://mapy.com" text="Mapy.com website" /><br />
+        <Link href="" text="Google Play Store" /><br />
         <Link href="https://apps.apple.com/us/app/mapy-com/id369494785" text="Apple App Store" />
       </p>
     </main>
