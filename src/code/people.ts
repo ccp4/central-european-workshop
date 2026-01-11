@@ -41,7 +41,7 @@ export const terezia_kovalova: Person = {
 export const matt_iadanza: Person = {
   name: "Matt Iadanza",
   photo: "matt_iadanza.png",
-  tags: ["CCP-EM"],
+  tags: ["CCP-EM", "Graphical Interfaces"],
 };
 
 export const robbie_joosten: Person = {
@@ -62,6 +62,7 @@ export const andrey_lebedev: Person = {
   photo: "andrey_lebedev.jpg",
   tags: [
     "CCP4",
+    "Graphical Interfaces",
     "Data Pathologies",
     "Data Processing",
     "Deposition",
@@ -79,14 +80,14 @@ export const eugene_krissinel: Person = {
   photo: "eugene_krissinel.jpg",
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/group-leaders/eugene-krissinel",
-  tags: ["CCP4", "Cloud"],
+  tags: ["CCP4", "Graphical Interfaces"],
 };
 
 export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
   photo: "paul_bond.jpg",
-  tags: ["CCP4", "Interfaces", "Model Building", "Python"],
+  tags: ["CCP4", "Graphical Interfaces", "Model Building", "Python"],
   homepage: "https://paulsbond.co.uk",
 };
 
@@ -128,7 +129,7 @@ export const martin_maly: Person = {
   name: "Martin Malý",
   email: "martin.maly@mrc-lmb.cam.ac.uk",
   photo: "martin_maly.jpg",
-  tags: ["CCP4", "Organiser", "Python", "Interfaces", "Refinement"],
+  tags: ["CCP4", "Organiser", "Python", "Graphical Interfaces", "Refinement"],
 };
 
 export const lucrezia_catapano: Person = {
@@ -142,14 +143,14 @@ export const maria_fando: Person = {
   name: "Maria Fando",
   email: "maria.fando@stfc.ac.uk",
   photo: "maria_fando.png",
-  tags: ["CCP4", "Organiser", "Interfaces", "Molecular Replacement"],
+  tags: ["CCP4", "Organiser", "Graphical Interfaces", "Molecular Replacement"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
 
 export const agnel_joseph: Person = {
   name: "Agnel Joseph",
   photo: "agnel_joseph.jpg",
-  tags: ["CCP-EM", "Organiser", "Validation", "Python"],
+  tags: ["CCP-EM", "Organiser", "Graphical Interfaces", "Validation", "Python"],
 };
 
 export const garib_murshudov: Person = {
