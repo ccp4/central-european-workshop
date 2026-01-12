@@ -1,6 +1,7 @@
-import { atrium, cafeteria } from "../code/locations";
+// import { atrium, cafeteria } from "../code/locations";
+// import { Heading, Link } from "../components/Elements";
+import { Heading } from "../components/Elements";
 import { days } from "../code/sessions";
-import { Heading, Link } from "../components/Elements";
 
 function colourForType(
   type: "Lecture" | "Practical" | "Meal" | "Break" | "Other",
@@ -132,12 +133,8 @@ export function Programme() {
         12:30–14:00 <i>Lunch</i><br />
         Departure
       </div>
-    </main>
-  );
-}
 
-
-          <div className="flex flex-wrap justify-center gap-4 p-4">
+      <div className="flex flex-wrap justify-center gap-4 p-4">
         {days.map((day) => {
           return (
             <div className="flex max-w-xs flex-auto flex-col items-stretch">
@@ -175,40 +172,10 @@ export function Programme() {
               </table>
             </div>
           );
-        })}
       </div>
       <p className="text-center font-bold">
-        Students are expected to attend all sessions.
+        Participants are expected to attend all sessions.
       </p>
-      <div className="flex max-w-7xl flex-col gap-4 self-center">
-        <Heading text="Meals" />
-        <p>
-          A full breakfast with both hot and cold options is provided for all
-          registered students (whether you are staying in the campus
-          accommodation or not) in the{" "}
-          <Link href={cafeteria.link} text={cafeteria.name} /> from 7:30 am to
-          8:45 am.
-        </p>
-        <p>
-          Lunch will be served in the{" "}
-          <Link href={atrium.link} text={atrium.name} /> from 12 pm to 1 pm each
-          day (apart from the day of arrival). Lunches will alternate between a
-          sandwich and wrap platter with finger buffet items, and a cold buffet
-          served with salad, pasta, potatoes and bread.
-        </p>
-        <p>
-          Dinner is usually a 2-course cafeteria meal in the{" "}
-          <Link href={cafeteria.link} text={cafeteria.name} />. During the
-          ceilidh on Friday 1st August, the quiz on Tuesday 6th August, the
-          evening lecture on the Wednesday 7th August there will be different
-          dinner options on campus. The main conference dinner will take place
-          on the River Ouse with York City Cruises on Thursday 8th August. You
-          will have to cater for yourself on evening of Monday 4th August.
-        </p>
-        <p>
-          All dietary requirements specified in the registration forms will be
-          catered for. If your dietary requirements are not met by the standard
-          meals provided, you will be given a personalised meal with your name
-          on it. Please ask if you are unsure.
-        </p>
-      </div>
+    </main>
+  );
+}
