@@ -12,7 +12,7 @@ function colourForType(
     case "Tutorial":
       return "bg-sky-100";
     case "Meal":
-      return "bg-yellow-50";
+      return "bg-white";
     case "Break":
       return "bg-white";
     case "Other":
@@ -28,15 +28,14 @@ export function Programme() {
       <Heading text="Programme" />
       <p>
         The programme covers the practical use of software tools for
-        the methods of structural
-        biology, macromolecular crystallography and electron
+        the methods of structural biology, i.e. macromolecular crystallography and electron
         cryo-microscopy (cryo-EM), as well as structural bioinformatics. 
       </p>
 
       <div className="flex flex-col justify-center gap-4 p-4">
         {days.map((day) => {
           return (
-            <div className="flex max-w-lg flex-auto flex-col items-stretch">
+            <div className="flex max-w-2xl flex-auto flex-col items-stretch">
               <h2 className="bg-sky-800 p-2 text-center text-lg font-bold text-white">
                 {day.title}
               </h2>
