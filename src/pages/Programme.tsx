@@ -136,7 +136,7 @@ export function Programme() {
   );
 }
 
-  {/*
+
           <div className="flex flex-wrap justify-center gap-4 p-4">
         {days.map((day) => {
           return (
@@ -156,7 +156,7 @@ export function Programme() {
                         <p className="text-[0.9375rem]">
                           {session.speakers?.map((s) => s.name).join(", ")}
                         </p>
-                        <p className="text-sm italic">
+                        {/* <p className="text-sm italic">
                           {session.location?.name}
                         </p>
                       </td>
@@ -168,7 +168,7 @@ export function Programme() {
                             </span>
                           </a>
                         )}
-                      </td>
+                      </td> */}
                     </tr>
                   );
                 })}
@@ -212,4 +212,3 @@ export function Programme() {
           on it. Please ask if you are unsure.
         </p>
       </div>
-    */}
