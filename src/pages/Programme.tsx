@@ -10,15 +10,15 @@ function colourForType(
     case "Lecture":
       return "bg-emerald-100";
     case "Tutorial":
-      return "bg-pink-100";
+      return "bg-sky-100";
     case "Meal":
       return "bg-yellow-50";
     case "Break":
       return "bg-white";
     case "Other":
-      return "bg-sky-100";
+      return "bg-pink-100";
     case "Problem solving":
-      return "bg-purple-100";
+      return "bg-orange-100";
   }
 }
 
@@ -33,10 +33,10 @@ export function Programme() {
         cryo-microscopy (cryo-EM), as well as structural bioinformatics. 
       </p>
 
-      <div className="flex flex-wrap justify-center gap-4 p-4">
+      <div className="flex flex-col justify-center gap-4 p-4">
         {days.map((day) => {
           return (
-            <div className="flex max-w-xs flex-auto flex-col items-stretch">
+            <div className="flex max-w-lg flex-auto flex-col items-stretch">
               <h2 className="bg-sky-800 p-2 text-center text-lg font-bold text-white">
                 {day.title}
               </h2>
