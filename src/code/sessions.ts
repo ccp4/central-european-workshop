@@ -119,7 +119,6 @@ const day2: Day = {
       time: "16:00",
       speakers: [andrey_lebedev],
     },
-    { title: "Break", time: "16:45", type: "Break" },
     {
       title: "CCP4 graphical user interfaces",
       type: "Lecture",
