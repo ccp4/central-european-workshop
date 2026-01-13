@@ -34,7 +34,7 @@ export function Apply() {
         </li>
       </List>
       <p>
-        We require that your supervisor or line manager will send us their <b>letter of reference</b>
+        We require that your supervisor or line manager will send us their <b>letter of reference </b>
         before the registration deadline so we know they are onboard with the application.
       </p>
       <p>
@@ -51,14 +51,14 @@ export function Apply() {
         In particular, let us know if you were interested in the possibility of babysitting or child care on site.
       </p>
       <Heading text="Cost" />
-      <p>The participant fee is 5000 CZK.</p>
+      <p><b>The participant fee is 5000 CZK.</b></p>
       <p>
         It covers accommodation at the venue (from Saturday 25th April to Saturday 2nd May)
         and all meals during the workshop (from dinner on Sunday 26th April to lunch on Saturday 2nd May),
         as well as workshop materials. We do not provide any travel bursaries.
       </p>
       <p>
-        Selected participants will be supported by the European Crystallography Association.
+        Selected participants will be supported by the European Crystallographic Association.
       </p>
   
     </main>
