@@ -29,12 +29,12 @@ export function Apply() {
           of your project.
         </li>
         <li>
-          An up to date CV (PDF format) including education, maximum of one page. If applicable also
+          An up to date <b>curriculum vitae</b> (PDF format) including education, maximum of one page. If applicable also
           include any publications, meetings or workshops attended and employment history.
         </li>
       </List>
       <p>
-        We require that your supervisor or line manager will send us their letter of reference
+        We require that your supervisor or line manager will send us their <b>letter of reference</b>
         before the registration deadline so we know they are onboard with the application.
       </p>
       <p>
