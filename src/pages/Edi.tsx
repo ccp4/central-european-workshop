@@ -24,9 +24,13 @@ export function Edi() {
       </p>
       <p>
         As part of the registration process, attendees will be required to agree
-        to adhere to the CCP4 Code of Conduct (see below).
+        to adhere to the CCP4 Code of Conduct.
       </p>
       <Heading text="The CCP4 Code of Conduct" />
+      <p>
+        The latest version is available at 
+        <Link href="https://www.ccp4.ac.uk/wp-content/uploads/2024/01/CCP4-Events-EDI-Policy-1.pdf " text=" the CCP4 website" />.
+      </p>
       <p>Behave professionally.</p>
       <p>
         Harassment and sexist, racist, or exclusionary comments or jokes are not
