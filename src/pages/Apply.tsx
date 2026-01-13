@@ -6,7 +6,7 @@ export function Apply() {
       <Heading text="Registration" />
       <p>
       The workshop is open to structural biologists from any part of the world who need to develop knowledge and skills
-      in the methods of structural biology, particularly in using software for data processing and analysis.
+      in macromolecular crystallography and electron cryo-microscopy (cryo-EM), particularly in using software for data processing and analysis.
       </p>
       <p>
       The programme is designed mainly for beginners in the field, however, even experienced users can
@@ -38,7 +38,7 @@ export function Apply() {
         before the registration deadline so we know they are onboard with the application.
       </p>
       <p>
-        Registration will be open by <b>Wednesday 28th February 2026</b> or when 60 applications have been received.
+        Registration will be open until <b>Saturday 28th February 2026</b> or when 60 applications have been received.
       </p>
       <p>
         Applicants will hear back from the organising committee by Monday 13th
@@ -48,7 +48,7 @@ export function Apply() {
       <p>
         We are committed to provide inclusive environment for all participants. Please let us know
         if you have any specific requirements that we should be aware of to help you attend the workshop.
-        In particular, let us know if you were interested in the possibility of babysitting or child care on site.
+        Also, please let us know if you would be interested in the availability of on-site childcare support while attending the workshop.
       </p>
       <Heading text="Cost" />
       <p><b>The participant fee is 5000 CZK.</b></p>
