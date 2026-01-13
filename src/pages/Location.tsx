@@ -30,6 +30,9 @@ export function Location() {
       </p>
       <p>
         Please make sure that you are travelling to the correct Nové Hrady (South Bohemia, district České Budějovice) as there are multiple places with this name in Czechia.
+        There are limited services to the Nové Hrady venue.
+        Thus, we will also provide accommodation at venue from Saturday 25th April on demand.
+        Please make sure that you arrive at the venue in time so we all can start with the programme on Sunday 26th April at 17:00.
       </p>
       <p>
         These are the recommended services of public transport on how to get to the venue from Prague:
@@ -39,7 +42,6 @@ export function Location() {
         You can buy tickets for the local bus at the driver.
       </p>
       <div className="justify-center gap-4 mx-auto">
-    <Heading text="Getting there" />
         <img
           src={`${import.meta.env.BASE_URL}/travel_idos.png`}
           className="min-h-40 max-w-full object-cover mx-auto"
@@ -52,13 +54,12 @@ export function Location() {
         please note that the transfer between the train and bus stations in České Budějovice 
         takes some time as the buses depart from the roof of the Mercury shopping centre located close to the train station.
       </p>
-      <p>Another option could be to use the Vienna airport, however, the travel from there to the venue is a bit longer.</p>
+      <p>Another option could be to use Brno or Vienna airports, however, the travel from there to the venue is a bit longer.</p>
       <p>
         If you had any question or problem with travelling to the venue, please do not hesitate to contact the organisers.
         We are happy to help! We understand that travelling to the venue can be complicated, however, there are many reasons why we chose this particular venue.
       </p>
-      <p> 
-      </p>
+
     <Heading text="General notes about travelling in Czechia" />
       <p>
         Public transport in Czechia is quite reliable and reasonably priced.
