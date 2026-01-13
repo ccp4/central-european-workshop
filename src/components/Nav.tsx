@@ -23,7 +23,7 @@ export function Nav() {
       <Link to="location" text="Location" />
       <Link to="edi" text="EDI" />
       <Link to="contact" text="Organisers and Contact" />
-      <Link to="apply" text="Apply" />
+      <Link to="apply" text="Registration" />
     </nav>
   );
 }

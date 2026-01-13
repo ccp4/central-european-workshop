@@ -3,84 +3,64 @@ import { Heading, Link, List } from "../components/Elements";
 export function Apply() {
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
-      <div>
+      <Heading text="Registration" />
       <p>
-        The application process for the CCP4 Central European Workshop 2026 will
-        open during January 2026.
+      The workshop is open to structural biologists from any part of the world who need to develop knowledge and skills
+      in the methods of structural biology, particularly in using software for data processing and analysis.
       </p>
-      </div>
-    </main>
-  );
-}
-
-{/*
-      <Heading text="Application process" />
+      <p>
+      The programme is designed mainly for beginners in the field, however, even experienced users can
+      gain from the opportunity to discuss problems with the experts in person. The workshop is mainly intended for
+      PhD students and early career researchers, nevertheless, researchers at any career stage are welcome to apply.
+      </p>
       <p>
         Please send your application to{" "}
         <Link
-          href="mailto:structural-biology-summer-school@york.ac.uk"
-          text="structural-biology-summer-school@york.ac.uk"
+          href="mailto:martin.maly@mrc-lmb.cam.ac.uk"
+          text="martin.maly@mrc-lmb.cam.ac.uk"
         />{" "}
         and include:
       </p>
       <List>
         <li>
-          A motivation letter (PDF format), maximum of one page. Please tell us
-          why you think attending will be important for your future.
+          A <b>motivation letter</b> (PDF format), maximum of one page. Please tell us
+          why you think attending will be important for your future. It is desirable to bring
+          experimental data to work on during the workshop, so please also include a brief description
+          of your project.
         </li>
         <li>
-          An up to date CV (PDF format) including education. If applicable also
-          include any publications, meetings attended and employment history.
+          An up to date CV (PDF format) including education, maximum of one page. If applicable also
+          include any publications, meetings or workshops attended and employment history.
         </li>
       </List>
       <p>
-        Please CC your supervisor / line manager when emailing so we know they
-        are onboard with the application.
+        We require that your supervisor or line manager will send us their letter of reference
+        before the registration deadline so we know they are onboard with the application.
       </p>
       <p>
-        The application deadline has been extended. Applications must now be
-        received by <b>Wednesday 11th June 2025</b>.
+        Registration will be open by <b>Wednesday 28th February 2026</b> or when 60 applications have been received.
       </p>
       <p>
-        Applicants will hear back from the organising committee by Monday 16th
-        June. Successful applicants will be sent more information about the next
+        Applicants will hear back from the organising committee by Monday 13th
+        March. We will select 30 participants who will be sent more information about the next
         steps for registration.
       </p>
+      <p>
+        We are committed to provide inclusive environment for all participants. Please let us know
+        if you have any specific requirements that we should be aware of to help you attend the workshop.
+        In particular, let us know if you were interested in the possibility of babysitting or child care on site.
+      </p>
       <Heading text="Cost" />
-      <p>The cost for registration is as follows:</p>
-      <List>
-        <li>
-          Academic (with accommodation) - <b>£625</b>
-        </li>
-        <li>
-          Academic (without accommodation) - <b>£325</b>
-        </li>
-        <li>
-          Industrial (with accommodation) - <b>£1200</b>
-        </li>
-        <li>
-          Industrial (without accommodation) - <b>£900</b>
-        </li>
-      </List>
+      <p>The participant fee is 5000 CZK.</p>
       <p>
-        Applicants who do not live in York are encouraged to stay at the
-        accommodation provided by the school in order to engage with the social
-        and networking activities. All of the registration fees include meal
-        costs. Applicants will have to pay for their own travel to and from
-        York.
-      </p>
-      <Heading text="Bursaries" />
-      <p>
-        Fees for up to 10 BBSRC funded attendees will be covered by generous
-        support from the BBSRC.
+        It covers accommodation at the venue (from Saturday 25th April to Saturday 2nd May)
+        and all meals during the workshop (from dinner on Sunday 26th April to lunch on Saturday 2nd May),
+        as well as workshop materials. We do not provide any travel bursaries.
       </p>
       <p>
-        Additionally, with support from the BCA, we are able to provide a
-        limited number of bursaries for students from UK academic institutions.
-      </p>
-      <p>
-        Please state on your application if you are funded by the BBSRC or are
-        only able to attend the school with the help of a bursary.
+        Selected participants will be supported by the European Crystallography Association.
       </p>
   
-  */}
+    </main>
+  );
+}
