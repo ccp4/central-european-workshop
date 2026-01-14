@@ -9,8 +9,8 @@ export function Apply() {
         in macromolecular crystallography and electron cryo-microscopy (cryo-EM), particularly in using software for data processing and analysis.
       </p>
       <p>
-        <!-- The programme is suitable for beginners in the field as well as for experienced users who can
-        gain from the opportunity to discuss problems with the experts in person. --> 
+        {/*<!-- The programme is suitable for beginners in the field as well as for experienced users who can
+        gain from the opportunity to discuss problems with the experts in person. --> */}
         The workshop is mainly intended for
         PhD students and early career researchers in the structural biology field.
         Nevertheless, researchers at any career stage are welcome to apply.
