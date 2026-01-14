@@ -178,6 +178,7 @@ const day3: Day = {
       title: "Molecular replacement",
       type: "Tutorial",
       time: "17:15",
+      speakers: [andrey_lebedev, maria_fando],
     },
     { title: "Dinner", type: "Meal", time: "18:00" },
     {
