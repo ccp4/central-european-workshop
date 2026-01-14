@@ -46,16 +46,20 @@ export function Apply() {
         steps for registration.
       </p>
       <p>
-        We are committed to provide inclusive environment for all participants. Please let us know
+        We are committed to provide an inclusive environment for all participants. Please let us know
         if you have any specific requirements that we should be aware of to help you attend the workshop.
         Also, please let us know if you would be interested in the availability of on-site childcare support while attending the workshop.
       </p>
       <Heading text="Cost" />
-      <p><b>The participant fee is 5000 CZK.</b></p>
+      <p><b>The participant fee is 6000 CZK</b> (approximately 250 EUR).</p>
       <p>
         It covers accommodation at the venue (from Saturday 25th April to Saturday 2nd May)
         and all meals during the workshop (from dinner on Sunday 26th April to lunch on Saturday 2nd May),
         as well as workshop materials. We do not provide any travel bursaries.
+      </p>
+      <p>
+        Payments will be requested only from the selected participants after acceptance of their application.
+        It will be possible to pay by bank transfer or by credit/debit card.
       </p>
       <p>
         Selected participants will be supported by the European Crystallographic Association.
