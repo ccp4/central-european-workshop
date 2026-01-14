@@ -27,7 +27,7 @@ export function Home() {
         <InternalLink to="programme" text="programme" /> for more details.
       </p>
       <p>
-        <b>The deadline for <InternalLink to="apply" text="applications" /> is 28th February 2026.</b>
+        <b>The deadline for <InternalLink to="apply" text="applications" /> is 28th February 2026. </b>
         Please see the{" "}
         <InternalLink to="apply" text="registration page" /> for more details.
       </p>
