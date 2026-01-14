@@ -36,8 +36,7 @@ export function Home() {
       </p>
       <p>
         The workshop will be based at the <InternalLink to="location"
-        text="Nové Hrady Castle" /> in South Bohemia in Czechia.&nbsp;
-        <InternalLink to="location" text="More details and directions" />
+        text="Nové Hrady Castle" /> in South Bohemia in Czechia.
       </p>
       <p>
         Please see the{" "}
