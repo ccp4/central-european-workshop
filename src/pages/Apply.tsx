@@ -16,8 +16,8 @@ export function Apply() {
       <p>
         Please send your application to{" "}
         <Link
-          href="mailto:martin.maly@mrc-lmb.cam.ac.uk"
-          text="martin.maly@mrc-lmb.cam.ac.uk"
+          href="mailto:ccp4workshop@mrclmb.ac.uk"
+          text="ccp4workshop@mrclmb.ac.uk"
         />{" "}
         and include:
       </p>
