@@ -329,7 +329,7 @@ const day6: Day = {
       speakers: [robbie_joosten],
     },
     {
-      title: "Atomic structure model validation in Coot & Moorhen",
+      title: "Tools for ligands in Coot & Moorhen",
       type: "Tutorial",
       time: "14:45",
       speakers: [lucrezia_catapano],
