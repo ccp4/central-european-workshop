@@ -79,7 +79,7 @@ export function People() {
                 onContextMenu={(e) => e.preventDefault()}
                 draggable={false}
               />
-              <p>{person.name}</p>
+              <p className="text-lg">{person.name}</p>
               <div className="pointer-events-none absolute top-full left-1/2 z-10 mt-2 flex -translate-x-1/2 flex-wrap justify-start opacity-0 transition-opacity duration-200 group-hover:pointer-events-auto group-hover:opacity-100">
                 {person.tags?.map((tag) => (
                   <span
