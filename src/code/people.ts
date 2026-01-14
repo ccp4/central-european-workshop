@@ -53,6 +53,7 @@ export const robbie_joosten: Person = {
     "Model Building",
     "Refinement",
     "Validation",
+    "Nucleic acids",
   ],
   photo: "robbie_joosten.jpg",
 };
@@ -80,7 +81,7 @@ export const eugene_krissinel: Person = {
   photo: "eugene_krissinel.jpg",
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/group-leaders/eugene-krissinel",
-  tags: ["CCP4", "Graphical Interfaces"],
+  tags: ["CCP4", "Graphical Interfaces", "Python"],
 };
 
 export const paul_bond: Person = {
@@ -94,7 +95,7 @@ export const paul_bond: Person = {
 export const david_waterman: Person = {
   name: "David Waterman",
   photo: "david_waterman.jpg",
-  tags: ["CCP4", "Data Processing"],
+  tags: ["CCP4", "Data Processing", "Python"],
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-waterman",
 };
@@ -103,14 +104,14 @@ export const lucy_schofield: Person = {
   name: "Lucy Schofield",
   email: "lcs551@york.ac.uk",
   photo: "lucy_schofield.jpg",
-  tags: ["CCP4", "EDI", "Glycans", "Bioinformatics", "Python"],
+  tags: ["CCP4", "EDI", "Glycans", "Structural Bioinformatics", "Python"],
   homepage: undefined,
 };
 
 export const jiri_cerny: Person = {
   name: "Jiří Černý",
   photo: "jiri_cerny.jpg",
-  tags: ["Bioinformatics", "Nucleic acids", "Python"],
+  tags: ["Structural Bioinformatics", "Nucleic acids", "Python"],
 };
 
 export const jan_dohnalek: Person = {
@@ -143,7 +144,7 @@ export const maria_fando: Person = {
   name: "Maria Fando",
   email: "maria.fando@stfc.ac.uk",
   photo: "maria_fando.png",
-  tags: ["CCP4", "Organiser", "Graphical Interfaces", "Molecular Replacement"],
+  tags: ["CCP4", "Organiser", "Graphical Interfaces", "Molecular Replacement", "Python"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
 
@@ -163,7 +164,7 @@ export const jarmila_duskova: Person = {
   name: "Jarmila Dušková",
   email: "duskovaj@ibt.cas.cz",
   photo: "jarmila_duskova.png",
-  tags: ["Organiser", "Hide"],
+  tags: ["Organiser", "Model Building", "Refinement"],
 };
 
 export const radomir_kuzel: Person = {
