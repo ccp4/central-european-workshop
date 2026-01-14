@@ -144,14 +144,9 @@ export const maria_fando: Person = {
 
 export const agnel_joseph: Person = {
   name: "Agnel Joseph",
+  email: "agnel-praveen.joseph@stfc.ac.uk",
   photo: "agnel_joseph.jpg",
   tags: ["CCP-EM", "Organiser", "Graphical Interfaces", "Validation", "Python"],
-};
-
-export const garib_murshudov: Person = {
-  name: "Garib Murshudov",
-  photo: "garib_murshudov.jpg",
-  tags: ["CCP4", "Organiser", "Refinement", "Hide"],
 };
 
 export const jarmila_duskova: Person = {
@@ -159,6 +154,12 @@ export const jarmila_duskova: Person = {
   email: "duskovaj@ibt.cas.cz",
   photo: "jarmila_duskova.png",
   tags: ["Organiser", "Model Building", "Refinement"],
+};
+
+export const garib_murshudov: Person = {
+  name: "Garib Murshudov",
+  photo: "garib_murshudov.jpg",
+  tags: ["CCP4", "Organiser", "Refinement", "Hide"],
 };
 
 export const radomir_kuzel: Person = {
@@ -219,8 +220,8 @@ export const people: Person[] = [
   lucrezia_catapano,
   maria_fando,
   agnel_joseph,
-  garib_murshudov,
   jarmila_duskova,
+  garib_murshudov,
   radomir_kuzel,
   jindrich_hasek,
 ];
