@@ -66,7 +66,7 @@ export function Edi() {
       <p>
         If you would like to give any feedback to the CCP4 Equity, Diversity and
         Inclusion team please fill out the following{" "}
-        <Link text="Google Form" href="https://forms.gle/jPgFzQe3yEYv2WVq6" />.
+        <Link text="anonymous Google Form" href="https://forms.gle/jPgFzQe3yEYv2WVq6" />.
       </p>
       <p>
         When someone is asked to stop any behaviour that makes others
