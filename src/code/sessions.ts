@@ -390,7 +390,13 @@ const day7: Day = {
       time: "11:45",
       speakers: [terezia_kovalova],
     },
-    { title: "Lunch", type: "Meal", time: "12:30" },
+    {
+      title: "Data backup and closing remarks",
+      type: "Other",
+      time: "12:30",
+      speakers: [martin_maly],
+    },
+    { title: "Lunch", type: "Meal", time: "13:00" },
   ],
 };
 
