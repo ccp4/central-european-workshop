@@ -35,7 +35,7 @@ export function Contact() {
       <Heading text="Discord" />
       <p className="max-w-4xl">
         We will be using a{" "}
-        <Link text="Discord" href="https://discord.com/"></Link> server for the
+        <Link text="Discord" href="https://discord.com/" newTab={true} /> server for the
         duration of the school. You should receive an invite link for this via
         email. Please contact one of the organisers if you cannot access it.
       </p>

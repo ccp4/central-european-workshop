@@ -5,9 +5,13 @@ export function Heading({ text }: { text: string }) {
   return <h2 className="mb-1 text-2xl font-bold">{text}</h2>;
 }
 
-export function Link({ href, text }: { href: string; text: string }) {
+export function Link({ href, text, newTab = false }: { href: string; text: string; newTab?: boolean }) {
   return (
-    <a href={href} className="text-sky-600 underline hover:text-sky-800">
+    <a 
+      href={href} 
+      className="text-sky-600 underline hover:text-sky-800"
+      {...(newTab && { target: "_blank", rel: "noopener noreferrer" })}
+    >
       {text}
     </a>
   );

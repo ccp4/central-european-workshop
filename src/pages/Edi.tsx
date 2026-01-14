@@ -29,7 +29,7 @@ export function Edi() {
       <Heading text="The CCP4 Code of Conduct" />
       <p>
         The latest version is available at 
-        <Link href="https://www.ccp4.ac.uk/wp-content/uploads/2024/01/CCP4-Events-EDI-Policy-1.pdf " text=" the CCP4 website" />.
+        <Link href="https://www.ccp4.ac.uk/wp-content/uploads/2024/01/CCP4-Events-EDI-Policy-1.pdf " text=" the CCP4 website" newTab={true} />.
       </p>
       <p>Behave professionally.</p>
       <p>

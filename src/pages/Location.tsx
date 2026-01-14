@@ -64,27 +64,27 @@ export function Location() {
       <p>
         Public transport in Czechia is quite reliable and reasonably priced.
         For timetables (and also some bookings) of public transport in Czechia, you can use the IDOS website and application:<br />
-    <Link href="https://idos.cz/en/vlakyautobusymhdvse/spojeni/" text="IDOS website" /><br />
-    <Link href="https://play.google.com/store/apps/details?id=cz.mafra.jizdnirady&hl=en_GB" text="Google Play Store" /><br />
-    <Link href="https://apps.apple.com/us/app/j%C3%ADzdn%C3%AD-%C5%99%C3%A1dy-idos/id473503749" text="Apple App Store" /><br />
+    <Link href="https://idos.cz/en/vlakyautobusymhdvse/spojeni/" text="IDOS website" newTab={true} /><br />
+    <Link href="https://play.google.com/store/apps/details?id=cz.mafra.jizdnirady&hl=en_GB" text="Google Play Store" newTab={true} /><br />
+    <Link href="https://apps.apple.com/us/app/j%C3%ADzdn%C3%AD-%C5%99%C3%A1dy-idos/id473503749" text="Apple App Store" newTab={true} /><br />
     Google Maps usually have only limited information about public transport timetables in Czechia.
       </p>
       <p>
         For booking train tickets in Czechia, you can use the Czech Railways website (České dráhy) or their application "Můj vlak":<br />
-    <Link href="https://www.cd.cz/en/" text="Czech Railways website" /><br />
-    <Link href="https://play.google.com/store/apps/details?id=cz.cd.mujvlak.an&hl=en_GB" text="Google Play Store" /><br />
-    <Link href="https://apps.apple.com/us/app/m%C5%AFj-vlak/id1082233301" text="Apple App Store" />
+    <Link href="https://www.cd.cz/en/" text="Czech Railways website" newTab={true} /><br />
+    <Link href="https://play.google.com/store/apps/details?id=cz.cd.mujvlak.an&hl=en_GB" text="Google Play Store" newTab={true} /><br />
+    <Link href="https://apps.apple.com/us/app/m%C5%AFj-vlak/id1082233301" text="Apple App Store" newTab={true} />
       </p>
       <p>
         For booking of public transport tickets in Prague (buses, trams, metro), you can use the PID Lítačka application.
         Do not forget to activate a ticket at least 1 minute before your travel.<br />
-        <Link href="https://app.pidlitacka.cz/" text="PID Lítačka application" />
+        <Link href="https://app.pidlitacka.cz/" text="PID Lítačka application" newTab={true} />
       </p>
       <p>
         It can be useful to have the Mapy.com application for navigation and maps in Czechia:<br />
-        <Link href="https://mapy.com" text="Mapy.com website" /><br />
-        <Link href="" text="Google Play Store" /><br />
-        <Link href="https://apps.apple.com/us/app/mapy-com/id369494785" text="Apple App Store" />
+        <Link href="https://mapy.com" text="Mapy.com website" newTab={true} /><br />
+        <Link href="https://play.google.com/store/apps/details?id=cz.seznam.mapy&hl=en_GB" text="Google Play Store" newTab={true} /><br />
+        <Link href="https://apps.apple.com/us/app/offline-gps-maps-mapy-com/id411411020" text="Apple App Store" newTab={true} />
       </p>
     </main>
   );
