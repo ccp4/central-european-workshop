@@ -34,7 +34,11 @@ export function Apply() {
         </li>
       </List>
       <p>
-        We require that your supervisor or line manager will send us their <b>letter of reference </b>
+        We require that your supervisor or line manager will send from their email address to us (
+          <Link
+          href="mailto:ccp4workshop@mrclmb.ac.uk"
+          text="ccp4workshop@mrclmb.ac.uk"
+        />) their <b>letter of reference </b>
         before the registration deadline so we know they are onboard with the application.
       </p>
       <p>
