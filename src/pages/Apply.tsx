@@ -50,7 +50,7 @@ export function Apply() {
       </p>
       <p>
         We are committed to provide an inclusive environment for all participants. Please let us know
-        if you have any specific requirements that we should be aware ofto assist with your participation in the workshop.
+        if you have any specific requirements that we should be aware to assist with your participation in the workshop.
         Also, please let us know if you would be interested in the availability of on-site childcare support while attending the workshop.
       </p>
       <Heading text="Cost" />
