@@ -5,13 +5,15 @@ export function Apply() {
     <main className="m-auto flex max-w-7xl flex-col gap-4">
       <Heading text="Registration" />
       <p>
-      The workshop is open to structural biologists from any part of the world who need to develop knowledge and skills
-      in macromolecular crystallography and electron cryo-microscopy (cryo-EM), particularly in using software for data processing and analysis.
+        The workshop is open to structural biologists from any part of the world who need to develop knowledge and skills
+        in macromolecular crystallography and electron cryo-microscopy (cryo-EM), particularly in using software for data processing and analysis.
       </p>
       <p>
-      The programme is designed mainly for beginners in the field, however, even experienced users can
-      gain from the opportunity to discuss problems with the experts in person. The workshop is mainly intended for
-      PhD students and early career researchers, nevertheless, researchers at any career stage are welcome to apply.
+        <!-- The programme is suitable for beginners in the field as well as for experienced users who can
+        gain from the opportunity to discuss problems with the experts in person. --> 
+        The workshop is mainly intended for
+        PhD students and early career researchers in the structural biology field.
+        Nevertheless, researchers at any career stage are welcome to apply.
       </p>
       <p>
         Please send your application to{" "}
@@ -32,15 +34,12 @@ export function Apply() {
           An up to date <b>curriculum vitae</b> (PDF format) including education, maximum of one page. If applicable also
           include any publications, meetings or workshops attended and employment history.
         </li>
+        <li>
+          We ask that your supervisor or line manager sends a letter of reference from their email address to us at
+          <Link href="mailto:ccp4workshop@mrclmb.ac.uk" text="ccp4workshop@mrclmb.ac.uk" />
+          before the registration deadline to confirm their support for your application.
+        </li>
       </List>
-      <p>
-        We require that your supervisor or line manager will send from their email address to us (
-          <Link
-          href="mailto:ccp4workshop@mrclmb.ac.uk"
-          text="ccp4workshop@mrclmb.ac.uk"
-        />) their <b>letter of reference </b>
-        before the registration deadline so we know they are onboard with the application.
-      </p>
       <p>
         Registration will be open until <b>Saturday 28th February 2026</b> or when 60 applications have been received.
       </p>
@@ -51,7 +50,7 @@ export function Apply() {
       </p>
       <p>
         We are committed to provide an inclusive environment for all participants. Please let us know
-        if you have any specific requirements that we should be aware of to help you attend the workshop.
+        if you have any specific requirements that we should be aware ofto assist with your participation in the workshop.
         Also, please let us know if you would be interested in the availability of on-site childcare support while attending the workshop.
       </p>
       <Heading text="Cost" />
