@@ -214,7 +214,7 @@ const day4: Day = {
     {
       title: "Structure solution with ARCIMBOLDO",
       type: "Tutorial",
-      time: "11:40",
+      time: "11:45",
       speakers: [isabel_uson],
     },
     { title: "Lunch", type: "Meal", time: "12:30" },
@@ -232,11 +232,6 @@ const day4: Day = {
     },
     { title: "Social event", type: "Other", time: "15:00" },
     { title: "Dinner", type: "Meal", time: "19:00" },
-    {
-      title: "Hands-on problem solving – discussion and questions from participants",
-      type: "Problem solving",
-      time: "20:00",
-    },
   ],
 };
 
