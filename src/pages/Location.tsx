@@ -1,4 +1,4 @@
-import { Link, Heading } from "../components/Elements";
+import { Link, Heading, InternalLink } from "../components/Elements";
 
 export function Location() {
 
@@ -56,8 +56,8 @@ export function Location() {
       </p>
       <p>Another option could be to use Brno or Vienna airports, however, the travel from there to the venue is a bit longer.</p>
       <p>
-        If you had any question or problem with travelling to the venue, please do not hesitate to contact the organisers.
-        We are happy to help! We understand that travelling to the venue can be complicated, however, there are many reasons why we chose this particular venue.
+        If you had any question or problem with travelling to the venue, please do not hesitate to <InternalLink to="contact" text="contact the organisers (Martin Malý)" />.
+        We are happy to help!
       </p>
 
     <Heading text="General notes about travelling in Czechia - websites and applications" />
@@ -85,6 +85,20 @@ export function Location() {
         <Link href="https://mapy.com" text="Mapy.com website" newTab={true} /><br />
         <Link href="https://play.google.com/store/apps/details?id=cz.seznam.mapy&hl=en_GB" text="Google Play Store" newTab={true} /><br />
         <Link href="https://apps.apple.com/us/app/offline-gps-maps-mapy-com/id411411020" text="Apple App Store" newTab={true} />
+      </p>
+    
+    <Heading text="Other notes about Czechia" />
+      <p>
+        The official currency in Czechia is Czech koruna (CZK).
+        Credit and debit cards are widely accepted, but it is always good to have some cash with you.
+      </p>
+      <p>
+        Electric plugs in Czechia are of type C and E, similarly as in most of Europe.
+        The standard voltage is 230 V and the standard frequency is 50 Hz.
+      </p>
+      <p>
+        The official language is Czech.
+        English is widely spoken, especially among younger people and in touristic areas.
       </p>
     </main>
   );
