@@ -380,7 +380,7 @@ const day7: Day = {
     { title: "Break", time: "10:30", type: "Break" },
     {
       title: "Molecular graphics",
-      type: "Lecture",
+      type: "Tutorial",
       time: "11:00",
       speakers: [lucrezia_catapano],
     },
