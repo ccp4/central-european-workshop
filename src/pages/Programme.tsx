@@ -32,7 +32,7 @@ export function Programme() {
         cryo-microscopy (cryo-EM), as well as structural bioinformatics. 
       </p>
       
-      <div className="flex flex-col justify-center gap-4 p-4">
+      <div className="flex flex-col justify-center">
         <td className="border border-gray-300 px-4 py-2 bg-emerald-100">Lecture</td>
         <td className="border border-gray-300 px-4 py-2 bg-sky-100">Tutorial</td>
         <td className="border border-gray-300 px-4 py-2 bg-orange-100">Problem solving</td>>Meal</td>
