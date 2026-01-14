@@ -11,7 +11,7 @@ export function Contact() {
           href="mailto:ccp4workshop@mrclmb.ac.uk"
           text="ccp4workshop@mrclmb.ac.uk"
         />{" "}
-        should you have any queries related to the workshop, including the registration,
+        if you have any queries related to the workshop, including the registration,
         programme, or accommodation. If you prefer to contact an individual
         organiser, please use the e-mail addresses below.
       </p>
@@ -32,13 +32,13 @@ export function Contact() {
             );
           })}
       </div>
-      <Heading text="Discord" />
+      {/* <Heading text="Discord" />
       <p className="max-w-4xl">
         We will be using a{" "}
         <Link text="Discord" href="https://discord.com/" newTab={true} /> server for the
         duration of the school. You should receive an invite link for this via
         email. Please contact one of the organisers if you cannot access it.
-      </p>
+      </p> */}
     </main>
   );
 }
