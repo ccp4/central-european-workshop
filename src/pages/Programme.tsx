@@ -31,6 +31,56 @@ export function Programme() {
         the methods of structural biology, i.e. macromolecular crystallography and electron
         cryo-microscopy (cryo-EM), as well as structural bioinformatics. 
       </p>
+      
+      <div className="my-4">
+        <h3 className="mb-2 font-bold">Session Types</h3>
+        <table className="w-full border-collapse border border-gray-300">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="border border-gray-300 px-4 py-2 text-left">Type</th>
+              <th className="border border-gray-300 px-4 py-2 text-left">Colour</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Lecture</td>
+              <td className="border border-gray-300 px-4 py-2">
+                <div className="h-6 w-20 bg-emerald-100 border border-gray-400"></div>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Tutorial</td>
+              <td className="border border-gray-300 px-4 py-2">
+                <div className="h-6 w-20 bg-sky-100 border border-gray-400"></div>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Problem solving</td>
+              <td className="border border-gray-300 px-4 py-2">
+                <div className="h-6 w-20 bg-orange-100 border border-gray-400"></div>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Meal</td>
+              <td className="border border-gray-300 px-4 py-2">
+                <div className="h-6 w-20 bg-white border border-gray-400"></div>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Break</td>
+              <td className="border border-gray-300 px-4 py-2">
+                <div className="h-6 w-20 bg-white border border-gray-400"></div>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Other</td>
+              <td className="border border-gray-300 px-4 py-2">
+                <div className="h-6 w-20 bg-pink-100 border border-gray-400"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <div className="flex flex-col justify-center gap-4 p-4">
         {days.map((day) => {
