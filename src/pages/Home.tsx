@@ -19,25 +19,21 @@ export function Home() {
         in macromolecular crystallography and electron cryo-microscopy (cryo-EM), particularly in using software for data processing and analysis.
       </p>
       <p>
+        Lectures and tutorials will be delivered by experts in the field,
+        sometimes even software authors themselves!
+        You will be able to work alongside world-leading scientists and
+        methods developers on your own projects.
         Please see the{" "}
         <InternalLink to="programme" text="programme" /> for more details.
       </p>
       <p>
         <b>The deadline for <InternalLink to="apply" text="applications" /> is 28th February 2026.</b>
-      </p>
-      <p>
-        Lectures and tutorials will be delivered by experts in the field,
-        sometimes even software authors themselves!
-        You will be able to work alongside world-leading scientists and
-        methods developers on your own projects.
+        Please see the{" "}
+        <InternalLink to="apply" text="registration page" /> for more details.
       </p>
       <p>
         The workshop will be based at the <InternalLink to="location"
         text="Nové Hrady Castle" /> in South Bohemia in Czechia.
-      </p>
-      <p>
-        Please see the{" "}
-        <InternalLink to="apply" text="registration page" /> for more details.
       </p>
       <p>We look forward to welcoming you in Czechia this spring!</p>
       <div className="justify-center gap-4">
