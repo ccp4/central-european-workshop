@@ -60,16 +60,17 @@ export function Location() {
         We are happy to help! We understand that travelling to the venue can be complicated, however, there are many reasons why we chose this particular venue.
       </p>
 
-    <Heading text="General notes about travelling in Czechia" />
+    <Heading text="General notes about travelling in Czechia - websites and applications" />
       <p>
         Public transport in Czechia is quite reliable and reasonably priced.
         For timetables (and also some bookings) of public transport in Czechia, you can use the IDOS website and application:<br />
     <Link href="https://idos.cz/en/vlakyautobusymhdvse/spojeni/" text="IDOS website" /><br />
     <Link href="https://play.google.com/store/apps/details?id=cz.mafra.jizdnirady&hl=en_GB" text="Google Play Store" /><br />
-    <Link href="https://apps.apple.com/us/app/j%C3%ADzdn%C3%AD-%C5%99%C3%A1dy-idos/id473503749" text="Apple App Store" />
+    <Link href="https://apps.apple.com/us/app/j%C3%ADzdn%C3%AD-%C5%99%C3%A1dy-idos/id473503749" text="Apple App Store" /><br />
+    Google Maps usually have only limited information about public transport timetables in Czechia.
       </p>
       <p>
-        For booking train tickets in Czechia, you can use the Czech Railways website or their application "Můj vlak":<br />
+        For booking train tickets in Czechia, you can use the Czech Railways website (České dráhy) or their application "Můj vlak":<br />
     <Link href="https://www.cd.cz/en/" text="Czech Railways website" /><br />
     <Link href="https://play.google.com/store/apps/details?id=cz.cd.mujvlak.an&hl=en_GB" text="Google Play Store" /><br />
     <Link href="https://apps.apple.com/us/app/m%C5%AFj-vlak/id1082233301" text="Apple App Store" />
