@@ -13,7 +13,7 @@ export function Home() {
       </div>
       <p>
         It is a great pleasure to announce the CCP4 Central European
-        Workshop 2026 on computational structure biology. The workshop will focus
+        Workshop 2026 on computational structural biology. The workshop will focus
         on the practical use of software tools for the methods of structural
         biology, macromolecular crystallography and electron
         cryo-microscopy (cryo-EM), as well as on structural bioinformatics.
@@ -39,6 +39,13 @@ export function Home() {
         text="Nové Hrady Castle" /> in South Bohemia in Czechia.&nbsp;
         <InternalLink to="location" text="More details and directions" />
       </p>
+      <p>
+        Spaces are limited. The applicant will have to demonstrate the need for
+        this sort of specialist training. A letter of recommendation from a
+        supervisor or a line manager will be required. Please see the{" "}
+        <InternalLink to="apply" text="registration page" /> for more details.
+      </p>
+      <p>We look forward to welcoming you in Czechia this spring!</p>
       <div className="justify-center gap-4">
         <img
           src="https://konferencnizamek.cz/wp-content/uploads/photo-gallery/imported_from_media_libray/z%C3%A1mek.jpg?bwg=1549014679"
@@ -48,13 +55,6 @@ export function Home() {
           height="40%"
         />
       </div>
-      <p>
-        Spaces are limited. The applicant will have to demonstrate the need for
-        this sort of specialist training. A letter of recommendation from a
-        supervisor or a line manager will be required. Please see the{" "}
-        <InternalLink to="apply" text="registration page" /> for more details.
-      </p>
-      <p>We look forward to welcoming you in Czechia this spring!</p>
     </main>
   );
 }
