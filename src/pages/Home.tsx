@@ -40,9 +40,7 @@ export function Home() {
         <InternalLink to="location" text="More details and directions" />
       </p>
       <p>
-        Spaces are limited. The applicant will have to demonstrate the need for
-        this sort of specialist training. A letter of recommendation from a
-        supervisor or a line manager will be required. Please see the{" "}
+        Please see the{" "}
         <InternalLink to="apply" text="registration page" /> for more details.
       </p>
       <p>We look forward to welcoming you in Czechia this spring!</p>
