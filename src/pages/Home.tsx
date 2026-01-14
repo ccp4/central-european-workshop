@@ -13,13 +13,10 @@ export function Home() {
       </div>
       <p>
         It is a great pleasure to announce the CCP4 Central European
-        Workshop 2026 on computational structural biology. The workshop will focus
-        on the practical use of software tools for the methods of structural
-        biology, macromolecular crystallography and electron
-        cryo-microscopy (cryo-EM), as well as on structural bioinformatics.
-        The workshop aims to bring together scientists from
-        Central Europe and beyond and train them in the latest advances in
-        structural biology.
+        Workshop 2026 on computational structural biology.
+        The workshop is open to structural biologists from any part of the world
+        who need to develop knowledge and skills
+        in macromolecular crystallography and electron cryo-microscopy (cryo-EM), particularly in using software for data processing and analysis.
       </p>
       <p>
         Please see the{" "}
