@@ -38,12 +38,6 @@ export const terezia_kovalova: Person = {
   tags: ["Model Building", "Refinement"],
 };
 
-export const matt_iadanza: Person = {
-  name: "Matt Iadanza",
-  photo: "matt_iadanza.png",
-  tags: ["CCP-EM", "Graphical Interfaces"],
-};
-
 export const robbie_joosten: Person = {
   name: "Robbie Joosten",
   email: "r.joosten@nki.nl",
@@ -180,6 +174,12 @@ export const jindrich_hasek: Person = {
 };
 
 {/*
+export const matt_iadanza: Person = {
+  name: "Matt Iadanza",
+  photo: "matt_iadanza.png",
+  tags: ["CCP-EM", "Graphical Interfaces"],
+};
+
 export const jola_mirecka: Person = {
   name: "Jola Mirecka",
   photo: "jola_mirecka.jpg",
@@ -210,7 +210,6 @@ export const people: Person[] = [
   eugene_krissinel,
   andrey_lebedev,
   paul_bond,
-  matt_iadanza,
   david_waterman,
   lucy_schofield,
   jiri_cerny,
