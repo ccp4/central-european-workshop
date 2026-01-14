@@ -6,10 +6,10 @@ export function Contact() {
     <main className="flex flex-col items-center gap-4">
       <Heading text="Email" />
       <p className="max-w-4xl">
-        Feel free to contact the main organiser at{" "}
+        Feel free to contact us at{" "}
         <Link
-          href="mailto:martin.maly@mrc-lmb.cam.ac.uk"
-          text="martin.maly@mrc-lmb.cam.ac.uk"
+          href="mailto:ccp4workshop@mrclmb.ac.uk"
+          text="ccp4workshop@mrclmb.ac.uk"
         />{" "}
         should you have any queries related to the workshop, including the registration,
         programme, or accommodation. If you prefer to contact an individual
@@ -26,7 +26,7 @@ export function Contact() {
                   src={`${import.meta.env.BASE_URL}people/${person.photo}`}
                   className="mb-1 h-50 w-50 rounded-full object-cover"
                 />
-                <p>{person.name}</p>
+                <p className="text-lg">{person.name}</p>
                 <Link href={`mailto:${person.email}`} text={person.email!} />
               </div>
             );
