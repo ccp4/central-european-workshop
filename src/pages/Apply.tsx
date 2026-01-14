@@ -35,7 +35,7 @@ export function Apply() {
           include any publications, meetings or workshops attended and employment history.
         </li>
         <li>
-          We ask that your supervisor or line manager sends a letter of reference from their email address to us at
+          We ask that your supervisor or line manager sends a letter of reference from their email address to us at{" "}
           <Link href="mailto:ccp4workshop@mrclmb.ac.uk" text="ccp4workshop@mrclmb.ac.uk" />
           before the registration deadline to confirm their support for your application.
         </li>
