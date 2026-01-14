@@ -13,11 +13,11 @@ export function Home() {
       </div>
       <p>
         It is a great pleasure to announce the CCP4 Central European
-        Workshop on computational structure biology. The workshop will focus
+        Workshop 2026 on computational structure biology. The workshop will focus
         on the practical use of software tools for the methods of structural
         biology, macromolecular crystallography and electron
-        cryo-microscopy (cryo-EM), as well as on bioinformatics.
-        The workshop aims to bring together early-career scientists from
+        cryo-microscopy (cryo-EM), as well as on structural bioinformatics.
+        The workshop aims to bring together scientists from
         Central Europe and beyond and train them in the latest advances in
         structural biology.
       </p>
@@ -26,13 +26,16 @@ export function Home() {
         <InternalLink to="programme" text="programme" /> for more details.
       </p>
       <p>
+        <b>The deadline for <InternalLink to="apply" text="applications" /> is 28th February 2026.</b>
+      </p>
+      <p>
         Lectures and tutorials will be delivered by experts in the field,
         sometimes even software authors themselves!
         You will be able to work alongside world-leading scientists and
         methods developers on your own projects.
       </p>
       <p>
-        The workshop will be based at the <Link href="https://konferencnizamek.cz/en/"
+        The workshop will be based at the <InternalLink to="location"
         text="Nové Hrady Castle" /> in South Bohemia in Czechia.&nbsp;
         <InternalLink to="location" text="More details and directions" />
       </p>
@@ -47,9 +50,9 @@ export function Home() {
       </div>
       <p>
         Spaces are limited. The applicant will have to demonstrate the need for
-        this sort of specialist training, and be prepared to submit the e-mail
-        address of a supervisor who will write a letter of recommendation in
-        support of their application.
+        this sort of specialist training. A letter of recommendation from a
+        supervisor or a line manager will be required. Please see the{" "}
+        <InternalLink to="apply" text="registration page" /> for more details.
       </p>
       <p>We look forward to welcoming you in Czechia this spring!</p>
     </main>
