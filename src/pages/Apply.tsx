@@ -65,7 +65,9 @@ export function Apply() {
         It will be possible to pay by bank transfer or by credit/debit card.
       </p>
       <p>
-        Selected participants will be supported by the European Crystallographic Association.
+        Selected participants will be supported by
+        the <Link href="https://www.iucr.org" text="International Union of Crystallography" newTab={true} />{" "}
+        and the <Link href="https://ecanews.org" text="European Crystallographic Association" newTab={true} />.
       </p>
   
     </main>

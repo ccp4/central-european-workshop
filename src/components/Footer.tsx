@@ -8,6 +8,7 @@ export function Footer() {
       <div className="flex flex-wrap justify-center gap-4">
         <Logo sponsor={ccpem} />
         <Logo sponsor={cssb} />
+        <Logo sponsor={iucr} />
         <Logo sponsor={eca} />
         <Logo sponsor={dectris} />
       </div>

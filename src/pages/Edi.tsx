@@ -15,16 +15,17 @@ export function Edi() {
         at all our events by inviting speakers of all races, ethnicities,
         genders, ages, abilities, religions, and sexual orientation without
         compromising the quality, and remaining within the topic of the
-        programme. All speakers will have agreed to the Code of Conduct prior to
-        agreeing to speak at the event.
+        programme. Thus, we also support and adhere to the{" "}
+        <Link href="https://www.iucr.org/iucr/principles-and-policies/gender-balance" text="IUCr statement on gender balance" newTab={true} />.
       </p>
       <p>
         We will not tolerate harassment of participants, students or tutors, in
         any form.
       </p>
       <p>
-        As part of the registration process, attendees will be required to agree
-        to adhere to the CCP4 Code of Conduct.
+        All attendees including tutors will be required to agree
+        to adhere to the <Link href="https://www.ccp4.ac.uk/wp-content/uploads/2024/01/CCP4-Events-EDI-Policy-1.pdf" text="CCP4 Code of Conduct" newTab={true} />{" "}
+        and the <Link href="https://www.iucr.org/__data/assets/pdf_file/0008/147923/IUCr-GEDC-Code-of-Conduct.pdf" text="IUCr GEDC Code of Conduct" newTab={true} />.
       </p>
       <Heading text="The CCP4 Code of Conduct" />
       <p>
