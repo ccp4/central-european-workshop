@@ -102,6 +102,13 @@ export const lucy_schofield: Person = {
   homepage: undefined,
 };
 
+export const joel_greer: Person = {
+  name: "Joel Greer",
+  photo: "joel_greer.jpg",
+  tags: ["CCP-EM"],
+  homepage: "https://www.ccpem.ac.uk/people/joel-greer/",
+};
+
 export const jiri_cerny: Person = {
   name: "Jiří Černý",
   photo: "jiri_cerny.jpg",
@@ -174,34 +181,6 @@ export const jindrich_hasek: Person = {
   tags: ["CSCA", "Organiser", "Hide"],
 };
 
-{/*
-export const matt_iadanza: Person = {
-  name: "Matt Iadanza",
-  photo: "matt_iadanza.png",
-  tags: ["CCP-EM", "Graphical Interfaces"],
-};
-
-export const jola_mirecka: Person = {
-  name: "Jola Mirecka",
-  photo: "jola_mirecka.jpg",
-  tags: ["CCP-EM"],
-  homepage: "https://www.ccpem.ac.uk/people/jola-mirecka/",
-};
-
-export const paul_emsley: Person = {
-  name: "Paul Emsley",
-  photo: "paul_emsley.jpg",
-  tags: ["Model Building", "Refinement"],
-  homepage: "https://en.wikipedia.org/wiki/Paul_Emsley_(crystallographer)",
-};
-
-export const ronan_keegan: Person = {
-  name: "Ronan Keegan",
-  tags: ["CCP4", "Crystallography", "Molecular Replacement"],
-  homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/ronan-keegan",
-};
-*/}
-
 export const people: Person[] = [
   isabel_uson,
   keitaro_yamashita,
@@ -213,6 +192,7 @@ export const people: Person[] = [
   paul_bond,
   david_waterman,
   lucy_schofield,
+  joel_greer,
   jiri_cerny,
   jan_dohnalek,
   petr_kolenko,
