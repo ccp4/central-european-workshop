@@ -48,24 +48,24 @@ const day1: Day = {
     {
       title: "Welcome!",
       type: "Other",
-      time: "17:00",
+      time: "17:15",
       speakers: [martin_maly],
     },
     {
       title: "Flash introduction talks by participants, part I",
       type: "Other",
-      time: "17:30",
+      time: "17:45",
     },
     {
       title: "Using MX and cryoEM to understand a biological problem/system",
       type: "Lecture",
-      time: "18:00",
+      time: "18:15",
       speakers: [terezia_kovalova],
     },
     {
-      title: "Welcome reception",
+      title: "Dinner and welcome reception",
       type: "Meal",
-      time: "19:00",
+      time: "19:15",
     },
   ],
 };
