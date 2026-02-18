@@ -336,7 +336,7 @@ const day6: Day = {
     },
       { title: "Break", time: "15:30", type: "Break" },
     {
-      title: "Structure bioinformatics workshop using Python",
+      title: "Structural bioinformatics workshop using Python",
       type: "Lecture",
       time: "16:00",
       speakers: [jiri_cerny],
