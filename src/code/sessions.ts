@@ -231,8 +231,7 @@ const day4: Day = {
       time: "14:15",
       speakers: [lucrezia_catapano],
     },
-    { title: "Social event", type: "Other", time: "15:00" },
-    { title: "Dinner", type: "Meal", time: "19:00" },
+    { title: "Social event - Trip to Český Krumlov (including dinner)", type: "Other", time: "15:00" },
   ],
 };
 
@@ -337,22 +336,27 @@ const day6: Day = {
     },
       { title: "Break", time: "15:30", type: "Break" },
     {
-      title: "PDB deposition using CCP4 Cloud",
+      title: "Structure bioinformatics workshop using Python",
       type: "Lecture",
       time: "16:00",
-      speakers: [maria_fando, eugene_krissinel],
+      speakers: [jiri_cerny],
     },
     {
       title: "Structure validation quiz",
       type: "Other",
-      time: "16:45",
+      time: "17:00",
       speakers: [robbie_joosten],
     },
     { title: "Dinner", type: "Meal", time: "18:00" },
     {
+      title: "Feedback, data backup",
+      type: "Other",
+      time: "19:00",
+    },
+    {
       title: "Hands-on problem solving – discussion and questions from participants",
       type: "Problem solving",
-      time: "19:00",
+      time: "19:30",
     },
   ],
 };
@@ -372,11 +376,17 @@ const day7: Day = {
       time: "9:45",
       speakers: [martin_maly],
     }, */
-    {
-      title: "Python for structural analysis",
-      type: "Tutorial",
+      {
+      title: "PDB deposition using CCP4 Cloud",
+      type: "Lecture",
       time: "9:45",
-      speakers: [jiri_cerny],
+      speakers: [maria_fando, eugene_krissinel],
+    },
+      {
+      title: "Structure alignment and superposition",
+      type: "Lecture",
+      time: "10:15",
+      speakers: [petr_kolenko],
     },
     { title: "Break", time: "10:30", type: "Break" },
     {
@@ -386,15 +396,15 @@ const day7: Day = {
       speakers: [lucrezia_catapano],
     },
     {
-      title: '"Context is important" - Emerging techniques to study structure dynamics and cells: serial crystallography, electron cryo-tomography, etc.',
+      title: '"Context is important" - Emerging techniques to study structure dynamics and cells: small angle scattering, serial crystallography, electron cryo-tomography, etc.',
       type: "Lecture",
       time: "11:45",
-      speakers: [terezia_kovalova],
+      speakers: [terezia_kovalova, martin_maly],
     },
     {
-      title: "Data backup and closing remarks",
+      title: "Closing remarks",
       type: "Other",
-      time: "12:30",
+      time: "12:45",
       speakers: [martin_maly],
     },
     { title: "Lunch", type: "Meal", time: "13:00" },
