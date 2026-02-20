@@ -404,10 +404,10 @@ const day7: Day = {
     {
       title: "Closing remarks",
       type: "Other",
-      time: "12:45",
+      time: "12:15",
       speakers: [martin_maly],
     },
-    { title: "Lunch", type: "Meal", time: "13:00" },
+    { title: "Lunch (note there is a bus service at 13:45 from Nové Hrady to České Budějovice)", type: "Meal", time: "12:30" },
   ],
 };
 
