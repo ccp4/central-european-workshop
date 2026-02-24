@@ -370,36 +370,36 @@ const day7: Day = {
       time: "9:00",
       speakers: [eugene_krissinel],
     },
+    {
+      title: "Structure stability and dynamics: small angle scattering, serial crystallography - low radiation dose and time-resolved studies",
+      type: "Lecture",
+      time: "9:45",
+      speakers: [martin_maly, terezia_kovalova],
+    },
+    { title: "Break", time: "10:30", type: "Break" },
     /* {
       title: "Overview of tools/databases for structure model analysis",
       type: "Lecture",
       time: "9:45",
       speakers: [martin_maly],
     }, */
+    {
+      title: "Molecular graphics",
+      type: "Tutorial",
+      time: "10:45",
+      speakers: [lucrezia_catapano],
+    },
       {
       title: "PDB deposition using CCP4 Cloud",
       type: "Lecture",
-      time: "9:45",
+      time: "11:30",
       speakers: [maria_fando, eugene_krissinel],
     },
       {
       title: "Structure alignment and superposition",
       type: "Lecture",
-      time: "10:15",
+      time: "12:00",
       speakers: [petr_kolenko],
-    },
-    { title: "Break", time: "10:30", type: "Break" },
-    {
-      title: "Molecular graphics",
-      type: "Tutorial",
-      time: "11:00",
-      speakers: [lucrezia_catapano],
-    },
-    {
-      title: '"Context is important" - Emerging techniques to study structure dynamics and cells: small angle scattering, serial crystallography, electron cryo-tomography, etc.',
-      type: "Lecture",
-      time: "11:45",
-      speakers: [terezia_kovalova, martin_maly],
     },
     {
       title: "Closing remarks",
