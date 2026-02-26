@@ -123,7 +123,7 @@ const day2: Day = {
       title: "CCP4 graphical user interfaces",
       type: "Lecture",
       time: "16:45",
-      speakers: [eugene_krissinel, maria_fando],
+      speakers: [maria_fando, paul_bond],
     },
     {
       title: "Flash introduction talks by participants, part II",
@@ -194,29 +194,29 @@ const day4: Day = {
   title: "Wednesday 29th April - Model Building",
   sessions: [
     {
+      title: "Structure solution with ARCIMBOLDO",
+      type: "Lecture",
+      time: "9:00",
+      speakers: [isabel_uson],
+    },
+    {
+      title: "Structure solution with ARCIMBOLDO",
+      type: "Tutorial",
+      time: "9:45",
+      speakers: [isabel_uson],
+    },
+    { title: "Break", time: "10:30", type: "Break" },
+    {
       title: "Automated model building in crystallography and density modification",
       type: "Lecture",
-      time: "09:00",
+      time: "11:00",
       speakers: [paul_bond],
     },
     {
       title: "Automated model building in crystallography with ModelCraft",
       type: "Tutorial",
-      time: "09:45",
-      speakers: [paul_bond],
-    },
-    { title: "Break", time: "10:30", type: "Break" },
-    {
-      title: "Structure solution with ARCIMBOLDO",
-      type: "Lecture",
-      time: "11:00",
-      speakers: [isabel_uson],
-    },
-    {
-      title: "Structure solution with ARCIMBOLDO",
-      type: "Tutorial",
       time: "11:45",
-      speakers: [isabel_uson],
+      speakers: [paul_bond],
     },
     { title: "Lunch", type: "Meal", time: "12:30" },
     {
@@ -315,30 +315,31 @@ const day6: Day = {
     },
     { title: "Break", time: "10:30", type: "Break" },
     {
-      title: "Privateer – glycosylation analysis",
-      type: "Lecture",
+      title: "Tools for ligands in Coot & Moorhen",
+      type: "Tutorial",
       time: "11:00",
-      speakers: [lucy_schofield],
+      speakers: [lucrezia_catapano],
     },
     {
-      title: "Atomic structure model validation (including common model-building errors) and deposition",
+      title: "Privateer – glycosylation analysis",
       type: "Lecture",
       time: "11:45",
-      speakers: [robbie_joosten],
+      speakers: [lucy_schofield],
     },
     { title: "Lunch", type: "Meal", time: "12:30" },
     {
-      title: "Atomic structure model validation in CCP4 Cloud",
+      title: "Atomic structure model validation (including common model-building errors) and deposition",
       type: "Lecture",
       time: "14:00",
-      speakers: [maria_fando, eugene_krissinel],
+      speakers: [robbie_joosten],
     },
     {
-      title: "Tools for ligands in Coot & Moorhen",
-      type: "Tutorial",
+      title: "Preserving your data with CCP4 Cloud, PDB deposition and project archiving",
+      type: "Lecture",
       time: "14:45",
-      speakers: [lucrezia_catapano],
+      speakers: [maria_fando, eugene_krissinel],
     },
+
       { title: "Break", time: "15:30", type: "Break" },
     {
       title: "Structural bioinformatics workshop using Python",
@@ -391,28 +392,22 @@ const day7: Day = {
     {
       title: "Molecular graphics",
       type: "Tutorial",
-      time: "10:45",
+      time: "11:00",
       speakers: [lucrezia_catapano],
-    },
-      {
-      title: "PDB deposition using CCP4 Cloud",
-      type: "Lecture",
-      time: "11:30",
-      speakers: [maria_fando, eugene_krissinel],
     },
       {
       title: "Structure alignment and superposition",
       type: "Lecture",
-      time: "12:00",
+      time: "11:45",
       speakers: [petr_kolenko],
     },
     {
       title: "Closing remarks",
       type: "Other",
-      time: "12:15",
+      time: "12:00",
       speakers: [martin_maly],
     },
-    { title: "Lunch (note there is a bus service at 13:45 from Nové Hrady to České Budějovice)", type: "Meal", time: "12:30" },
+    { title: "Lunch (note there is a bus service at 13:45 from Nové Hrady to České Budějovice)", type: "Meal", time: "12:15" },
   ],
 };
 
