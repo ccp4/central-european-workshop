@@ -41,7 +41,7 @@ export function Apply() {
         </li>
       </List>
       <p>
-        <b>Registration are closed now - the deadline was Saturday 28th February 2026</b> or when 60 applications have been received.
+        <b>Registration is closed now - the deadline was Saturday 28th February 2026</b> or when 60 applications have been received.
       </p>
       <p>
         Applicants will hear back from the organising committee by Monday 13th
