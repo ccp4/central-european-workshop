@@ -58,7 +58,7 @@ export function Apply() {
       <p>
         It covers accommodation at the venue (from Saturday 25th April to Saturday 2nd May)
         and all meals during the workshop (from dinner on Sunday 26th April to lunch on Saturday 2nd May),
-        as well as workshop materials. We do not provide any travel bursaries.
+        as well as workshop materials. You will share a room with another participant. We do not provide any travel bursaries.
       </p>
       <p>
         Payments will be requested only from the selected participants after acceptance of their application.
