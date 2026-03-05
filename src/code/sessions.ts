@@ -328,7 +328,7 @@ const day6: Day = {
     },
     { title: "Lunch", type: "Meal", time: "12:30" },
     {
-      title: "Atomic structure model validation (including common model-building errors) and deposition",
+      title: "Atomic structure model validation and optimisation",
       type: "Lecture",
       time: "14:00",
       speakers: [robbie_joosten],
