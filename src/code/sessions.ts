@@ -245,24 +245,25 @@ const day5: Day = {
       speakers: [agnel_joseph],
     },
     {
-      title: "Stereochemistry restraints with AceDRG, ProSMART and MetalCoord",
+      title: "Atomic structure model refinement",
       type: "Lecture",
       time: "09:45",
       speakers: [keitaro_yamashita],
     },
     { title: "Break", time: "10:30", type: "Break" },
     {
-      title: "Restraints for unusual covalent links",
+      title: "Stereochemistry restraints with AceDRG, ProSMART and MetalCoord",
       type: "Lecture",
       time: "11:00",
-      speakers: [andrey_lebedev],
-    },
-    {
-      title: "Atomic structure model refinement",
-      type: "Lecture",
-      time: "11:45",
       speakers: [keitaro_yamashita],
     },
+    {
+      title: "Restraints for unusual covalent links",
+      type: "Tutorial",
+      time: "11:45",
+      speakers: [andrey_lebedev],
+    },
+
     { title: "Lunch", type: "Meal", time: "12:30" },
     {
       title: "Refinement in crystallography I – Servalcat",
@@ -407,7 +408,7 @@ const day7: Day = {
       time: "12:00",
       speakers: [martin_maly],
     },
-    { title: "Lunch (note there is a bus service at 13:45 from Nové Hrady to České Budějovice)", type: "Meal", time: "12:15" },
+    { title: "Lunch (note that there is a bus service at 13:45 from Nové Hrady to České Budějovice)", type: "Meal", time: "12:15" },
   ],
 };
 
