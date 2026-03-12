@@ -29,7 +29,10 @@ export function Programme() {
       <p>
         The programme covers the practical use of software tools for
         the methods of structural biology, i.e. macromolecular crystallography and electron
-        cryo-microscopy (cryo-EM), as well as structural bioinformatics. 
+        cryo-microscopy (cryo-EM), as well as structural bioinformatics. Programme subject to change.
+      </p>
+      <p>
+        Most of the individual lectures and tutorials will be 45 minutes long. There will be 5 minute breaks between most sessions.
       </p>
       
       <div className="my-4 flex gap-4">

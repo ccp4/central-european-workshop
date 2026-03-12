@@ -58,9 +58,14 @@ const day1: Day = {
       time: "17:45",
     },
     {
+      title: "Break",
+      time: "18:15",
+      type: "Break"
+    },
+    {
       title: "Using MX and cryoEM to understand a biological problem/system",
       type: "Lecture",
-      time: "18:15",
+      time: "18:20",
       speakers: [terezia_kovalova],
     },
     {
@@ -83,10 +88,10 @@ const day2: Day = {
     {
       title: "Principles of crystallography – diffraction",
       type: "Lecture",
-      time: "09:45",
+      time: "09:50",
       speakers: [jan_dohnalek],
     },
-    { title: "Break", time: "10:30", type: "Break" },
+    { title: "Break", time: "10:35", type: "Break" },
     {
       title: "Diffraction data processing using DIALS",
       type: "Lecture",
@@ -96,10 +101,10 @@ const day2: Day = {
     {
       title: "Diffraction data processing using DIALS",
       type: "Tutorial",
-      time: "11:45",
+      time: "11:50",
       speakers: [david_waterman],
     },
-    { title: "Lunch", type: "Meal", time: "12:30" },
+    { title: "Lunch", type: "Meal", time: "12:40" },
     {
       title: "Diffraction data processing using XDS",
       type: "Lecture",
@@ -109,10 +114,10 @@ const day2: Day = {
     {
       title: "Diffraction data processing using XDS",
       type: "Tutorial",
-      time: "14:45",
+      time: "14:50",
       speakers: [kay_diederichs],
     },
-    { title: "Break", time: "15:30", type: "Break" },
+    { title: "Break", time: "15:35", type: "Break" },
     {
       title: "Pathologies in crystallographic data",
       type: "Lecture",
@@ -122,15 +127,15 @@ const day2: Day = {
     {
       title: "CCP4 graphical user interfaces",
       type: "Lecture",
-      time: "16:45",
+      time: "16:50",
       speakers: [maria_fando, paul_bond],
     },
     {
       title: "Flash introduction talks by participants, part II",
       type: "Other",
-      time: "17:30",
+      time: "17:40",
     },
-    { title: "Dinner", type: "Meal", time: "18:00" },
+    { title: "Dinner", type: "Meal", time: "18:10" },
     {
       title: "Hands-on problem solving – discussion and questions from participants",
       type: "Problem solving",
@@ -161,7 +166,7 @@ const day3: Day = {
       time: "11:30",
       speakers: [agnel_joseph, joel_greer],
     },
-    { title: "Lunch", type: "Meal", time: "12:30" },
+    { title: "Lunch", type: "Meal", time: "12:40" },
     {
       title: "Particle reconstruction with RELION in CCP-EM Doppio II",
       type: "Tutorial",
@@ -172,7 +177,7 @@ const day3: Day = {
     {
       title: "Atomic structure model prediction using AI – common tips and traps",
       type: "Lecture",
-      time: "16:30",
+      time: "16:25",
       speakers: [isabel_uson],
     },
     {
@@ -202,7 +207,7 @@ const day4: Day = {
     {
       title: "Structure solution with ARCIMBOLDO",
       type: "Tutorial",
-      time: "9:45",
+      time: "9:50",
       speakers: [isabel_uson],
     },
     { title: "Break", time: "10:30", type: "Break" },
@@ -215,14 +220,14 @@ const day4: Day = {
     {
       title: "Automated model building in crystallography with ModelCraft",
       type: "Tutorial",
-      time: "11:45",
+      time: "11:50",
       speakers: [paul_bond],
     },
-    { title: "Lunch", type: "Meal", time: "12:30" },
+    { title: "Lunch", type: "Meal", time: "12:40" },
     {
       title: "Model-building and refinement in Coot & Moorhen",
       type: "Lecture",
-      time: "13:30",
+      time: "13:25",
       speakers: [lucrezia_catapano],
     },
     {
@@ -247,7 +252,7 @@ const day5: Day = {
     {
       title: "Atomic structure model refinement",
       type: "Lecture",
-      time: "09:45",
+      time: "09:50",
       speakers: [keitaro_yamashita],
     },
     { title: "Break", time: "10:30", type: "Break" },
@@ -260,11 +265,11 @@ const day5: Day = {
     {
       title: "Restraints for unusual covalent links",
       type: "Tutorial",
-      time: "11:45",
+      time: "11:50",
       speakers: [andrey_lebedev],
     },
 
-    { title: "Lunch", type: "Meal", time: "12:30" },
+    { title: "Lunch", type: "Meal", time: "12:40" },
     {
       title: "Refinement in crystallography I – Servalcat",
       type: "Tutorial",
@@ -274,10 +279,10 @@ const day5: Day = {
     {
       title: "Refinement in crystallography II – Servalcat",
       type: "Tutorial",
-      time: "14:45",
+      time: "14:50",
       speakers: [keitaro_yamashita, martin_maly, lucrezia_catapano],
     },
-    { title: "Break", time: "15:30", type: "Break" },
+    { title: "Break", time: "15:35", type: "Break" },
     {
       title: "Refinement in cryoEM I – Servalcat & Moorhen",
       type: "Tutorial",
@@ -287,7 +292,7 @@ const day5: Day = {
     {
       title: "Refinement in cryoEM II – Servalcat & Moorhen",
       type: "Tutorial",
-      time: "16:45",
+      time: "16:50",
       speakers: [keitaro_yamashita, martin_maly, lucrezia_catapano],
     },
     { title: "Dinner", type: "Meal", time: "18:00" },
@@ -311,7 +316,7 @@ const day6: Day = {
     {
       title: "DNATCO – nucleic acids: building, restraints and validation",
       type: "Tutorial",
-      time: "9:45",
+      time: "9:50",
       speakers: [jiri_cerny],
     },
     { title: "Break", time: "10:30", type: "Break" },
@@ -324,10 +329,10 @@ const day6: Day = {
     {
       title: "Privateer – glycosylation analysis",
       type: "Lecture",
-      time: "11:45",
+      time: "11:50",
       speakers: [lucy_schofield],
     },
-    { title: "Lunch", type: "Meal", time: "12:30" },
+    { title: "Lunch", type: "Meal", time: "12:40" },
     {
       title: "Atomic structure model validation and optimisation",
       type: "Lecture",
@@ -337,11 +342,11 @@ const day6: Day = {
     {
       title: "Preserving your data with CCP4 Cloud, PDB deposition and project archiving",
       type: "Lecture",
-      time: "14:45",
+      time: "14:50",
       speakers: [maria_fando, eugene_krissinel],
     },
 
-      { title: "Break", time: "15:30", type: "Break" },
+      { title: "Break", time: "15:35", type: "Break" },
     {
       title: "Structural bioinformatics workshop using Python",
       type: "Lecture",
@@ -380,10 +385,10 @@ const day7: Day = {
     {
       title: "Structure stability and dynamics: small angle scattering, serial crystallography - low radiation dose and time-resolved studies",
       type: "Lecture",
-      time: "9:45",
+      time: "9:50",
       speakers: [martin_maly, terezia_kovalova],
     },
-    { title: "Break", time: "10:30", type: "Break" },
+    { title: "Break", time: "10:35", type: "Break" },
     /* {
       title: "Overview of tools/databases for structure model analysis",
       type: "Lecture",
@@ -399,16 +404,16 @@ const day7: Day = {
       {
       title: "Structure alignment and superposition",
       type: "Lecture",
-      time: "11:45",
+      time: "11:50",
       speakers: [petr_kolenko],
     },
     {
       title: "Closing remarks",
       type: "Other",
-      time: "12:00",
+      time: "12:05",
       speakers: [martin_maly],
     },
-    { title: "Lunch (note that there is a bus service at 13:45 from Nové Hrady to České Budějovice)", type: "Meal", time: "12:15" },
+    { title: "Lunch (note that there is a bus service at 13:45 from Nové Hrady to České Budějovice)", type: "Meal", time: "12:20" },
   ],
 };
 
