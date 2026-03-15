@@ -134,7 +134,7 @@ export function Location() {
           </tr>
           <tr>
             <td>Yes</td>
-            <td>Ano (less formally: Jo /<i></i>Yo</i>/)</td>
+            <td>Ano (less formally: Jo /<i>Yo</i>/)</td>
           </tr>
           <tr>
             <td>No</td>
