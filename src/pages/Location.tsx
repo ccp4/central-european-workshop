@@ -105,6 +105,87 @@ export function Location() {
         The official language is Czech.
         English is widely spoken, especially among younger people and in touristic areas.
       </p>
+    <Heading text="Little English-Czech dictionary" />
+      <table>
+
+        <thead>
+          <tr>
+            <th>English</th>
+            <th>Czech</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Good morning/afternoon!</td>
+            <td>Dobrý den! /<i>Dobree den</i>/ (universial formal greeting, e.g. to say to a bus driver)</td>
+          </tr>
+          <tr>
+            <td>Hi!</td>
+            <td>Ahoj! (informal greeting, e.g. to say to a friend)</td>
+          </tr>
+          <tr>
+            <td>Please.</td>
+            <td>Prosím.</td>
+          </tr>
+          <tr>
+            <td>Thank you.</td>
+            <td>Děkuji.</td>
+          </tr>
+          <tr>
+            <td>Yes</td>
+            <td>Ano (less formally: Jo /<i></i>Yo</i>/)</td>
+          </tr>
+          <tr>
+            <td>No</td>
+            <td>Ne</td>
+          </tr>
+          <tr>
+            <td>Excuse me. Sorry.</td>
+            <td>Omlouvám se.</td>
+          </tr>
+          <tr>
+            <td>Do you speak English?</td>
+            <td>Mluvíte anglicky?</td>
+          </tr>
+          <tr>
+            <td>I don't understand Czech.</td>
+            <td>Nerozumím česky.</td>
+          </tr>
+          <tr>
+            <td>Ticket to Nové Hrady please.</td>
+            <td>Jízdenku do Nových Hradů prosím. /<i>Jeezdenkoo do Noveekh Hradoo proseem.</i>/</td>
+          </tr>
+          <tr>  
+            <td>Water</td>
+            <td>Voda</td>
+          </tr>
+          <tr>
+            <td>Coffee</td>
+            <td>Káva (less formally: Kafe)</td>
+          </tr>
+          <tr>
+            <td>Beer</td>
+            <td>Pivo</td>
+          </tr>
+          <tr>
+            <td>Wine</td>
+            <td>Víno</td>
+          </tr>
+          <tr>
+            <td>Using electron cryo microscopy, it is possible to experimentally determine<br />
+                the structures of large molecular complexes without the need to crystallize the sample.</td>
+            <td>Pomocí kryogenní elektronové mikroskopie je možné experimentálně určit<br />
+                struktury obrovských molekulárních komplexů bez nutnosti krystalizace vzorku.</td>
+          </tr>
+          <tr>
+            <td>Crystallographic methods are based on the scattering and subsequent interference<br />
+                of radiation with a wavelength comparable to the size of the crystal lattice.</td>
+            <td>Krystalografické metody jsou založené na rozptylu a následné interferenci<br />
+                záření s vlnovou délkou srovnatelnou s velikostí krystalické mřížky.</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
   );
 }
