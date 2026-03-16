@@ -199,13 +199,13 @@ const day4: Day = {
   title: "Wednesday 29th April - Model Building",
   sessions: [
     {
-      title: "Structure solution with ARCIMBOLDO",
+      title: "Structure solution and verification in ARCIMBOLDO and SHELX",
       type: "Lecture",
       time: "9:00",
       speakers: [isabel_uson],
     },
     {
-      title: "Structure solution with ARCIMBOLDO",
+      title: "Structure solution and verification in ARCIMBOLDO and SHELX",
       type: "Tutorial",
       time: "9:50",
       speakers: [isabel_uson],
