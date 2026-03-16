@@ -212,13 +212,13 @@ const day4: Day = {
     },
     { title: "Break", time: "10:30", type: "Break" },
     {
-      title: "Automated model building in crystallography and density modification",
+      title: "Automated model building and density modification",
       type: "Lecture",
       time: "11:00",
       speakers: [paul_bond],
     },
     {
-      title: "Automated model building in crystallography with ModelCraft",
+      title: "Automated model building with ModelCraft",
       type: "Tutorial",
       time: "11:50",
       speakers: [paul_bond],
