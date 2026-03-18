@@ -174,7 +174,7 @@ export function Location() {
           </tr>
           <tr>
             <td>Bus station</td>
-            <td>Autobusové nádraží</td>
+            <td>Autobusové nádraží (aut.nádr.)</td>
           </tr>
           <tr>
             <td>Bus stop</td>
