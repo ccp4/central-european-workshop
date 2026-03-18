@@ -31,13 +31,13 @@ export function Location() {
         </div>
     <Heading text="Getting there" />
       <p>
-        The nearest airport is in Prague (PRG).
+        The nearest airport is Václav Havel Airport Prague (PRG).
       </p>
       <p>
         Please make sure that you are travelling to the correct Nové Hrady (South Bohemia, district České Budějovice) as there are multiple places with this name in Czechia.
         There are limited services to the Nové Hrady venue.
         Thus, we will also provide accommodation at venue from Saturday 25th April on demand.
-        Please make sure that you arrive at the venue in time so we all can start with the programme on Sunday 26th April at 17:00.
+        Please make sure that you arrive at the venue in time so we all can start with the programme on Sunday 26th April at 17:15.
       </p>
       <p>
         These are the recommended services of public transport on how to get to the venue from Prague:
@@ -84,6 +84,10 @@ export function Location() {
         For booking of public transport tickets in Prague (buses, trams, metro), you can use the PID Lítačka application.
         Do not forget to activate a ticket at least 1 minute before your travel.<br />
         <Link href="https://app.pidlitacka.cz/" text="PID Lítačka application" newTab={true} />
+      </p>
+      <p>
+        From the Prague Airport, you can get to the city centre by the bus Airport Express (AE) which goes directly to the main train station.
+        For this particular bus, buy the ticket at the driver. Other possible options are the troley bus 59 to the Nádraží Veleslavín metro station (line A) and then metro to the city centre, or the bus 100 to Zličín metro station (line B) and then metro to the city centre. 
       </p>
       <p>
         It can be useful to have the Mapy.com application for navigation and maps in Czechia:<br />
@@ -155,6 +159,26 @@ export function Location() {
           <tr>
             <td>I don't understand Czech.</td>
             <td>Nerozumím česky. /<i>Nehrozumeem chesky.</i>/</td>
+          </tr>
+          <tr>
+            <td>Airport</td>
+            <td>Letiště</td>
+          </tr>
+          <tr>
+            <td>Train station</td>
+            <td>Železniční stanice (žel.st.)</td>
+          </tr>
+          <tr>
+            <td>Main train station</td>
+            <td>Hlavní nádraží (hl.n.)</td>
+          </tr>
+          <tr>
+            <td>Bus station</td>
+            <td>Autobusové nádraží</td>
+          </tr>
+          <tr>
+            <td>Bus stop</td>
+            <td>Zastávka</td>
           </tr>
           <tr>
             <td>Ticket to Nové Hrady please.</td>
