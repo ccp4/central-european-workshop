@@ -86,7 +86,7 @@ export function Location() {
         <Link href="https://app.pidlitacka.cz/" text="PID Lítačka application" newTab={true} />
       </p>
       <p>
-        From the Prague Airport, you can get to the city centre by the bus Airport Express (AE) which goes directly to the main train station.
+        From the Prague Airport (bus stops Terminál 1 or Terminál 2), you can get to the city centre by the bus Airport Express (AE) which goes directly to the main train station.
         For this particular bus, buy the ticket at the driver. Other possible options are the troley bus 59 to the Nádraží Veleslavín metro station (line A) and then metro to the city centre, or the bus 100 to Zličín metro station (line B) and then metro to the city centre. 
       </p>
       <p>
