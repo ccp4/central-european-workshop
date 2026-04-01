@@ -182,7 +182,7 @@ export function Location() {
           </tr>
           <tr>
             <td>Ticket to Nové Hrady please.</td>
-            <td>Jízdenku do Nových Hradů prosím. /<i>Yeezdenkoo do Noveekh Hradoo proseem.</i>/</td>
+            <td>Jízdenku do Nových Hradů prosím. /<i>Yeezdenkoo doh Noveekh Hradoo proseem.</i>/</td>
           </tr>
           <tr>  
             <td>Water</td>
@@ -200,17 +200,27 @@ export function Location() {
             <td>Wine</td>
             <td>Víno</td>
           </tr>
+          <tr></tr>
           <tr>
-            <td>Crystallographic methods are based on the scattering and subsequent interference<br />
-                of radiation with a wavelength comparable to the size of the crystal lattice.</td>
-            <td>Krystalografické metody jsou založené na rozptylu a následné interferenci<br />
-                záření s vlnovou délkou srovnatelnou s velikostí krystalické mřížky.</td>
+            <td>Crystallographic methods are based on the scattering and<br />
+                subsequent interference of radiation with a wavelength<br />
+                comparable to the size of the crystal lattice.
+            </td>
+            <td>Krystalografické metody jsou založené na rozptylu a<br />
+                následné interferenci záření s vlnovou délkou<br />
+                srovnatelnou s velikostí krystalické mřížky.
+            </td>
           </tr>
+          <tr></tr>
           <tr>
-            <td>Using electron cryo microscopy, it is possible to experimentally determine<br />
-                the structures of large molecular complexes without the need to crystallize the sample.</td>
-            <td>Pomocí kryogenní elektronové mikroskopie je možné experimentálně určit<br />
-                struktury obrovských molekulárních komplexů bez nutnosti krystalizace vzorku.</td>
+            <td>Using electron cryo microscopy, it is possible to<br />
+                experimentally determine the structures of large molecular<br />
+                complexes without the need to crystallize the sample.
+            </td>
+            <td>Pomocí kryogenní elektronové mikroskopie je možné<br />
+                experimentálně určit struktury obrovských molekulárních<br />
+                komplexů bez nutnosti krystalizace vzorku.
+            </td>
           </tr>
         </tbody>
       </table>
