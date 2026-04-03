@@ -103,8 +103,8 @@ export function Location() {
         It is not advised to use ATMs of the Euronet company.
       </p>
       <ul>
-        <li>ATM at the Prague main train station: https://mapy.com/s/cajuvufoko</li>
-        <li>ATM at the České Budějovice main train station: https://mapy.com/s/jelocutugu</li>
+        <li><Link href="https://mapy.com/s/cajuvufoko" text="ATM at the Prague main train station." newTab={true} /></li>
+        <li><Link href="https://mapy.com/s/jelocutugu" text="ATM at the České Budějovice main train station." newTab={true} /></li>
       </ul>
       <p>
         Electric plugs in Czechia are of type C and E, similarly as in most of Europe.
