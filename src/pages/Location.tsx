@@ -100,7 +100,12 @@ export function Location() {
       <p>
         The official currency in Czechia is Czech koruna (CZK).
         Credit and debit cards are widely accepted, but it is always good to have some cash with you.
+        It is not advised to use ATMs of the Euronet company.
       </p>
+      <ul>
+        <li>ATM at the Prague main train station: https://mapy.com/s/cajuvufoko</li>
+        <li>ATM at the České Budějovice main train station: https://mapy.com/s/jelocutugu</li>
+      </ul>
       <p>
         Electric plugs in Czechia are of type C and E, similarly as in most of Europe.
         The standard voltage is 230 V and the standard frequency is 50 Hz.
@@ -159,6 +164,10 @@ export function Location() {
           <tr>
             <td>I don't understand Czech.</td>
             <td>Nerozumím česky. /<i>Nehrozumeem chesky.</i>/</td>
+          </tr>
+          <tr>
+            <td>ATM</td>
+            <td>Bankomat</td>
           </tr>
           <tr>
             <td>Airport</td>
