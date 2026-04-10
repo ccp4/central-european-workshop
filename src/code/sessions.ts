@@ -236,7 +236,7 @@ const day4: Day = {
       time: "14:15",
       speakers: [lucrezia_catapano],
     },
-    { title: "Social event - Trip to Český Krumlov (including dinner)", type: "Other", time: "15:00" },
+    { title: "Social event - Trip to Český Krumlov (until 21:00)", type: "Other", time: "15:00" },
   ],
 };
 
