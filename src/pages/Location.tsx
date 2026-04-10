@@ -238,7 +238,7 @@ export function Location() {
                 three hundred and thirty three silver roofs.
             </td>
             <td>Tři sta třicet tři stříbrných stříkaček přeletělo přes<br />
-                tři sta třicet tři stříbrných střech.</td>
+                tři sta třicet tři stříbrných střech.
             </td>
           </tr>
         </tbody>
