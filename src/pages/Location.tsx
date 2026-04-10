@@ -105,6 +105,7 @@ export function Location() {
       <ul>
         <li><Link href="https://mapy.com/s/cajuvufoko" text="ATM at the Prague main train station." newTab={true} /></li>
         <li><Link href="https://mapy.com/s/jelocutugu" text="ATM at the České Budějovice main train station." newTab={true} /></li>
+        <li><Link href="https://mapy.com/s/badobedacu" text="ATM at the square in Nové Hrady." newTab={true} /></li>
       </ul>
       <p>
         Electric plugs in Czechia are of type C and E, similarly as in most of Europe.
