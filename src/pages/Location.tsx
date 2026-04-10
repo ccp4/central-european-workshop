@@ -128,7 +128,7 @@ export function Location() {
         <tbody>
           <tr>
             <td>Good morning/afternoon!</td>
-            <td>Dobrý den! /<i>Dobree den</i>/ (universial formal greeting, e.g. to say to a bus driver)</td>
+            <td>Dobrý den! /<i>Dobree den</i>/ (universal formal greeting, e.g. to say to a bus driver)</td>
           </tr>
           <tr>
             <td>Hi!</td>
