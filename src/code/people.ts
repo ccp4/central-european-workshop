@@ -111,7 +111,7 @@ export const joel_greer: Person = {
 
 export const ludmila_leroy: Person = {
   name: "Ludmila Leroy",
-  photo: "ludmila_leroy.png",
+  photo: "ludmila_leroy.jpg",
   tags: ["Dectris"],
   homepage: "https://www.dectris.com",
 };
