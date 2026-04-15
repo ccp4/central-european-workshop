@@ -28,6 +28,7 @@ import {
   petr_kolenko,
   robbie_joosten,
   terezia_kovalova,
+  ludmila_leroy,
 } from "./people";
 
 interface Session {
@@ -294,6 +295,12 @@ const day5: Day = {
       type: "Tutorial",
       time: "16:50",
       speakers: [keitaro_yamashita, martin_maly, lucrezia_catapano],
+    },
+    {
+      title: "Dectris",
+      type: "Other",
+      time: "17:40",
+      speakers: [ludmila_leroy],
     },
     { title: "Dinner", type: "Meal", time: "18:00" },
     {

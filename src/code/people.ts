@@ -109,6 +109,12 @@ export const joel_greer: Person = {
   homepage: "https://www.ccpem.ac.uk/people/joel-greer/",
 };
 
+export const ludmila_leroy: Person = {
+  name: "Ludmila Leroy",
+  photo: "ludmila_leroy.png",
+  tags: ["Dectris"],
+};
+
 export const jiri_cerny: Person = {
   name: "Jiří Černý",
   photo: "jiri_cerny.jpg",
@@ -193,6 +199,7 @@ export const people: Person[] = [
   david_waterman,
   lucy_schofield,
   joel_greer,
+  ludmila_leroy
   jiri_cerny,
   jan_dohnalek,
   petr_kolenko,
