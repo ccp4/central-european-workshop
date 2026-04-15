@@ -113,6 +113,7 @@ export const ludmila_leroy: Person = {
   name: "Ludmila Leroy",
   photo: "ludmila_leroy.png",
   tags: ["Dectris"],
+  homepage: "https://www.dectris.com",
 };
 
 export const jiri_cerny: Person = {
@@ -199,7 +200,7 @@ export const people: Person[] = [
   david_waterman,
   lucy_schofield,
   joel_greer,
-  ludmila_leroy
+  ludmila_leroy,
   jiri_cerny,
   jan_dohnalek,
   petr_kolenko,
