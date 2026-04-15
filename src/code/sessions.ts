@@ -272,29 +272,29 @@ const day5: Day = {
 
     { title: "Lunch", type: "Meal", time: "12:40" },
     {
-      title: "Refinement in crystallography I – Servalcat",
+      title: "Refinement in crystallography I – Servalcat & Coot",
       type: "Tutorial",
       time: "14:00",
-      speakers: [keitaro_yamashita, martin_maly, lucrezia_catapano],
+      speakers: [andrey_lebedev, keitaro_yamashita, martin_maly, lucrezia_catapano],
     },
     {
-      title: "Refinement in crystallography II – Servalcat",
+      title: "Refinement in crystallography II – Servalcat & Coot",
       type: "Tutorial",
       time: "14:50",
-      speakers: [keitaro_yamashita, martin_maly, lucrezia_catapano],
+      speakers: [andrey_lebedev, keitaro_yamashita, martin_maly, lucrezia_catapano],
     },
     { title: "Break", time: "15:35", type: "Break" },
     {
       title: "Refinement in cryoEM I – Servalcat & Moorhen",
       type: "Tutorial",
       time: "16:00",
-      speakers: [keitaro_yamashita, martin_maly, lucrezia_catapano],
+      speakers: [martin_maly, lucrezia_catapano, keitaro_yamashita],
     },
     {
       title: "Refinement in cryoEM II – Servalcat & Moorhen",
       type: "Tutorial",
       time: "16:50",
-      speakers: [keitaro_yamashita, martin_maly, lucrezia_catapano],
+      speakers: [martin_maly, lucrezia_catapano, keitaro_yamashita],
     },
     {
       title: "Dectris",
