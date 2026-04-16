@@ -288,13 +288,13 @@ const day5: Day = {
       title: "Refinement in cryoEM I – Servalcat & Moorhen",
       type: "Tutorial",
       time: "16:00",
-      speakers: [martin_maly, lucrezia_catapano, keitaro_yamashita],
+      speakers: [martin_maly, lucrezia_catapano, keitaro_yamashita, agnel_joseph],
     },
     {
       title: "Refinement in cryoEM II – Servalcat & Moorhen",
       type: "Tutorial",
       time: "16:50",
-      speakers: [martin_maly, lucrezia_catapano, keitaro_yamashita],
+      speakers: [martin_maly, lucrezia_catapano, keitaro_yamashita, agnel_joseph],
     },
     {
       title: "Dectris",
