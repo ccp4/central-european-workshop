@@ -297,7 +297,7 @@ const day5: Day = {
       speakers: [martin_maly, lucrezia_catapano, keitaro_yamashita, agnel_joseph],
     },
     {
-      title: "Dectris",
+      title: "Dectris (online)",
       type: "Other",
       time: "17:40",
       speakers: [ludmila_leroy],
