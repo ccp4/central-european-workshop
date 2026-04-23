@@ -179,7 +179,7 @@ const day3: Day = {
     {
       title: "Particle reconstruction with RELION in CCP-EM Doppio I",
       type: "Tutorial",
-      time: "11:30",
+      time: "11:50",
       speakers: [agnel_joseph, joel_greer],
     },
     { title: "Lunch", type: "Meal", time: "12:40" },
@@ -202,7 +202,7 @@ const day3: Day = {
       time: "17:15",
       speakers: [andrey_lebedev, maria_fando],
     },
-    { title: "Dinner", type: "Meal", time: "18:00" },
+    { title: "Dinner", type: "Meal", time: "18:10" },
     {
       title: "Hands-on problem solving – discussion and questions from participants",
       type: "Problem solving",
@@ -231,20 +231,20 @@ const day4: Day = {
       time: "9:50",
       speakers: [isabel_uson],
     },
-    { title: "Break", time: "10:30", type: "Break" },
+    { title: "Break", time: "10:35", type: "Break" },
     {
       title: "Automated model building and density modification",
       type: "Lecture",
-      time: "11:00",
+      time: "10:50",
       speakers: [paul_bond],
     },
     {
       title: "Automated model building with ModelCraft",
       type: "Tutorial",
-      time: "11:50",
+      time: "11:40",
       speakers: [paul_bond],
     },
-    { title: "Lunch", type: "Meal", time: "12:40" },
+    { title: "Lunch", type: "Meal", time: "12:25" },
     {
       title: "Model-building and refinement in Coot & Moorhen",
       type: "Lecture",
@@ -281,7 +281,7 @@ const day5: Day = {
       time: "09:50",
       speakers: [keitaro_yamashita],
     },
-    { title: "Break", time: "10:30", type: "Break" },
+    { title: "Break", time: "10:35", type: "Break" },
     {
       title: "Stereochemistry restraints with AceDRG, ProSMART and MetalCoord",
       type: "Lecture",
@@ -324,10 +324,10 @@ const day5: Day = {
     {
       title: "Dectris (online)",
       type: "Other",
-      time: "17:40",
+      time: "17:50",
       speakers: [ludmila_leroy],
     },
-    { title: "Dinner", type: "Meal", time: "18:00" },
+    { title: "Dinner", type: "Meal", time: "18:10" },
     {
       title: "Hands-on problem solving – discussion and questions from participants",
       type: "Problem solving",
@@ -356,7 +356,7 @@ const day6: Day = {
       time: "9:50",
       speakers: [jiri_cerny],
     },
-    { title: "Break", time: "10:30", type: "Break" },
+    { title: "Break", time: "10:35", type: "Break" },
     {
       title: "Tools for ligands in Coot & Moorhen",
       type: "Tutorial",
@@ -382,21 +382,21 @@ const day6: Day = {
       time: "14:50",
       speakers: [maria_fando, eugene_krissinel],
     },
-
-      { title: "Break", time: "15:35", type: "Break" },
+    { title: "Break", time: "15:35", type: "Break" },
     {
       title: "Structural bioinformatics workshop using Python",
       type: "Lecture",
       time: "16:00",
       speakers: [jiri_cerny],
     },
+    { title: "Break", time: "17:00", type: "Break" },
     {
       title: "Structure validation quiz",
       type: "Other",
-      time: "17:00",
+      time: "17:10",
       speakers: [robbie_joosten],
     },
-    { title: "Dinner", type: "Meal", time: "18:00" },
+    { title: "Dinner", type: "Meal", time: "18:10" },
     {
       title: "Feedback, data backup",
       type: "Other",
