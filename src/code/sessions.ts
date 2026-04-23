@@ -86,6 +86,11 @@ const day2: Day = {
   title: "Monday 27th April - Crystallography",
   sessions: [
     {
+      title: "Breakfast",
+      type: "Meal",
+      time: "08:00",
+    },
+    {
       title: "Symmetry – application in crystal structure and single particle analysis",
       type: "Lecture",
       time: "09:00",
@@ -154,6 +159,11 @@ const day3: Day = {
   title: "Tuesday 28th April - Cryo-EM",
   sessions: [
     {
+      title: "Breakfast",
+      type: "Meal",
+      time: "08:00",
+    },
+    {
       title: "Principles of (cryo)EM with focus on particle reconstruction",
       type: "Lecture",
       time: "09:00",
@@ -205,6 +215,11 @@ const day4: Day = {
   title: "Wednesday 29th April - Model Building",
   sessions: [
     {
+      title: "Breakfast",
+      type: "Meal",
+      time: "08:00",
+    },
+    {
       title: "Structure solution and verification in ARCIMBOLDO and SHELX",
       type: "Lecture",
       time: "9:00",
@@ -249,6 +264,11 @@ const day4: Day = {
 const day5: Day = {
   title: "Thursday 30th April - Refinement",
   sessions: [
+    {
+      title: "Breakfast",
+      type: "Meal",
+      time: "08:00",
+    },
     {
       title: "Automated model building in cryoEM with ModelAngelo",
       type: "Tutorial",
@@ -320,6 +340,11 @@ const day6: Day = {
       title: "Friday 1st May - Restraints, Ligands, Validation",
   sessions: [
     {
+      title: "Breakfast",
+      type: "Meal",
+      time: "08:00",
+    },
+    {
       title: "DNATCO – nucleic acids: building, restraints and validation",
       type: "Lecture",
       time: "9:00",
@@ -388,6 +413,11 @@ const day6: Day = {
 const day7: Day = {
   title: "Saturday 2nd May",
   sessions: [
+    {
+      title: "Breakfast",
+      type: "Meal",
+      time: "08:00",
+    },
     {
       title: "Analysis of macromolecular assemblies",
       type: "Lecture",
