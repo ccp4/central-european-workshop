@@ -48,6 +48,11 @@ const day1: Day = {
   title: "Sunday 26th April",
   sessions: [
     {
+      title: "Registration and coffee",
+      type: "Other",
+      time: "16:00",
+    },
+    {
       title: "Welcome!",
       type: "Other",
       time: "17:15",
