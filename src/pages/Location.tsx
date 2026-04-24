@@ -210,6 +210,14 @@ export function Location() {
             <td>Wine</td>
             <td>Víno</td>
           </tr>
+          <tr>
+            <td>Cheers!</td>
+            <td>Na zdraví!</td>
+          </tr>
+          <tr>
+            <td>Gluten free</td>
+            <td>Bezlepkové / bez lepku / neobsahuje lepek</td>
+          </tr>
           <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
           <tr>
             <td>Crystallographic methods are based on the scattering and<br />
