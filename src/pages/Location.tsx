@@ -249,6 +249,10 @@ export function Location() {
                 tři sta třicet tři stříbrných střech.
             </td>
           </tr>
+          <tr>
+            <td>Stick a finger through a neck.</td>
+            <td>Strč prst skrz krk.</td>
+          </tr>
         </tbody>
       </table>
     </main>
