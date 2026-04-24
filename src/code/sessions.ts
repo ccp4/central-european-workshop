@@ -222,13 +222,13 @@ const day4: Day = {
     {
       title: "Structure solution and verification in ARCIMBOLDO and SHELX",
       type: "Lecture",
-      time: "9:00",
+      time: "09:00",
       speakers: [isabel_uson],
     },
     {
       title: "Structure solution and verification in ARCIMBOLDO and SHELX",
       type: "Tutorial",
-      time: "9:50",
+      time: "09:50",
       speakers: [isabel_uson],
     },
     { title: "Break", time: "10:35", type: "Break" },
@@ -347,13 +347,13 @@ const day6: Day = {
     {
       title: "DNATCO – nucleic acids: building, restraints and validation",
       type: "Lecture",
-      time: "9:00",
+      time: "09:00",
       speakers: [jiri_cerny],
     },
     {
       title: "DNATCO – nucleic acids: building, restraints and validation",
       type: "Tutorial",
-      time: "9:50",
+      time: "09:50",
       speakers: [jiri_cerny],
     },
     { title: "Break", time: "10:35", type: "Break" },
@@ -421,20 +421,20 @@ const day7: Day = {
     {
       title: "Analysis of macromolecular assemblies",
       type: "Lecture",
-      time: "9:00",
+      time: "09:00",
       speakers: [eugene_krissinel],
     },
     {
       title: "Structure stability and dynamics: small angle scattering, serial crystallography - low radiation dose and time-resolved studies",
       type: "Lecture",
-      time: "9:50",
+      time: "09:50",
       speakers: [martin_maly, terezia_kovalova],
     },
     { title: "Break", time: "10:35", type: "Break" },
     /* {
       title: "Overview of tools/databases for structure model analysis",
       type: "Lecture",
-      time: "9:45",
+      time: "09:45",
       speakers: [martin_maly],
     }, */
     {
