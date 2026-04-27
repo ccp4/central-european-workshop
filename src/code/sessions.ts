@@ -169,7 +169,7 @@ const day3: Day = {
       time: "09:00",
       speakers: [agnel_joseph, joel_greer],
     },
-    { title: "Break", time: "10:30", type: "Break" },
+    { title: "Group photo and break", time: "10:30", type: "Break" },
     {
       title: "CCP-EM Doppio graphical user interface",
       type: "Lecture",
