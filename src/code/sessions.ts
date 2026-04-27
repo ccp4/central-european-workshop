@@ -189,7 +189,7 @@ const day3: Day = {
       time: "14:00",
       speakers: [agnel_joseph, joel_greer],
     },
-    { title: "Break", time: "16:00", type: "Break" },
+    { title: "Break - snacks which you brought", time: "16:00", type: "Break" },
     {
       title: "Atomic structure model prediction using AI – common tips and traps",
       type: "Lecture",
