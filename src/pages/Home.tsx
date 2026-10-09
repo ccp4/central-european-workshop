@@ -1,4 +1,4 @@
-import { Link, InternalLink, List } from "../components/Elements";
+import { Link, InternalLink } from "../components/Elements";
 
 export function Home() {
   return (
@@ -13,12 +13,17 @@ export function Home() {
       </div>
       <p>
         The CCP4 Central European
-        Workshop 2027 on computational structural biology will take place in <InternalLink to="location"
-        text="Nové Hrady" />, South Bohemia, Czechia from 10th to 16th May 2027.
-        More details will be published on this website in October 2026.
+        Workshop 2027 on computational structural biology will take place in{" "}
+        <InternalLink to="location" text="Nové Hrady" />, South Bohemia, Czechia
+        from 10th to 16th May 2027. More details will be published on this
+        website in October 2026.
       </p>
       <p>
-        Website for the previous edition in 2026 is available at <Link href="https://ccp4.github.io/central-european-workshop-2026" text="https://ccp4.github.io/central-european-workshop-2026" />.
+        Website for the previous edition in 2026 is available at{" "}
+        <Link
+          href="https://ccp4.github.io/central-european-workshop-2026"
+          text="https://ccp4.github.io/central-european-workshop-2026"
+        />.
       </p>
       <p>We look forward to welcoming you in Czechia this spring!</p>
       <div className="justify-center gap-4">

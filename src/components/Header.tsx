@@ -1,4 +1,4 @@
-import { ccp4, csca } from "../code/sponsors";
+import { ccp4, cssb } from "../code/sponsors";
 import { Logo } from "./Logo";
 
 export function Header() {
