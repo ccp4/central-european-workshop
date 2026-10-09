@@ -45,3 +45,9 @@ export const eca: Sponsor = {
   url: "https://ecanews.org",
   logo: "eca.png",
 };
+
+export const nanosoft: Sponsor = {
+  name: "Nanosoft",
+  url: "https://www.nanosoftcryo.com",
+  logo: "nanosoft.png",
+};

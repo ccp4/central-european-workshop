@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="flex justify-evenly gap-2">
       <Logo sponsor={ccp4} />
-      <Logo sponsor={csca} />
+      <Logo sponsor={cssb} />
     </header>
   );
 }

@@ -1,4 +1,4 @@
-import { ccpem, cssb, iucr, eca, dectris } from "../code/sponsors";
+import { ccpem, iucr, eca, nanosoft, dectris } from "../code/sponsors";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -7,9 +7,9 @@ export function Footer() {
       <p className="text-gray-500">Additional support kindly received from:</p>
       <div className="flex flex-wrap justify-center gap-4">
         <Logo sponsor={ccpem} />
-        <Logo sponsor={cssb} />
         <Logo sponsor={iucr} />
         <Logo sponsor={eca} />
+        <Logo sponsor={nanosoft} />
         <Logo sponsor={dectris} />
       </div>
     </footer>
