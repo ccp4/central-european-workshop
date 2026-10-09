@@ -18,7 +18,7 @@ export function Home() {
         More details will be published on this website in October 2026.
       </p>
       <p>
-        Website for the previous edition in 2026 is available at <Link to="https://ccp4.github.io/central-european-workshop-2026" text="https://ccp4.github.io/central-european-workshop-2026" />.
+        Website for the previous edition in 2026 is available at <Link href="https://ccp4.github.io/central-european-workshop-2026" text="https://ccp4.github.io/central-european-workshop-2026" />.
       </p>
       <p>We look forward to welcoming you in Czechia this spring!</p>
       <div className="justify-center gap-4">
