@@ -4,12 +4,9 @@ export function Home() {
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
       <div>
-        <h1 className="mb-1 text-center text-3xl font-bold">
-          CCP4 Central European Workshop 2027
-        </h1>
-        <p className="text-center text-lg">
+        <h2 className="text-center text-lg">
           Nové Hrady, South Bohemia, Czechia &ndash; 10-16 May 2027
-        </p>
+        </h2>
       </div>
       <p>
         The CCP4 Central European
