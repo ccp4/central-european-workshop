@@ -136,14 +136,14 @@ export const petr_kolenko: Person = {
 
 export const martin_maly: Person = {
   name: "Martin Malý",
-  email: "martin.maly@mrc-lmb.cam.ac.uk",
+  email: "martin.maly@mrclmb.ac.uk",
   photo: "martin_maly.jpg",
   tags: ["CCP4", "Organiser", "Python", "Graphical Interfaces", "Refinement"],
 };
 
 export const lucrezia_catapano: Person = {
   name: "Lucrezia Catapano",
-  email: "lucrezia@mrc-lmb.cam.ac.uk",
+  email: "lucrezia@mrclmb.ac.uk",
   photo: "lucrezia_catapano.jpg",
   tags: ["CCP4", "Organiser", "Model Building", "Python", "Refinement"],
 };
