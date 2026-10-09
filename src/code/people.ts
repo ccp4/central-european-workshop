@@ -173,19 +173,19 @@ export const jarmila_duskova: Person = {
 export const garib_murshudov: Person = {
   name: "Garib Murshudov",
   photo: "garib_murshudov.jpg",
-  tags: ["CCP4", "Organiser", "Refinement", "Hide"],
+  tags: ["CCP4", "Refinement", "Hide"],
 };
 
 export const radomir_kuzel: Person = {
   name: "Radomír Kužel",
   photo: "radomir_kuzel.jpg",
-  tags: ["CSCA", "Organiser", "Hide"],
+  tags: ["CSCA", "Hide"],
 };
 
 export const jindrich_hasek: Person = {
   name: "Jindřich Hašek",
   photo: "jindrich_hasek.jpg",
-  tags: ["CSCA", "Organiser", "Hide"],
+  tags: ["CSCA", "Hide"],
 };
 
 export const people: Person[] = [
