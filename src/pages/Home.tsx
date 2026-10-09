@@ -5,35 +5,20 @@ export function Home() {
     <main className="m-auto flex max-w-7xl flex-col gap-4">
       <div>
         <h1 className="mb-1 text-center text-3xl font-bold">
-          CCP4 Central European Workshop 2026
+          CCP4 Central European Workshop 2027
         </h1>
         <p className="text-center text-lg">
-          Nové Hrady, South Bohemia, Czechia &ndash; 26th April to 2nd May
+          Nové Hrady, South Bohemia, Czechia &ndash; 10-16 May 2027
         </p>
       </div>
       <p>
-        It is a great pleasure to announce the CCP4 Central European
-        Workshop 2026 on computational structural biology.
-        The workshop is open to structural biologists from any part of the world
-        who need to develop knowledge and skills
-        in macromolecular crystallography and electron cryo-microscopy (cryo-EM), particularly in using software for data processing and analysis.
+        The CCP4 Central European
+        Workshop 2027 on computational structural biology will take place in <InternalLink to="location"
+        text="Nové Hrady" />, South Bohemia, Czechia from 10th to 16th May 2027.
+        More details will be published on this website in October 2026.
       </p>
       <p>
-        Lectures and tutorials will be delivered by experts in the field,
-        sometimes even software authors themselves!
-        You will be able to work alongside world-leading scientists and
-        methods developers on your own projects.
-        Please see the{" "}
-        <InternalLink to="programme" text="programme" /> for more details.
-      </p>
-      <p>
-        <b>The deadline for <InternalLink to="apply" text="applications" /> is 28th February 2026. </b>
-        Please see the{" "}
-        <InternalLink to="apply" text="registration page" /> for more details.
-      </p>
-      <p>
-        The workshop will be based at the <InternalLink to="location"
-        text="Nové Hrady Castle" /> in South Bohemia in Czechia.
+        Website for the previous edition in 2026 is available at <Link to="https://ccp4.github.io/central-european-workshop-2026" text="https://ccp4.github.io/central-european-workshop-2026" />.
       </p>
       <p>We look forward to welcoming you in Czechia this spring!</p>
       <div className="justify-center gap-4">
