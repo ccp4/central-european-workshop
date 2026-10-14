@@ -51,3 +51,9 @@ export const nanosoft: Sponsor = {
   url: "https://www.nanosoftcryo.com",
   logo: "nanosoft.png",
 };
+
+export const bruker: Sponsor = {
+  name: "Bruker",
+  url: "https://www.bruker.com",
+  logo: "bruker.jpg",
+};
