@@ -31,6 +31,17 @@ export function Programme() {
         the methods of structural biology, i.e. macromolecular crystallography and electron
         cryo-microscopy (cryo-EM), as well as structural bioinformatics. Programme subject to change.
       </p>
+
+      <p><b>Preliminary programme</b></p>
+      Sunday 9 May: Arrival in the evening<br />
+      Monday 10 May: Diffraction data processing<br />
+      Tuesday 11 May: Single particle reconstruction – electron cryo-microscopy<br />
+      Wednesday 12 May: AI-based atomic structure model prediction, structure model placement<br />
+      Thursday 13 May: Atomic structure model building<br />
+      Friday 14 May: Structure refinement and stereochemical restraints<br />
+      Saturday 15 May: Structure validation, structural bioinformatics and deposition in the Protein Data Bank<br />
+      Sunday 16 May: Farewell<br />
+      {/*
       <p>
         Most of the individual lectures and tutorials will be 45 minutes long. There will be 5 minute breaks between most sessions.
       </p>
@@ -62,19 +73,7 @@ export function Programme() {
                         <p className="text-[0.9375rem]">
                           {session.speakers?.map((s) => s.name).join(", ")}
                         </p>
-                        {/* <p className="text-sm italic">
-                          {session.location?.name}
-                        </p>*/}
                       </td>
-                      {/* <td className="px-2 py-1">
-                        {session.location && (
-                          <a href={session.location.link} className="text-lg">
-                            <span className="material-symbols-outlined">
-                              location_on
-                            </span>
-                          </a>
-                        )}
-                      </td> */}
                     </tr>
                   );
                 })}
@@ -86,6 +85,7 @@ export function Programme() {
       <p className="text-center font-bold">
         Participants are expected to attend all sessions.
       </p>
+      */}
     </main>
   );
 }
