@@ -30,6 +30,7 @@ export function Programme() {
         The programme covers the practical use of software tools for
         the methods of structural biology, i.e. macromolecular crystallography and electron
         cryo-microscopy (cryo-EM), as well as structural bioinformatics.
+      </p>
 
       <p><b>Preliminary programme</b></p>
       Sunday 9 May: Arrival in the evening<br />
