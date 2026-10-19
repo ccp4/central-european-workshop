@@ -12,8 +12,8 @@ export function Footer() {
         <Logo sponsor={rvs} />
         <Logo sponsor={ibt} />
         <Logo sponsor={bruker} />
-        <Logo sponsor={nanosoft} />
         <Logo sponsor={dectris} />
+        <Logo sponsor={nanosoft} />
       </div>
     </footer>
   );
