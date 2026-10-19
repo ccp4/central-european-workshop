@@ -57,3 +57,15 @@ export const bruker: Sponsor = {
   url: "https://www.bruker.com/scd",
   logo: "bruker.jpg",
 };
+
+export const ibt: Sponsor[] = {
+  name: "IBT AS CR",
+  url: "https://www.ibt.cas.cz",
+  logo: "ibt.png",
+};
+
+export const rvs: Sponsor[] = {
+  name: "RVS AS CR",
+  url: "https://www.rvscr.cz",
+  logo: "rvs.png",
+};

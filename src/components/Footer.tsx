@@ -1,4 +1,4 @@
-import { ccpem, iucr, eca, bruker, nanosoft, dectris } from "../code/sponsors";
+import { ccpem, iucr, eca, rvs, ibt, bruker, nanosoft, dectris } from "../code/sponsors";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -9,6 +9,8 @@ export function Footer() {
         <Logo sponsor={ccpem} />
         <Logo sponsor={iucr} />
         <Logo sponsor={eca} />
+        <Logo sponsor={rvs} />
+        <Logo sponsor={ibt} />
         <Logo sponsor={bruker} />
         <Logo sponsor={nanosoft} />
         <Logo sponsor={dectris} />
