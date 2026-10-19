@@ -5,7 +5,7 @@ export function Home() {
     <main className="m-auto flex max-w-7xl flex-col gap-4">
       <div>
         <h2 className="text-center text-xl font-bold">
-          Nové Hrady, South Bohemia, Czechia &ndash; 10-16 May 2027
+          Nové Hrady, South Bohemia, Czechia &ndash; 9-16 May 2027
         </h2>
       </div>
       <p>
