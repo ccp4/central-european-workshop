@@ -25,17 +25,17 @@ export function Home() {
       <p>We look forward to welcoming you in Czechia this spring!</p>
       <div className="grid gap-4 sm:grid-cols-3">
         <img
-          src="/images/lecture2_crop_h600.jpg"
+          src={`${import.meta.env.BASE_URL}images/lecture2_crop_h600.jpg`}
           alt="Lecture theatre"
           className="mx-auto h-64 w-full rounded-lg object-cover shadow-sm"
         />
         <img
-          src="/images/group_photo_h600.jpg"
+          src={`${import.meta.env.BASE_URL}images/group_photo_h600.jpg`}
           alt="Group photo"
           className="mx-auto h-64 w-full rounded-lg object-cover shadow-sm"
         />
         <img
-          src="/images/castle_lake_h600.jpg"
+          src={`${import.meta.env.BASE_URL}images/castle_lake_h600.jpg`}
           alt="Castle and park"
           className="mx-auto h-64 w-full rounded-lg object-cover shadow-sm"
         />
