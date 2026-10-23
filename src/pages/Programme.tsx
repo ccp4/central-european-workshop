@@ -33,14 +33,14 @@ export function Programme() {
       </p>
 
       <p><b>Preliminary programme</b></p>
-      Sunday 9 May: Arrival in the evening<br />
-      Monday 10 May: Diffraction data processing<br />
-      Tuesday 11 May: Single particle reconstruction – electron cryo-microscopy<br />
-      Wednesday 12 May: AI-based atomic structure model prediction, structure model placement<br />
-      Thursday 13 May: Atomic structure model building<br />
-      Friday 14 May: Structure refinement and stereochemical restraints<br />
-      Saturday 15 May: Structure validation, structural bioinformatics and deposition in the Protein Data Bank<br />
-      Sunday 16 May: Farewell<br />
+      Sunday 2 May: Arrival in the evening<br />
+      Monday 3 May: Diffraction data processing<br />
+      Tuesday 4 May: Single particle reconstruction – electron cryo-microscopy<br />
+      Wednesday 5 May: AI-based atomic structure model prediction, structure model placement<br />
+      Thursday 6 May: Atomic structure model building<br />
+      Friday 7 May: Structure refinement and stereochemical restraints<br />
+      Saturday 8 May: Structure validation, structural bioinformatics and deposition in the Protein Data Bank<br />
+      Sunday 9 May: Farewell<br />
       {/*
       <p>
         Most of the individual lectures and tutorials will be 45 minutes long. There will be 5 minute breaks between most sessions.
