@@ -23,13 +23,21 @@ export function Home() {
         />.
       </p>
       <p>We look forward to welcoming you in Czechia this spring!</p>
-      <div className="justify-center gap-4">
+      <div className="grid gap-4 sm:grid-cols-3">
         <img
-          src="https://konferencnizamek.cz/wp-content/uploads/photo-gallery/imported_from_media_libray/z%C3%A1mek.jpg?bwg=1549014679"
-          alt="Nové Hrady venue"
-          className="min-h-40 max-w-full object-cover mx-auto"
-          width="40%"
-          height="40%"
+          src="/images/lecture2_crop_h600.jpg"
+          alt="Lecture theatre"
+          className="mx-auto h-64 w-full rounded-lg object-cover shadow-sm"
+        />
+        <img
+          src="/images/group_photo_h600.jpg"
+          alt="Group photo"
+          className="mx-auto h-64 w-full rounded-lg object-cover shadow-sm"
+        />
+        <img
+          src="/images/castle_lake_h600.jpg"
+          alt="Castle and park"
+          className="mx-auto h-64 w-full rounded-lg object-cover shadow-sm"
         />
       </div>
     </main>
