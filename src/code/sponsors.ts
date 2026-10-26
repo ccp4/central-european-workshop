@@ -69,3 +69,9 @@ export const rvs: Sponsor[] = {
   url: "https://www.rvscr.cz",
   logo: "rvs.png",
 };
+
+export const pdbe: Sponsor[] = {
+  name: "PDBe",
+  url: "https://www.ebi.ac.uk/pdbe",
+  logo: "pdbe.png",
+};
