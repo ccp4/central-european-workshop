@@ -6,6 +6,7 @@ export interface Person {
   homepage?: string;
 }
 
+/*{
 export const isabel_uson: Person = {
   name: "Isabel Usón",
   email: "iufcri@ibmb.csic.es",
@@ -23,6 +24,7 @@ export const keitaro_yamashita: Person = {
     "https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-yamashita_keitaro.html",
   tags: ["Model Building", "Refinement", "Validation", "Python"],
 };
+}*/
 
 export const kay_diederichs: Person = {
   name: "Kay Diederichs",
@@ -32,6 +34,7 @@ export const kay_diederichs: Person = {
   tags: ["Data Processing", "Refinement"],
 };
 
+/*{
 export const terezia_kovalova: Person = {
   name: "Terézia Kovaľová",
   photo: "terezia_kovalova.jpg",
@@ -51,6 +54,7 @@ export const robbie_joosten: Person = {
   ],
   photo: "robbie_joosten.jpg",
 };
+}*/
 
 export const andrey_lebedev: Person = {
   name: "Andrey Lebedev",
@@ -69,6 +73,7 @@ export const andrey_lebedev: Person = {
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/andrey-lebedev",
 };
 
+/*{
 export const eugene_krissinel: Person = {
   name: "Eugene Krissinel",
   email: "eugene.krissinel@stfc.ac.uk",
@@ -77,6 +82,7 @@ export const eugene_krissinel: Person = {
     "https://www.rc-harwell.ac.uk/who-we-are/group-leaders/eugene-krissinel",
   tags: ["CCP4", "Graphical Interfaces", "Python"],
 };
+}*/
 
 export const paul_bond: Person = {
   name: "Paul Bond",
@@ -86,6 +92,7 @@ export const paul_bond: Person = {
   homepage: "https://paulsbond.co.uk",
 };
 
+/*{
 export const david_waterman: Person = {
   name: "David Waterman",
   photo: "david_waterman.jpg",
@@ -115,6 +122,7 @@ export const ludmila_leroy: Person = {
   tags: ["Dectris"],
   homepage: "https://www.dectris.com",
 };
+}*/
 
 export const jiri_cerny: Person = {
   name: "Jiří Černý",
@@ -157,10 +165,10 @@ export const maria_fando: Person = {
 };
 
 export const agnel_joseph: Person = {
-  name: "Agnel Joseph",
+  name: "Agnel Praveen Joseph",
   email: "agnel-praveen.joseph@stfc.ac.uk",
   photo: "agnel_joseph.jpg",
-  tags: ["CCP-EM", "Organiser", "Graphical Interfaces", "Validation", "Python"],
+  tags: ["Cryo-EM", "Organiser", "Graphical Interfaces", "Validation", "Python"],
 };
 
 export const jarmila_duskova: Person = {
@@ -170,6 +178,7 @@ export const jarmila_duskova: Person = {
   tags: ["Organiser", "Model Building", "Refinement"],
 };
 
+/*{
 export const garib_murshudov: Person = {
   name: "Garib Murshudov",
   photo: "garib_murshudov.jpg",
@@ -187,29 +196,39 @@ export const jindrich_hasek: Person = {
   photo: "jindrich_hasek.jpg",
   tags: ["CSCA", "Hide"],
 };
+}*/
+
+export const bohdan_schneider: Person = {
+  name: "Bohdan Schneider",
+  photo: "bohdan_schneider.jpg",
+  tags: ["Structural Bioinformatics", "Nucleic acids"],
+};
+
+export const artur_biela: Person = {
+  name: "Artur Biela",
+  photo: "artur_biela.jpg",
+  tags: ["Cryo-EM"],
+};
+
+export const charlotte_cordery: Person = {
+  name: "Charlotte Cordery",
+  photo: "charlotte_cordery.jpg",
+  tags: ["Deposition", "Validation", "Structural Bioinformatics"],
+};
 
 export const people: Person[] = [
-  isabel_uson,
-  keitaro_yamashita,
-  kay_diederichs,
-  terezia_kovalova,
-  robbie_joosten,
-  eugene_krissinel,
-  andrey_lebedev,
+  artur_biela,
   paul_bond,
-  david_waterman,
-  lucy_schofield,
-  joel_greer,
-  ludmila_leroy,
-  jiri_cerny,
-  jan_dohnalek,
-  petr_kolenko,
-  martin_maly,
   lucrezia_catapano,
+  jiri_cerny,
+  charlotte_cordery,
+  kay_diederichs,
+  jan_dohnalek,
+  jarmila_duskova,
   maria_fando,
   agnel_joseph,
-  jarmila_duskova,
-  garib_murshudov,
-  radomir_kuzel,
-  jindrich_hasek,
+  petr_kolenko,
+  andrey_lebedev,
+  martin_maly,
+  bohdan_schneider,
 ];
