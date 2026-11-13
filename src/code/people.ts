@@ -34,13 +34,14 @@ export const kay_diederichs: Person = {
   tags: ["Data Processing", "Refinement"],
 };
 
-/*{
+
 export const terezia_kovalova: Person = {
   name: "Terézia Kovaľová",
   photo: "terezia_kovalova.jpg",
   tags: ["Model Building", "Refinement"],
 };
 
+/*{
 export const robbie_joosten: Person = {
   name: "Robbie Joosten",
   email: "r.joosten@nki.nl",
@@ -228,6 +229,7 @@ export const people: Person[] = [
   maria_fando,
   agnel_joseph,
   petr_kolenko,
+  terezia_kovalova,
   andrey_lebedev,
   martin_maly,
   bohdan_schneider,
