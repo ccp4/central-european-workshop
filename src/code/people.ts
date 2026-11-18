@@ -116,14 +116,15 @@ export const joel_greer: Person = {
   tags: ["CCP-EM"],
   homepage: "https://www.ccpem.ac.uk/people/joel-greer/",
 };
+}*/
 
 export const ludmila_leroy: Person = {
   name: "Ludmila Leroy",
   photo: "ludmila_leroy.jpg",
-  tags: ["Dectris"],
+  tags: ["Sponsor"],
   homepage: "https://www.dectris.com",
 };
-}*/
+
 
 export const jiri_cerny: Person = {
   name: "Jiří Černý",
@@ -217,6 +218,12 @@ export const charlotte_cordery: Person = {
   tags: ["Deposition", "Validation", "Structural Bioinformatics"],
 };
 
+export const vernon_smith: Person = {
+  name: "Vernon Smith",
+  photo: "vernon_smith.jpg",
+  tags: ["Sponsor"],
+};
+
 export const people: Person[] = [
   artur_biela,
   paul_bond,
@@ -231,6 +238,8 @@ export const people: Person[] = [
   petr_kolenko,
   terezia_kovalova,
   andrey_lebedev,
+  ludmila_leroy,
   martin_maly,
   bohdan_schneider,
+  vernon_smith,
 ];
