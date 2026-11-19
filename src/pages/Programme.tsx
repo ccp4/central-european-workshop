@@ -25,14 +25,17 @@ function colourForType(
 export function Programme() {
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
-      <Heading text="Programme" />
+      <Heading text="Preliminary Programme" />
+      <p>
+        <b>This is a very preliminary version of the programme, it is subject of change.</b>
+      </p>
       <p>
         The programme covers the practical use of software tools for
         the methods of structural biology, i.e. macromolecular crystallography and electron
         cryo-microscopy (cryo-EM), as well as structural bioinformatics.
       </p>
 
-      <p><b>Preliminary programme</b></p>
+      {/*<p><b>Preliminary programme</b></p>
       Sunday 2 May: Arrival in the evening<br />
       Monday 3 May: Diffraction data processing<br />
       Tuesday 4 May: Single particle reconstruction – electron cryo-microscopy<br />
@@ -41,7 +44,8 @@ export function Programme() {
       Friday 7 May: Structure refinement and stereochemical restraints<br />
       Saturday 8 May: Structure validation, structural bioinformatics and deposition in the Protein Data Bank<br />
       Sunday 9 May: Farewell<br />
-      {/*
+      */}
+
       <p>
         Most of the individual lectures and tutorials will be 45 minutes long. There will be 5 minute breaks between most sessions.
       </p>
@@ -85,7 +89,6 @@ export function Programme() {
       <p className="text-center font-bold">
         Participants are expected to attend all sessions.
       </p>
-      */}
     </main>
   );
 }

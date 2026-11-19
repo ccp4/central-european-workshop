@@ -11,23 +11,20 @@ import {
 import {
   agnel_joseph,
   andrey_lebedev,
-  david_waterman,
-  eugene_krissinel,
-  isabel_uson,
+  artur_biela,
+  bohdan_schneider,
+  charlotte_cordery,
   jan_dohnalek,
   jiri_cerny,
-  joel_greer,
   kay_diederichs,
-  keitaro_yamashita,
   lucrezia_catapano,
-  lucy_schofield,
   maria_fando,
   martin_maly,
   paul_bond,
   Person,
   petr_kolenko,
-  robbie_joosten,
   terezia_kovalova,
+  vernon_smith,
   ludmila_leroy,
 } from "./people";
 
@@ -45,45 +42,24 @@ interface Day {
 }
 
 const day1: Day = {
-  title: "Sunday 26th April",
+  title: "Sunday 2nd May - Arrival",
   sessions: [
     {
-      title: "Registration and coffee",
+      title: "Arrival, registration (dinner available from 18:30 till late)",
       type: "Other",
-      time: "16:00",
+      time: "17:00-20:00",
     },
+
     {
-      title: "Welcome!",
+      title: "Troubleshooting with software installation. <br />Get in touch with tutors if you need their help.",
       type: "Other",
-      time: "17:15",
-      speakers: [martin_maly],
-    },
-    {
-      title: "Flash introduction talks by participants, part I",
-      type: "Other",
-      time: "17:45",
-    },
-    {
-      title: "Break",
-      time: "18:15",
-      type: "Break"
-    },
-    {
-      title: "Using MX and cryoEM to understand a biological problem/system",
-      type: "Lecture",
-      time: "18:20",
-      speakers: [terezia_kovalova],
-    },
-    {
-      title: "Dinner and welcome reception",
-      type: "Meal",
-      time: "19:15",
+      time: "20:00-21:00",
     },
   ],
 };
 
 const day2: Day = {
-  title: "Monday 27th April - Crystallography",
+  title: "Monday 3rd May - Crystallography",
   sessions: [
     {
       title: "Breakfast",
@@ -91,29 +67,29 @@ const day2: Day = {
       time: "08:00",
     },
     {
+      title: "Welcome!",
+      type: "Other",
+      time: "09:00",
+      speakers: [martin_maly],
+    },
+    {
+      title: "Using MX and cryoEM to understand a biological problem/system",
+      type: "Lecture",
+      time: "09:50",
+      speakers: [terezia_kovalova],
+    },
+    { title: "Break", time: "10:35", type: "Break" },
+    {
       title: "Symmetry – application in crystal structure and single particle analysis",
       type: "Lecture",
-      time: "09:00",
+      time: "11:00",
       speakers: [petr_kolenko],
     },
     {
       title: "Principles of crystallography – diffraction",
       type: "Lecture",
-      time: "09:50",
-      speakers: [jan_dohnalek],
-    },
-    { title: "Break", time: "10:35", type: "Break" },
-    {
-      title: "Diffraction data processing using DIALS",
-      type: "Lecture",
-      time: "11:00",
-      speakers: [david_waterman],
-    },
-    {
-      title: "Diffraction data processing using DIALS",
-      type: "Tutorial",
       time: "11:50",
-      speakers: [david_waterman],
+      speakers: [jan_dohnalek],
     },
     { title: "Lunch", type: "Meal", time: "12:40" },
     {
@@ -142,6 +118,67 @@ const day2: Day = {
       speakers: [maria_fando, paul_bond],
     },
     {
+      title: "Flash introduction talks by participants, part I",
+      type: "Other",
+      time: "17:40",
+    },
+    { title: "Dinner - Welcome reception", type: "Meal", time: "18:10" },
+    {
+      title: "Hands-on problem solving – discussion and questions from participants",
+      type: "Problem solving",
+      time: "19:00",
+    },
+  ],
+};
+
+const day3: Day = {
+  title: "Tuesday 4th May - Cryo-EM",
+  sessions: [
+    {
+      title: "Breakfast",
+      type: "Meal",
+      time: "08:00",
+    },
+    {
+      title: "Principles of (cryo)EM with focus on particle reconstruction",
+      type: "Lecture",
+      time: "09:00",
+      speakers: [agnel_joseph],
+    },
+    { title: "Group photo and break", time: "10:30", type: "Break" },
+    {
+      title: "CCP-EM Doppio graphical user interface",
+      type: "Lecture",
+      time: "11:00",
+      speakers: [agnel_joseph],
+    },
+    {
+      title: "Particle reconstruction with RELION in CCP-EM Doppio I",
+      type: "Tutorial",
+      time: "11:50",
+      speakers: [agnel_joseph],
+    },
+    { title: "Lunch", type: "Meal", time: "12:40" },
+    {
+      title: "Particle reconstruction with RELION in CCP-EM Doppio II",
+      type: "Tutorial",
+      time: "14:00",
+      speakers: [agnel_joseph],
+    },
+    { title: "Break", time: "16:00", type: "Break" },
+    {
+      title: "Cryo-EM facility and projects at Solaris, Poland",
+      type: "Lecture",
+      time: "16:25",
+      speakers: [artur_biela],
+    },
+    {
+      title: "Atomic structure model prediction and molecular replacement",
+      type: "Tutorial",
+      time: "17:15",
+      speakers: [andrey_lebedev, maria_fando],
+    },
+    {
       title: "Flash introduction talks by participants, part II",
       type: "Other",
       time: "17:40",
@@ -155,177 +192,64 @@ const day2: Day = {
   ],
 };
 
-const day3: Day = {
-  title: "Tuesday 28th April - Cryo-EM",
-  sessions: [
-    {
-      title: "Breakfast",
-      type: "Meal",
-      time: "08:00",
-    },
-    {
-      title: "Principles of (cryo)EM with focus on particle reconstruction",
-      type: "Lecture",
-      time: "09:00",
-      speakers: [agnel_joseph, joel_greer],
-    },
-    { title: "Group photo and break", time: "10:30", type: "Break" },
-    {
-      title: "CCP-EM Doppio graphical user interface",
-      type: "Lecture",
-      time: "11:00",
-      speakers: [agnel_joseph, joel_greer],
-    },
-    {
-      title: "Particle reconstruction with RELION in CCP-EM Doppio I",
-      type: "Tutorial",
-      time: "11:50",
-      speakers: [agnel_joseph, joel_greer],
-    },
-    { title: "Lunch", type: "Meal", time: "12:40" },
-    {
-      title: "Particle reconstruction with RELION in CCP-EM Doppio II",
-      type: "Tutorial",
-      time: "14:00",
-      speakers: [agnel_joseph, joel_greer],
-    },
-    { title: "Break - snacks which you brought", time: "16:00", type: "Break" },
-    {
-      title: "Atomic structure model prediction using AI – common tips and traps",
-      type: "Lecture",
-      time: "16:25",
-      speakers: [isabel_uson],
-    },
-    {
-      title: "Molecular replacement",
-      type: "Tutorial",
-      time: "17:15",
-      speakers: [andrey_lebedev, maria_fando],
-    },
-    { title: "Dinner", type: "Meal", time: "18:10" },
-    {
-      title: "Hands-on problem solving – discussion and questions from participants",
-      type: "Problem solving",
-      time: "19:00",
-    },
-  ],
-};
-
 const day4: Day = {
-  title: "Wednesday 29th April - Model Building",
+  title: "Wednesday 5th May - Model Building and Refinement",
   sessions: [
     {
       title: "Breakfast",
       type: "Meal",
       time: "08:00",
     },
-    {
-      title: "Structure solution and verification in ARCIMBOLDO and SHELX",
-      type: "Lecture",
-      time: "09:00",
-      speakers: [isabel_uson],
-    },
-    {
-      title: "Structure solution and verification in ARCIMBOLDO and SHELX",
-      type: "Tutorial",
-      time: "09:50",
-      speakers: [isabel_uson],
-    },
-    { title: "Break", time: "10:35", type: "Break" },
     {
       title: "Automated model building and density modification",
       type: "Lecture",
-      time: "10:50",
+      time: "09:00",
       speakers: [paul_bond],
     },
     {
       title: "Automated model building with ModelCraft",
       type: "Tutorial",
-      time: "11:40",
+      time: "09:50",
       speakers: [paul_bond],
     },
-    { title: "Lunch", type: "Meal", time: "12:25" },
+    { title: "Break - snacks which you brought", time: "10:35", type: "Break" },
     {
-      title: "Model-building and refinement in Coot & Moorhen",
+      title: "Interactive model building and refinement in Coot & Moorhen",
       type: "Lecture",
-      time: "13:25",
+      time: "11:00",
       speakers: [lucrezia_catapano],
     },
     {
-      title: "Model-building and refinement in Coot & Moorhen",
+      title: "Interactive model building and refinement in Coot & Moorhen",
       type: "Tutorial",
-      time: "14:15",
+      time: "11:50",
       speakers: [lucrezia_catapano],
     },
-    { title: "Social event - Trip to Český Krumlov (until 21:00)", type: "Other", time: "15:00" },
-  ],
-};
-
-const day5: Day = {
-  title: "Thursday 30th April - Refinement",
-  sessions: [
-    {
-      title: "Breakfast",
-      type: "Meal",
-      time: "08:00",
-    },
+    { title: "Lunch", type: "Meal", time: "12:40" },
     {
       title: "Automated model building in cryoEM with ModelAngelo",
       type: "Tutorial",
-      time: "09:00",
+      time: "14:00",
       speakers: [agnel_joseph],
     },
     {
       title: "Atomic structure model refinement",
       type: "Lecture",
-      time: "09:50",
-      speakers: [keitaro_yamashita],
-    },
-    { title: "Break", time: "10:35", type: "Break" },
-    {
-      title: "Stereochemistry restraints with AceDRG, ProSMART and MetalCoord",
-      type: "Lecture",
-      time: "11:00",
-      speakers: [keitaro_yamashita],
-    },
-    {
-      title: "Restraints for unusual covalent links",
-      type: "Tutorial",
-      time: "11:50",
-      speakers: [andrey_lebedev],
-    },
-
-    { title: "Lunch", type: "Meal", time: "12:40" },
-    {
-      title: "Refinement in crystallography I – Servalcat & Coot",
-      type: "Tutorial",
-      time: "14:00",
-      speakers: [andrey_lebedev, keitaro_yamashita, martin_maly, lucrezia_catapano],
-    },
-    {
-      title: "Refinement in crystallography II – Servalcat & Coot",
-      type: "Tutorial",
       time: "14:50",
-      speakers: [andrey_lebedev, keitaro_yamashita, martin_maly, lucrezia_catapano],
+      speakers: [martin_maly],
     },
     { title: "Break", time: "15:35", type: "Break" },
     {
-      title: "Refinement in cryoEM I – Servalcat & Moorhen",
+      title: "Refinement in crystallography – Servalcat & Coot",
       type: "Tutorial",
       time: "16:00",
-      speakers: [martin_maly, lucrezia_catapano, keitaro_yamashita, agnel_joseph],
+      speakers: [andrey_lebedev, martin_maly, lucrezia_catapano],
     },
     {
-      title: "Refinement in cryoEM II – Servalcat & Moorhen",
-      type: "Tutorial",
-      time: "16:50",
-      speakers: [martin_maly, lucrezia_catapano, keitaro_yamashita, agnel_joseph],
-    },
-    {
-      title: "Dectris (online)",
+      title: "Bruker (online)",
       type: "Other",
       time: "17:50",
-      speakers: [ludmila_leroy],
+      speakers: [vernon_smith],
     },
     { title: "Dinner", type: "Meal", time: "18:10" },
     {
@@ -336,8 +260,47 @@ const day5: Day = {
   ],
 };
 
+const day5: Day = {
+  title: "Thursday 6th May - Restraints, Ligands",
+  sessions: [
+    {
+      title: "Breakfast",
+      type: "Meal",
+      time: "08:00",
+    },
+    {
+      title: "Stereochemistry restraints with AceDRG, ProSMART and MetalCoord",
+      type: "Lecture",
+      time: "09:00",
+      speakers: [martin_maly],
+    },
+    {
+      title: "Tools for ligands in Coot & Moorhen",
+      type: "Tutorial",
+      time: "09:50",
+      speakers: [lucrezia_catapano],
+    },
+    { title: "Break", time: "10:35", type: "Break" },
+    {
+      title: "Restraints for unusual covalent links",
+      type: "Tutorial",
+      time: "11:00",
+      speakers: [andrey_lebedev],
+    },
+    {
+      title: "To be announced",
+      type: "Lecture",
+      time: "11:50",
+      speakers: [],
+    },
+    { title: "Lunch", type: "Meal", time: "12:40" },
+    { title: "Social event (until 21:00)", type: "Other", time: "14:00" },
+
+  ],
+};
+
 const day6: Day = {
-      title: "Friday 1st May - Restraints, Ligands, Validation",
+      title: "Friday 7th May - Restraints, Ligands, Validation",
   sessions: [
     {
       title: "Breakfast",
@@ -348,70 +311,64 @@ const day6: Day = {
       title: "DNATCO – nucleic acids: building, restraints and validation",
       type: "Lecture",
       time: "09:00",
-      speakers: [jiri_cerny],
+      speakers: [bohdan_schneider, jiri_cerny],
     },
     {
       title: "DNATCO – nucleic acids: building, restraints and validation",
       type: "Tutorial",
       time: "09:50",
-      speakers: [jiri_cerny],
+      speakers: [jiri_cerny, bohdan_schneider],
     },
     { title: "Break", time: "10:35", type: "Break" },
     {
-      title: "Tools for ligands in Coot & Moorhen",
+      title: "Metal containing ligands",
       type: "Tutorial",
-      time: "11:00",
-      speakers: [lucrezia_catapano],
+      time: "11:50",
+      speakers: [martin_maly],
     },
     {
-      title: "Privateer – glycosylation analysis",
-      type: "Lecture",
-      time: "11:50",
-      speakers: [lucy_schofield],
+      title: "Dectris (online)",
+      type: "Other",
+      time: "12:20",
+      speakers: [ludmila_leroy],
     },
     { title: "Lunch", type: "Meal", time: "12:40" },
     {
       title: "Atomic structure model validation and optimisation",
       type: "Lecture",
       time: "14:00",
-      speakers: [robbie_joosten],
+      speakers: [maria_fando],
     },
     {
-      title: "Preserving your data with CCP4 Cloud, PDB deposition and project archiving",
+      title: "Deposition and validation in Protein Data Bank",
       type: "Lecture",
       time: "14:50",
-      speakers: [maria_fando, eugene_krissinel],
+      speakers: [charlotte_cordery],
     },
     { title: "Break", time: "15:35", type: "Break" },
     {
-      title: "Structural bioinformatics workshop using Python",
+      title: "To be announced",
       type: "Lecture",
       time: "16:00",
-      speakers: [jiri_cerny],
+      speakers: [],
     },
-    { title: "Break", time: "17:00", type: "Break" },
     {
-      title: "Structure validation quiz",
-      type: "Other",
-      time: "17:10",
-      speakers: [robbie_joosten],
+      title: "To be announced",
+      type: "Tutorial",
+      time: "16:50",
+      speakers: [],
     },
     { title: "Dinner", type: "Meal", time: "18:10" },
     {
-      title: "Feedback, data backup",
-      type: "Other",
-      time: "19:00",
-    },
-    {
       title: "Hands-on problem solving – discussion and questions from participants",
       type: "Problem solving",
-      time: "19:30",
+      time: "19:00",
     },
   ],
 };
 
 const day7: Day = {
-  title: "Saturday 2nd May",
+  title: "Saturday 8th May - Deposition and Structural Bioinformatics",
   sessions: [
     {
       title: "Breakfast",
@@ -419,10 +376,10 @@ const day7: Day = {
       time: "08:00",
     },
     {
-      title: "Analysis of macromolecular assemblies",
-      type: "Lecture",
+      title: "To be announced",
+      type: "Tutorial",
       time: "09:00",
-      speakers: [eugene_krissinel],
+      speakers: [],
     },
     {
       title: "Structure stability and dynamics: small angle scattering, serial crystallography - low radiation dose and time-resolved studies",
@@ -431,12 +388,6 @@ const day7: Day = {
       speakers: [martin_maly, terezia_kovalova],
     },
     { title: "Break", time: "10:35", type: "Break" },
-    /* {
-      title: "Overview of tools/databases for structure model analysis",
-      type: "Lecture",
-      time: "09:45",
-      speakers: [martin_maly],
-    }, */
     {
       title: "Molecular graphics",
       type: "Tutorial",
@@ -449,14 +400,50 @@ const day7: Day = {
       time: "11:50",
       speakers: [petr_kolenko],
     },
+    {title: "Lunch", type: "Meal", time: "12:40"},
     {
-      title: "Closing remarks",
+      title: "Protein Data Bank Knowledge Base (PDBe-KB)",
+      type: "Tutorial",
+      time: "14:00",
+      speakers: [charlotte_cordery],
+    },
+    {
+      title: "Structural bioinformatics workshop using Python",
+      type: "Tutorial",
+      time: "14:50",
+      speakers: [jiri_cerny],
+    },
+    { title: "Break", time: "15:35", type: "Break" },
+    {
+      title: "To be announced",
+      type: "Tutorial",
+      time: "16:00",
+      speakers: [],
+    },
+    {
+      title: "Data backup, feedback, closing remarks",
       type: "Other",
-      time: "12:05",
+      time: "17:20",
       speakers: [martin_maly],
     },
-    { title: "Lunch (note that there is a bus service at 13:45 from Nové Hrady to České Budějovice)", type: "Meal", time: "12:20" },
+    { title: "Dinner", type: "Meal", time: "18:10" },
+    {
+      title: "Hands-on problem solving – discussion and questions from participants and party",
+      type: "Problem solving",
+      time: "19:00",
+    },
   ],
 };
 
-export const days = [day1, day2, day3, day4, day5, day6, day7]
+const day8: Day = {
+  title: "Sunday 9th May",
+  sessions: [
+    {
+      title: "Breakfast & Farewell",
+      type: "Meal",
+      time: "08:00",
+    },
+  ],
+};
+
+export const days = [day1, day2, day3, day4, day5, day6, day7, day8]
