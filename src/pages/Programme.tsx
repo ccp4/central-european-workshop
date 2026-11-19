@@ -73,7 +73,7 @@ export function Programme() {
                         {session.time}
                       </td>
                       <td className="px-2 py-1">
-                        <p className="font-bold">{session.title}</p>
+                        <p className="font-bold whitespace-pre-line">{session.title}</p>
                         <p className="text-[0.9375rem]">
                           {session.speakers?.map((s) => s.name).join(", ")}
                         </p>

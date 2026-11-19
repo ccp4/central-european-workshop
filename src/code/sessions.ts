@@ -51,7 +51,7 @@ const day1: Day = {
     },
 
     {
-      title: "Troubleshooting with software installation. <br />Get in touch with tutors if you need their help.",
+      title: "Troubleshooting with software installation.\nGet in touch with tutors if you need their help.",
       type: "Other",
       time: "20:00-21:00",
     },
@@ -329,7 +329,7 @@ const day6: Day = {
     {
       title: "Dectris (online)",
       type: "Other",
-      time: "12:20",
+      time: "12:25",
       speakers: [ludmila_leroy],
     },
     { title: "Lunch", type: "Meal", time: "12:40" },
