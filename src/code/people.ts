@@ -222,6 +222,7 @@ export const vernon_smith: Person = {
   name: "Vernon Smith",
   photo: "vernon_smith.jpg",
   tags: ["Sponsor"],
+  homepage: "https://www.bruker.com/scd",
 };
 
 export const people: Person[] = [
