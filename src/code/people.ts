@@ -225,12 +225,19 @@ export const vernon_smith: Person = {
   homepage: "https://www.bruker.com/scd",
 };
 
+export const clement_degut: Person = {
+  name: "Clément Dégut",
+  photo: "clement_degut.jpg",
+  tags: ["CCP4", "Model Building", "Python"],
+};
+
 export const people: Person[] = [
   artur_biela,
   paul_bond,
   lucrezia_catapano,
   jiri_cerny,
   charlotte_cordery,
+  clement_degut,
   kay_diederichs,
   jan_dohnalek,
   jarmila_duskova,
