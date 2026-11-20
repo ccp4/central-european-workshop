@@ -16,6 +16,7 @@ import {
   charlotte_cordery,
   jan_dohnalek,
   jiri_cerny,
+  clement_degut,
   kay_diederichs,
   lucrezia_catapano,
   maria_fando,
@@ -223,7 +224,7 @@ const day4: Day = {
       title: "Interactive model building and refinement in Coot & Moorhen",
       type: "Tutorial",
       time: "11:50",
-      speakers: [lucrezia_catapano],
+      speakers: [lucrezia_catapano, clement_degut],
     },
     { title: "Lunch", type: "Meal", time: "12:40" },
     {
@@ -278,7 +279,7 @@ const day5: Day = {
       title: "Tools for ligands in Coot & Moorhen",
       type: "Tutorial",
       time: "09:50",
-      speakers: [lucrezia_catapano],
+      speakers: [lucrezia_catapano, clement_degut],
     },
     { title: "Break", time: "10:35", type: "Break" },
     {
