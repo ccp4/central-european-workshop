@@ -13,7 +13,7 @@ export function Home() {
         Workshop 2027 on computational structural biology will take place in{" "}
         <InternalLink to="location" text="Nové Hrady" />, South Bohemia, Czechia
         from 2nd to 9th May 2027. More details will be published on this
-        website in October 2026.
+        website in December 2026.
       </p>
       <p>
         Website for the previous edition in 2026 is available at{" "}
