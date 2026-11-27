@@ -74,6 +74,12 @@ const day2: Day = {
       speakers: [martin_maly],
     },
     {
+      title: "Flash introduction talks by tutors",
+      type: "Other",
+      time: "09:30",
+      speakers: [martin_maly],
+    },
+    {
       title: "Using MX and cryoEM to understand a biological problem/system",
       type: "Lecture",
       time: "09:50",
